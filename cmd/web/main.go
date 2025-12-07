@@ -28,7 +28,21 @@ func main() {
 	mux.HandleFunc("GET /events.ics", func(w http.ResponseWriter, r *http.Request) {
 		data, err := assets.FS.ReadFile("events.ics")
 		if err != nil {
-			http.Error(w, "Calendar not found", http.StatusNotFound)
+			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+			w.WriteHeader(http.StatusNotFound)
+			fmt.Fprintf(w, `<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>404 Not Found</h1>
+    <p>Calendar not found.</p>
+    <p><a href="/">Go to homepage</a></p>
+</body>
+</html>`)
 			return
 		}
 
@@ -40,7 +54,21 @@ func main() {
 	mux.HandleFunc("GET /events.json", func(w http.ResponseWriter, r *http.Request) {
 		data, err := assets.FS.ReadFile("events.json")
 		if err != nil {
-			http.Error(w, "Events not found", http.StatusNotFound)
+			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+			w.WriteHeader(http.StatusNotFound)
+			fmt.Fprintf(w, `<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>404 Not Found</h1>
+    <p>Events not found.</p>
+    <p><a href="/">Go to homepage</a></p>
+</body>
+</html>`)
 			return
 		}
 
@@ -56,7 +84,7 @@ func main() {
 	mux.HandleFunc("GET /favicon.ico", func(w http.ResponseWriter, r *http.Request) {
 		data, err := assets.FS.ReadFile("favicon.ico")
 		if err != nil {
-			http.Error(w, "Favicon not found", http.StatusNotFound)
+			w.WriteHeader(http.StatusNotFound)
 			return
 		}
 
