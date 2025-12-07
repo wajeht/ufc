@@ -1,4 +1,4 @@
-.PHONY: build build-fetch build-ics build-web run fetch ics web clean docker
+.PHONY: build build-fetch build-ics build-web run fetch ics web clean docker deploy
 
 build: build-fetch build-ics build-web
 
@@ -30,4 +30,8 @@ docker:
 	@docker build -t ufc .
 
 deploy:
-	@./scripts/deploy.sh
+	@npx caprover deploy \
+		--caproverUrl "$$CAPROVER_DOMAIN" \
+		--appToken "$$CAPROVER_APP_TOKEN" \
+		--appName "$$CAPROVER_APP_NAME" \
+		-b "$$(git rev-parse --abbrev-ref HEAD)"
