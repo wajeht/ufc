@@ -108,7 +108,21 @@ Disallow: /
 
 		events, err := ufc.LoadEventsFromFS(assets.FS, "events.json")
 		if err != nil {
-			http.Error(w, "Failed to load events", http.StatusInternalServerError)
+			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+			w.WriteHeader(http.StatusInternalServerError)
+			fmt.Fprintf(w, `<!DOCTYPE html>
+<html>
+<head>
+    <title>500 Internal Server Error</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>500 Internal Server Error</h1>
+    <p>Failed to load events.</p>
+    <p><a href="/">Go to homepage</a></p>
+</body>
+</html>`)
 			return
 		}
 
