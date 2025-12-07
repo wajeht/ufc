@@ -1,4 +1,4 @@
-module github.com/wajeht/mma-cal
+module github.com/wajeht/ufc
 
 go 1.25.1
 

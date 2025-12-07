@@ -36,7 +36,7 @@ func (s *Scraper) fetch(url string) (*goquery.Document, error) {
 		return nil, fmt.Errorf("creating request: %w", err)
 	}
 
-	req.Header.Set("User-Agent", "Mozilla/5.0 (compatible; mma-cal/1.0)")
+	req.Header.Set("User-Agent", "Mozilla/5.0 (compatible; ufc-cal/1.0)")
 
 	resp, err := s.client.Do(req)
 	if err != nil {

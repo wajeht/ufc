@@ -4,10 +4,10 @@
 build: build-fetch build-ics
 
 build-fetch:
-	@go build -o bin/mma-fetch ./cmd/fetch
+	@go build -o bin/ufc-fetch ./cmd/fetch
 
 build-ics:
-	@go build -o bin/mma-ics ./cmd/ics
+	@go build -o bin/ufc-ics ./cmd/ics
 
 # Run commands
 run: fetch ics

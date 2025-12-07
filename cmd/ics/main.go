@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/wajeht/mma-cal/internal/ufc"
+	"github.com/wajeht/ufc/internal/ufc"
 )
 
 func main() {

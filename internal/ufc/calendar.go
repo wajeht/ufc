@@ -19,7 +19,7 @@ func (c *Calendar) String() string {
 
 	b.WriteString("BEGIN:VCALENDAR\r\n")
 	b.WriteString("VERSION:2.0\r\n")
-	b.WriteString("PRODID:-//mma-cal//UFC Events//EN\r\n")
+	b.WriteString("PRODID:-//ufc//UFC Events//EN\r\n")
 	b.WriteString("CALSCALE:GREGORIAN\r\n")
 	b.WriteString("METHOD:PUBLISH\r\n")
 	b.WriteString("X-WR-CALNAME:UFC Events\r\n")
