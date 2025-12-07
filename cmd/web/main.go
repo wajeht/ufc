@@ -53,6 +53,17 @@ func main() {
 		w.Write([]byte("ok"))
 	})
 
+	mux.HandleFunc("GET /favicon.ico", func(w http.ResponseWriter, r *http.Request) {
+		data, err := assets.FS.ReadFile("favicon.ico")
+		if err != nil {
+			http.Error(w, "Favicon not found", http.StatusNotFound)
+			return
+		}
+
+		w.Header().Set("Content-Type", "image/x-icon")
+		w.Write(data)
+	})
+
 	mux.HandleFunc("GET /robots.txt", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/plain")
 		fmt.Fprint(w, `User-agent: *
