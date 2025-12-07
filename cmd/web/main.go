@@ -95,6 +95,7 @@ Disallow: /
 <head>
     <title>404 Not Found</title>
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <h1>404 Not Found</h1>
@@ -117,6 +118,7 @@ Disallow: /
 <head>
     <title>UFC Calendar</title>
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <h1>UFC Calendar</h1>
