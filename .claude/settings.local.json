@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.ufc.com)",
+      "Bash(go run:*)",
+      "Bash(go mod tidy:*)",
+      "Bash(make fetch:*)",
+      "Bash(make:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

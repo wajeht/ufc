@@ -30,4 +30,11 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Binaries
+bin/
 mma-cal
+
+# Local development artifacts (CI commits these files)
+# events.json
+# ufc-events.ics

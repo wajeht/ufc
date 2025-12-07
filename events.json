@@ -1,0 +1,283 @@
+[
+  {
+    "name": "UFC 323",
+    "headline": "Dvalishvili vs Yan 2",
+    "date": "Sat, Dec 6 / 10:00 PM EST / Main Card",
+    "parsed_date": "2025-12-06T22:00:00-05:00",
+    "venue": "T-Mobile Arena",
+    "location": "Las Vegas, NV United States",
+    "url": "/event/ufc-323",
+    "fights": [
+      {
+        "fighter1": "Merab Dvalishvili",
+        "fighter2": "Petr Yan",
+        "weight_class": "Bantamweight Title Bout"
+      },
+      {
+        "fighter1": "Alexandre Pantoja",
+        "fighter2": "Joshua Van",
+        "weight_class": "Flyweight Title Bout"
+      },
+      {
+        "fighter1": "Brandon Moreno",
+        "fighter2": "Tatsuro Taira",
+        "weight_class": "Flyweight Bout"
+      },
+      {
+        "fighter1": "Henry Cejudo",
+        "fighter2": "Payton Talbott",
+        "weight_class": "Bantamweight Bout"
+      },
+      {
+        "fighter1": "Jan Błachowicz",
+        "fighter2": "Bogdan Guskov",
+        "weight_class": "Light Heavyweight Bout"
+      },
+      {
+        "fighter1": "Grant Dawson",
+        "fighter2": "Manuel Torres",
+        "weight_class": "Lightweight Bout"
+      },
+      {
+        "fighter1": "Terrance McKinney",
+        "fighter2": "Chris Duncan",
+        "weight_class": "Lightweight Bout"
+      },
+      {
+        "fighter1": "Maycee Barber",
+        "fighter2": "Karine Silva",
+        "weight_class": "Women's Flyweight Bout"
+      },
+      {
+        "fighter1": "Nazim Sadykhov",
+        "fighter2": "Farès Ziam",
+        "weight_class": "Lightweight Bout"
+      },
+      {
+        "fighter1": "Marvin Vettori",
+        "fighter2": "Brunno Ferreira",
+        "weight_class": "Middleweight Bout"
+      },
+      {
+        "fighter1": "Edson Barboza",
+        "fighter2": "Jalin Turner",
+        "weight_class": "Lightweight Bout"
+      },
+      {
+        "fighter1": "Iwo Baraniewski",
+        "fighter2": "Ibo Aslan",
+        "weight_class": "Light Heavyweight Bout"
+      },
+      {
+        "fighter1": "Mansur Abdul-Malik",
+        "fighter2": "Antonio Trocoli",
+        "weight_class": "Middleweight Bout"
+      },
+      {
+        "fighter1": "Muhammad Naimov",
+        "fighter2": "Mairon Santos",
+        "weight_class": "Featherweight Bout"
+      }
+    ]
+  },
+  {
+    "name": "UFC Fight Night",
+    "headline": "Royval vs Kape",
+    "date": "Sat, Dec 13 / 10:00 PM EST / Main Card",
+    "parsed_date": "2025-12-13T22:00:00-05:00",
+    "venue": "UFC APEX",
+    "location": "Las Vegas, NV United States",
+    "url": "/event/ufc-fight-night-december-13-2025",
+    "fights": [
+      {
+        "fighter1": "Brandon Royval",
+        "fighter2": "Manel Kape",
+        "weight_class": "Flyweight Bout"
+      },
+      {
+        "fighter1": "Giga Chikadze",
+        "fighter2": "Kevin Vallejos",
+        "weight_class": "Featherweight Bout"
+      },
+      {
+        "fighter1": "Cesar Almeida",
+        "fighter2": "Cezary Oleksiejczuk",
+        "weight_class": "Middleweight Bout"
+      },
+      {
+        "fighter1": "Melquizael Costa",
+        "fighter2": "Morgan Charriere",
+        "weight_class": "Featherweight Bout"
+      },
+      {
+        "fighter1": "Kennedy Nzechukwu",
+        "fighter2": "Marcus Buchecha",
+        "weight_class": "Heavyweight Bout"
+      },
+      {
+        "fighter1": "Amanda Lemos",
+        "fighter2": "Gillian Robertson",
+        "weight_class": "Women's Strawweight Bout"
+      },
+      {
+        "fighter1": "Joanderson Brito",
+        "fighter2": "Melsik Baghdasaryan",
+        "weight_class": "Featherweight Bout"
+      },
+      {
+        "fighter1": "Neil Magny",
+        "fighter2": "Yaroslav Amosov",
+        "weight_class": "Welterweight Bout"
+      },
+      {
+        "fighter1": "Sean Sharaf",
+        "fighter2": "Steven Asplund",
+        "weight_class": "Heavyweight Bout"
+      },
+      {
+        "fighter1": "Melissa Croden",
+        "fighter2": "Luana Santos",
+        "weight_class": "Women's Bantamweight Bout"
+      },
+      {
+        "fighter1": "Allen Frye Jr.",
+        "fighter2": "Guilherme Pat",
+        "weight_class": "Heavyweight Bout"
+      },
+      {
+        "fighter1": "Jamey-Lyn Horth",
+        "fighter2": "Tereza Bleda",
+        "weight_class": "Women's Flyweight Bout"
+      }
+    ]
+  },
+  {
+    "name": "UFC 324",
+    "headline": "Gaethje vs Pimblett",
+    "date": "Sat, Jan 24 / 9:00 PM EST / Main Card",
+    "parsed_date": "2026-01-24T21:00:00-05:00",
+    "venue": "T-Mobile Arena",
+    "location": "Las Vegas, NV United States",
+    "url": "/event/ufc-324",
+    "fights": [
+      {
+        "fighter1": "Justin Gaethje",
+        "fighter2": "Paddy Pimblett",
+        "weight_class": "Lightweight Interim Title Bout"
+      },
+      {
+        "fighter1": "Kayla Harrison",
+        "fighter2": "Amanda Nunes",
+        "weight_class": "Women's Bantamweight Title Bout"
+      },
+      {
+        "fighter1": "Sean O'Malley",
+        "fighter2": "Song Yadong",
+        "weight_class": "Bantamweight Bout"
+      },
+      {
+        "fighter1": "Natalia Silva",
+        "fighter2": "Rose Namajunas",
+        "weight_class": "Women's Flyweight Bout"
+      },
+      {
+        "fighter1": "Arnold Allen",
+        "fighter2": "Jean Silva",
+        "weight_class": "Featherweight Bout"
+      },
+      {
+        "fighter1": "Waldo Cortes Acosta",
+        "fighter2": "Derrick Lewis",
+        "weight_class": "Heavyweight Bout"
+      },
+      {
+        "fighter1": "Umar Nurmagomedov",
+        "fighter2": "Deiveson Figueiredo",
+        "weight_class": "Bantamweight Bout"
+      },
+      {
+        "fighter1": "Ateba Gautier",
+        "fighter2": "Andrey Pulyaev",
+        "weight_class": "Middleweight Bout"
+      }
+    ]
+  },
+  {
+    "name": "UFC 325",
+    "headline": "Volkanovski vs Lopes 2",
+    "date": "Sat, Jan 31 / 9:00 PM EST / Main Card",
+    "parsed_date": "2026-01-31T21:00:00-05:00",
+    "venue": "Qudos Bank Arena",
+    "location": "Sydney Olympic Park NSW Australia",
+    "url": "/event/ufc-325",
+    "fights": [
+      {
+        "fighter1": "Alexander Volkanovski",
+        "fighter2": "Diego Lopes",
+        "weight_class": "Featherweight Title Bout"
+      }
+    ]
+  },
+  {
+    "name": "UFC Fight Night",
+    "headline": "TBD vs TBD",
+    "date": "Sat, Feb 7 / 5:00 PM EST / Main Card",
+    "parsed_date": "2026-02-07T17:00:00-05:00",
+    "venue": "UFC APEX",
+    "location": "Las Vegas, NV United States",
+    "url": "/event/ufc-fight-night-february-07-2026",
+    "fights": null
+  },
+  {
+    "name": "UFC Fight Night",
+    "headline": "Strickland vs Hernandez",
+    "date": "Sat, Feb 21 / 5:00 PM EST / Main Card",
+    "parsed_date": "2026-02-21T17:00:00-05:00",
+    "venue": "Toyota Center",
+    "location": "Houston, TX United States",
+    "url": "/event/ufc-fight-night-february-21-2026",
+    "fights": [
+      {
+        "fighter1": "Sean Strickland",
+        "fighter2": "Anthony Hernandez",
+        "weight_class": "Middleweight Bout"
+      }
+    ]
+  },
+  {
+    "name": "UFC Fight Night",
+    "headline": "TBD vs TBD",
+    "date": "Sat, Feb 28 / 5:00 PM EST / Main Card",
+    "parsed_date": "2026-02-28T17:00:00-05:00",
+    "venue": "Arena CDMX",
+    "location": "México D.F., CDMX Mexico",
+    "url": "/event/ufc-fight-night-february-28-2026",
+    "fights": null
+  },
+  {
+    "name": "UFC 326",
+    "headline": "Holloway vs Oliveira 2",
+    "date": "Sat, Mar 7 / 9:00 PM EST / Main Card",
+    "parsed_date": "2026-03-07T21:00:00-05:00",
+    "venue": "T-Mobile Arena",
+    "location": "Las Vegas, NV United States",
+    "url": "/event/ufc-326",
+    "fights": [
+      {
+        "fighter1": "Max Holloway",
+        "fighter2": "Charles Oliveira",
+        "weight_class": "Lightweight Lightweight"
+      }
+    ]
+  },
+  {
+    "name": "UFC Fight Night",
+    "headline": "TBD vs TBD",
+    "date": "Sat, Mar 14 / 6:00 PM EDT / Main Card",
+    "parsed_date": "2026-03-14T18:00:00-04:00",
+    "venue": "UFC APEX",
+    "location": "Las Vegas, NV United States",
+    "url": "/event/ufc-fight-night-march-14-2026",
+    "fights": null
+  }
+]
