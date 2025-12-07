@@ -1,3 +1,4 @@
+SHELL := /bin/bash
 .PHONY: build build-fetch build-ics build-web run fetch ics web clean docker deploy
 
 build: build-fetch build-ics build-web
@@ -30,7 +31,7 @@ docker:
 	@docker build -t ufc .
 
 deploy:
-	@npx caprover deploy \
+	@set -a && source .env && set +a && npx caprover deploy \
 		--caproverUrl "$$CAPROVER_DOMAIN" \
 		--appToken "$$CAPROVER_APP_TOKEN" \
 		--appName "$$CAPROVER_APP_NAME" \
