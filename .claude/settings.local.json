@@ -7,7 +7,8 @@
       "Bash(make fetch:*)",
       "Bash(make:*)",
       "Bash(timeout 2 go run:*)",
-      "Bash(go build:*)"
+      "Bash(go build:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
