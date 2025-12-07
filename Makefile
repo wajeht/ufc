@@ -1,6 +1,5 @@
 .PHONY: build build-fetch build-ics build-web run fetch ics web clean docker
 
-# Build all binaries
 build: build-fetch build-ics build-web
 
 build-fetch:
@@ -12,7 +11,6 @@ build-ics:
 build-web:
 	@go build -o bin/ufc-web ./cmd/web
 
-# Run commands
 run: fetch ics
 
 fetch:
@@ -30,3 +28,6 @@ clean:
 
 docker:
 	@docker build -t ufc .
+
+deploy:
+	@./scripts/deploy.sh
