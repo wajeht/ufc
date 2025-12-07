@@ -1,18 +1,22 @@
 package main
 
 import (
+	"context"
 	"flag"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
+	"os/signal"
 	"path/filepath"
+	"syscall"
+	"time"
 
 	"github.com/wajeht/ufc/internal/ufc"
 )
 
 func main() {
-	port := flag.String("port", "8080", "port to listen on")
+	port := flag.String("port", "80", "port to listen on")
 	assetsDir := flag.String("assets", "assets", "assets directory")
 	flag.Parse()
 
@@ -22,7 +26,6 @@ func main() {
 
 	mux := http.NewServeMux()
 
-	// Serve ICS calendar
 	mux.HandleFunc("GET /events.ics", func(w http.ResponseWriter, r *http.Request) {
 		icsPath := filepath.Join(*assetsDir, "events.ics")
 		data, err := os.ReadFile(icsPath)
@@ -36,7 +39,6 @@ func main() {
 		w.Write(data)
 	})
 
-	// Serve JSON events
 	mux.HandleFunc("GET /events.json", func(w http.ResponseWriter, r *http.Request) {
 		jsonPath := filepath.Join(*assetsDir, "events.json")
 		data, err := os.ReadFile(jsonPath)
@@ -49,13 +51,11 @@ func main() {
 		w.Write(data)
 	})
 
-	// Health check
 	mux.HandleFunc("GET /health", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusOK)
 		w.Write([]byte("ok"))
 	})
 
-	// Home page
 	mux.HandleFunc("GET /", func(w http.ResponseWriter, r *http.Request) {
 		if r.URL.Path != "/" {
 			http.NotFound(w, r)
@@ -106,7 +106,28 @@ func main() {
 		fmt.Fprintf(w, `</body></html>`)
 	})
 
-	addr := ":" + *port
-	fmt.Printf("Server listening on http://localhost%s\n", addr)
-	log.Fatal(http.ListenAndServe(addr, mux))
+	srv := &http.Server{
+		Addr:    ":" + *port,
+		Handler: mux,
+	}
+
+	go func() {
+		fmt.Printf("Server listening on http://localhost%s\n", srv.Addr)
+		if err := srv.ListenAndServe(); err != http.ErrServerClosed {
+			log.Fatal(err)
+		}
+	}()
+
+	quit := make(chan os.Signal, 1)
+	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
+	<-quit
+
+	fmt.Println("\nShutting down...")
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+
+	if err := srv.Shutdown(ctx); err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("Server stopped")
 }

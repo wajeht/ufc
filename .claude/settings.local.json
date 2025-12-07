@@ -6,7 +6,8 @@
       "Bash(go mod tidy:*)",
       "Bash(make fetch:*)",
       "Bash(make:*)",
-      "Bash(timeout 2 go run:*)"
+      "Bash(timeout 2 go run:*)",
+      "Bash(go build:*)"
     ],
     "deny": [],
     "ask": []
