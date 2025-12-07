@@ -8,16 +8,15 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
-	"path/filepath"
 	"syscall"
 	"time"
 
+	"github.com/wajeht/ufc/assets"
 	"github.com/wajeht/ufc/internal/ufc"
 )
 
 func main() {
 	port := flag.String("port", "80", "port to listen on")
-	assetsDir := flag.String("assets", "assets", "assets directory")
 	flag.Parse()
 
 	if p := os.Getenv("PORT"); p != "" {
@@ -27,8 +26,7 @@ func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("GET /events.ics", func(w http.ResponseWriter, r *http.Request) {
-		icsPath := filepath.Join(*assetsDir, "events.ics")
-		data, err := os.ReadFile(icsPath)
+		data, err := assets.FS.ReadFile("events.ics")
 		if err != nil {
 			http.Error(w, "Calendar not found", http.StatusNotFound)
 			return
@@ -40,8 +38,7 @@ func main() {
 	})
 
 	mux.HandleFunc("GET /events.json", func(w http.ResponseWriter, r *http.Request) {
-		jsonPath := filepath.Join(*assetsDir, "events.json")
-		data, err := os.ReadFile(jsonPath)
+		data, err := assets.FS.ReadFile("events.json")
 		if err != nil {
 			http.Error(w, "Events not found", http.StatusNotFound)
 			return
@@ -62,7 +59,7 @@ func main() {
 			return
 		}
 
-		events, err := ufc.LoadEvents(filepath.Join(*assetsDir, "events.json"))
+		events, err := ufc.LoadEventsFromFS(assets.FS, "events.json")
 		if err != nil {
 			http.Error(w, "Failed to load events", http.StatusInternalServerError)
 			return
