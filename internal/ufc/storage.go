@@ -6,7 +6,10 @@ import (
 	"os"
 )
 
-const DefaultDataFile = "events.json"
+const (
+	DefaultDataFile = "assets/events.json"
+	DefaultICSFile  = "assets/ufc-events.ics"
+)
 
 func SaveEvents(events []*EventDetails, filename string) error {
 	data, err := json.MarshalIndent(events, "", "  ")

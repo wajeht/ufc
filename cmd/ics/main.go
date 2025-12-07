@@ -11,7 +11,7 @@ import (
 
 func main() {
 	input := flag.String("i", ufc.DefaultDataFile, "input JSON file")
-	output := flag.String("o", "ufc-events.ics", "output ICS file")
+	output := flag.String("o", ufc.DefaultICSFile, "output ICS file")
 	flag.Parse()
 
 	events, err := ufc.LoadEvents(*input)

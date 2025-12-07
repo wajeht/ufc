@@ -34,6 +34,5 @@ go.work.sum
 # Binaries
 bin/
 
-# Local development artifacts (CI commits these files)
-# events.json
-# ufc-events.ics
+# Assets are committed by CI
+# assets/
