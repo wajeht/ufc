@@ -117,8 +117,8 @@ Disallow: /
 `, r.Host, len(events))
 
 		for _, e := range events {
-			fmt.Fprintf(w, `<li><strong>%s: %s</strong><br>%s<br>%s, %s<br>%d fights</li>
-`, e.Name, e.Headline, e.Date, e.Venue, e.Location, len(e.Fights))
+			fmt.Fprintf(w, `<li><a href="https://www.ufc.com%s"><strong>%s: %s</strong></a><br>%s<br>%s, %s<br>%d fights</li>
+`, e.URL, e.Name, e.Headline, e.Date, e.Venue, e.Location, len(e.Fights))
 		}
 
 		fmt.Fprintf(w, `</ul></body></html>`)
