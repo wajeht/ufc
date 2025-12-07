@@ -1,6 +1,6 @@
 module github.com/wajeht/ufc
 
-go 1.25.1
+go 1.23.4
 
 require github.com/PuerkitoBio/goquery v1.11.0
 
