@@ -186,6 +186,13 @@ func (s *Scraper) parseFight(sel *goquery.Selection) *Fight {
 		fight.Country2 = cleanText(countries.Eq(1).Text())
 	}
 
+	// Extract athlete URLs from corner name links
+	fighterLinks := sel.Find(".c-listing-fight__corner-name a[href*='athlete']")
+	if fighterLinks.Length() >= 2 {
+		fight.Fighter1URL, _ = fighterLinks.Eq(0).Attr("href")
+		fight.Fighter2URL, _ = fighterLinks.Eq(1).Attr("href")
+	}
+
 	return fight
 }
 

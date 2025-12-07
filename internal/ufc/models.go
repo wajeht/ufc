@@ -15,6 +15,8 @@ type Event struct {
 type Fight struct {
 	Fighter1    string `json:"fighter1"`
 	Fighter2    string `json:"fighter2"`
+	Fighter1URL string `json:"fighter1_url,omitempty"` // URL to fighter 1 profile
+	Fighter2URL string `json:"fighter2_url,omitempty"` // URL to fighter 2 profile
 	WeightClass string `json:"weight_class"`
 	Winner      int    `json:"winner,omitempty"`  // 0=no result, 1=fighter1, 2=fighter2
 	Method      string `json:"method,omitempty"`  // KO/TKO, Submission, Decision, etc.

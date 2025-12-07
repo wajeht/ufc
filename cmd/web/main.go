@@ -168,61 +168,100 @@ Disallow: /
     <p><a href="/events.ics">Download Calendar (.ics)</a></p>
     <p>Or subscribe via URL: <code>%s/events.ics</code></p>
     <h2>Upcoming Events (%d)</h2>
-    <ul>
+    <table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Venue</th>
+            <th>Location</th>
+            <th>Fights</th>
+        </tr>
+    </thead>
+    <tbody>
 `, r.Host, len(events))
 
 		for _, e := range events {
-			fmt.Fprintf(w, `<li><a href="https://www.ufc.com%s"><strong>%s: %s</strong></a><br>%s<br>%s, %s<br>`, e.URL, e.Name, e.Headline, e.Date, e.Venue, e.Location)
+			fmt.Fprintf(w, `<tr>`)
+			fmt.Fprintf(w, `<td><a href="https://www.ufc.com%s"><strong>%s</strong><br>%s</a></td>`, e.URL, e.Name, e.Headline)
+			fmt.Fprintf(w, `<td>%s</td>`, e.Date)
+			fmt.Fprintf(w, `<td>%s</td>`, e.Venue)
+			fmt.Fprintf(w, `<td>%s</td>`, e.Location)
+
+			// Fights column
+			fmt.Fprintf(w, `<td>`)
 			if len(e.Fights) > 0 {
-				fmt.Fprintf(w, `<details><summary>%d fights</summary><ul>`, len(e.Fights))
+				fmt.Fprintf(w, `<details><summary>%d fights</summary>`, len(e.Fights))
+				fmt.Fprintf(w, `<table border="1" cellpadding="3" cellspacing="0">`)
+				fmt.Fprintf(w, `<thead><tr><th>Weight Class</th><th>Fighter 1</th><th>Odds</th><th></th><th>Fighter 2</th><th>Odds</th><th>Method</th><th>R</th><th>Time</th></tr></thead>`)
+				fmt.Fprintf(w, `<tbody>`)
 				for _, f := range e.Fights {
-					// Fighter names with winner indicator
+					// Fighter names with links and winner indicator
 					f1 := f.Fighter1
 					f2 := f.Fighter2
-					if f.Winner == 1 {
-						f1 = "<strong>" + f1 + " (W)</strong>"
-					} else if f.Winner == 2 {
-						f2 = "<strong>" + f2 + " (W)</strong>"
+					if f.Fighter1URL != "" {
+						f1 = fmt.Sprintf(`<a href="%s">%s</a>`, f.Fighter1URL, f.Fighter1)
 					}
-
-					// Build fight details line
-					fmt.Fprintf(w, `<li>%s`, f1)
+					if f.Fighter2URL != "" {
+						f2 = fmt.Sprintf(`<a href="%s">%s</a>`, f.Fighter2URL, f.Fighter2)
+					}
 					if f.Country1 != "" {
-						fmt.Fprintf(w, ` <small>(%s)</small>`, f.Country1)
+						f1 += "<br><small>" + f.Country1 + "</small>"
 					}
-					if f.Odds1 != "" {
-						fmt.Fprintf(w, ` [%s]`, f.Odds1)
-					}
-					fmt.Fprintf(w, ` vs %s`, f2)
 					if f.Country2 != "" {
-						fmt.Fprintf(w, ` <small>(%s)</small>`, f.Country2)
+						f2 += "<br><small>" + f.Country2 + "</small>"
 					}
-					if f.Odds2 != "" {
-						fmt.Fprintf(w, ` [%s]`, f.Odds2)
+					if f.Winner == 1 {
+						f1 = "<strong>" + f1 + "</strong>"
+					} else if f.Winner == 2 {
+						f2 = "<strong>" + f2 + "</strong>"
 					}
-					fmt.Fprintf(w, ` - <em>%s</em>`, f.WeightClass)
 
-					// Result details if available
-					if f.Method != "" {
-						fmt.Fprintf(w, ` | %s`, f.Method)
-						if f.Round != "" {
-							fmt.Fprintf(w, ` R%s`, f.Round)
-						}
-						if f.Time != "" {
-							fmt.Fprintf(w, ` %s`, f.Time)
-						}
+					// Odds - show dash if empty or just "-"
+					odds1 := f.Odds1
+					odds2 := f.Odds2
+					if odds1 == "" || odds1 == "-" {
+						odds1 = "-"
 					}
-					fmt.Fprintf(w, `</li>`)
+					if odds2 == "" || odds2 == "-" {
+						odds2 = "-"
+					}
+
+					// Result
+					method := f.Method
+					if method == "" {
+						method = "-"
+					}
+					round := f.Round
+					if round == "" {
+						round = "-"
+					}
+					ftime := f.Time
+					if ftime == "" {
+						ftime = "-"
+					}
+
+					fmt.Fprintf(w, `<tr>`)
+					fmt.Fprintf(w, `<td>%s</td>`, f.WeightClass)
+					fmt.Fprintf(w, `<td>%s</td>`, f1)
+					fmt.Fprintf(w, `<td>%s</td>`, odds1)
+					fmt.Fprintf(w, `<td>vs</td>`)
+					fmt.Fprintf(w, `<td>%s</td>`, f2)
+					fmt.Fprintf(w, `<td>%s</td>`, odds2)
+					fmt.Fprintf(w, `<td>%s</td>`, method)
+					fmt.Fprintf(w, `<td>%s</td>`, round)
+					fmt.Fprintf(w, `<td>%s</td>`, ftime)
+					fmt.Fprintf(w, `</tr>`)
 				}
-				fmt.Fprintf(w, `</ul></details>`)
+				fmt.Fprintf(w, `</tbody></table></details>`)
 			} else {
 				fmt.Fprintf(w, `0 fights`)
 			}
-			fmt.Fprintf(w, `</li>
+			fmt.Fprintf(w, `</td></tr>
 `)
 		}
 
-		fmt.Fprintf(w, `</ul></body></html>`)
+		fmt.Fprintf(w, `</tbody></table></body></html>`)
 	})
 
 	srv := &http.Server{

@@ -11,6 +11,8 @@
       {
         "fighter1": "Merab Dvalishvili",
         "fighter2": "Petr Yan",
+        "fighter1_url": "https://www.ufc.com/athlete/merab-dvalishvili",
+        "fighter2_url": "https://www.ufc.com/athlete/petr-yan",
         "weight_class": "Bantamweight Title Bout",
         "winner": 2,
         "method": "Decision - Unanimous",
@@ -24,6 +26,8 @@
       {
         "fighter1": "Alexandre Pantoja",
         "fighter2": "Joshua Van",
+        "fighter1_url": "https://www.ufc.com/athlete/alexandre-pantoja",
+        "fighter2_url": "https://www.ufc.com/athlete/joshua-van",
         "weight_class": "Flyweight Title Bout",
         "winner": 2,
         "method": "KO/TKO",
@@ -37,6 +41,8 @@
       {
         "fighter1": "Brandon Moreno",
         "fighter2": "Tatsuro Taira",
+        "fighter1_url": "https://www.ufc.com/athlete/brandon-moreno",
+        "fighter2_url": "https://www.ufc.com/athlete/tatsuro-taira",
         "weight_class": "Flyweight Bout",
         "winner": 2,
         "method": "KO/TKO",
@@ -50,6 +56,8 @@
       {
         "fighter1": "Henry Cejudo",
         "fighter2": "Payton Talbott",
+        "fighter1_url": "https://www.ufc.com/athlete/henry-cejudo",
+        "fighter2_url": "https://www.ufc.com/athlete/payton-talbott",
         "weight_class": "Bantamweight Bout",
         "winner": 2,
         "method": "Decision - Unanimous",
@@ -63,6 +71,8 @@
       {
         "fighter1": "Jan Błachowicz",
         "fighter2": "Bogdan Guskov",
+        "fighter1_url": "https://www.ufc.com/athlete/jan-blachowicz",
+        "fighter2_url": "https://www.ufc.com/athlete/bogdan-guskov",
         "weight_class": "Light Heavyweight Bout",
         "method": "Decision - Majority",
         "round": "3",
@@ -75,6 +85,8 @@
       {
         "fighter1": "Grant Dawson",
         "fighter2": "Manuel Torres",
+        "fighter1_url": "https://www.ufc.com/athlete/grant-dawson",
+        "fighter2_url": "https://www.ufc.com/athlete/manuel-torres",
         "weight_class": "Lightweight Bout",
         "winner": 2,
         "method": "KO/TKO",
@@ -88,6 +100,8 @@
       {
         "fighter1": "Terrance McKinney",
         "fighter2": "Chris Duncan",
+        "fighter1_url": "https://www.ufc.com/athlete/terrance-mckinney",
+        "fighter2_url": "https://www.ufc.com/athlete/chris-duncan",
         "weight_class": "Lightweight Bout",
         "winner": 2,
         "method": "Submission",
@@ -101,6 +115,8 @@
       {
         "fighter1": "Maycee Barber",
         "fighter2": "Karine Silva",
+        "fighter1_url": "https://www.ufc.com/athlete/maycee-barber",
+        "fighter2_url": "https://www.ufc.com/athlete/karine-silva",
         "weight_class": "Women's Flyweight Bout",
         "winner": 1,
         "method": "Decision - Unanimous",
@@ -114,6 +130,8 @@
       {
         "fighter1": "Nazim Sadykhov",
         "fighter2": "Farès Ziam",
+        "fighter1_url": "https://www.ufc.com/athlete/nazim-sadykhov",
+        "fighter2_url": "https://www.ufc.com/athlete/fares-ziam",
         "weight_class": "Lightweight Bout",
         "winner": 2,
         "method": "KO/TKO",
@@ -127,6 +145,8 @@
       {
         "fighter1": "Marvin Vettori",
         "fighter2": "Brunno Ferreira",
+        "fighter1_url": "https://www.ufc.com/athlete/marvin-vettori",
+        "fighter2_url": "https://www.ufc.com/athlete/brunno-ferreira",
         "weight_class": "Middleweight Bout",
         "winner": 2,
         "method": "Decision - Unanimous",
@@ -140,6 +160,8 @@
       {
         "fighter1": "Edson Barboza",
         "fighter2": "Jalin Turner",
+        "fighter1_url": "https://www.ufc.com/athlete/edson-barboza",
+        "fighter2_url": "https://www.ufc.com/athlete/jalin-turner",
         "weight_class": "Lightweight Bout",
         "winner": 2,
         "method": "KO/TKO",
@@ -153,6 +175,8 @@
       {
         "fighter1": "Iwo Baraniewski",
         "fighter2": "Ibo Aslan",
+        "fighter1_url": "https://www.ufc.com/athlete/iwo-baraniewski",
+        "fighter2_url": "https://www.ufc.com/athlete/ibo-aslan",
         "weight_class": "Light Heavyweight Bout",
         "winner": 1,
         "method": "KO/TKO",
@@ -166,6 +190,8 @@
       {
         "fighter1": "Mansur Abdul-Malik",
         "fighter2": "Antonio Trocoli",
+        "fighter1_url": "https://www.ufc.com/athlete/mansur-abdul-malik",
+        "fighter2_url": "https://www.ufc.com/athlete/antonio-trocoli",
         "weight_class": "Middleweight Bout",
         "winner": 1,
         "method": "Submission",
@@ -179,6 +205,8 @@
       {
         "fighter1": "Muhammad Naimov",
         "fighter2": "Mairon Santos",
+        "fighter1_url": "https://www.ufc.com/athlete/Muhammad-Naimov",
+        "fighter2_url": "https://www.ufc.com/athlete/mairon-santos-alves",
         "weight_class": "Featherweight Bout",
         "winner": 2,
         "method": "KO/TKO",
@@ -203,6 +231,8 @@
       {
         "fighter1": "Brandon Royval",
         "fighter2": "Manel Kape",
+        "fighter1_url": "https://www.ufc.com/athlete/brandon-royval",
+        "fighter2_url": "https://www.ufc.com/athlete/manel-kape",
         "weight_class": "Flyweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -212,6 +242,8 @@
       {
         "fighter1": "Giga Chikadze",
         "fighter2": "Kevin Vallejos",
+        "fighter1_url": "https://www.ufc.com/athlete/giga-chikadze",
+        "fighter2_url": "https://www.ufc.com/athlete/kevin-vallejos",
         "weight_class": "Featherweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -221,6 +253,8 @@
       {
         "fighter1": "Cesar Almeida",
         "fighter2": "Cezary Oleksiejczuk",
+        "fighter1_url": "https://www.ufc.com/athlete/cesar-almeida",
+        "fighter2_url": "https://www.ufc.com/athlete/cezary-oleksiejczuk",
         "weight_class": "Middleweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -230,6 +264,8 @@
       {
         "fighter1": "Melquizael Costa",
         "fighter2": "Morgan Charriere",
+        "fighter1_url": "https://www.ufc.com/athlete/melquizael-costa",
+        "fighter2_url": "https://www.ufc.com/athlete/morgan-charriere",
         "weight_class": "Featherweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -239,6 +275,8 @@
       {
         "fighter1": "Kennedy Nzechukwu",
         "fighter2": "Marcus Buchecha",
+        "fighter1_url": "https://www.ufc.com/athlete/kennedy-nzechukwu",
+        "fighter2_url": "https://www.ufc.com/athlete/marcus-buchecha",
         "weight_class": "Heavyweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -248,6 +286,8 @@
       {
         "fighter1": "Amanda Lemos",
         "fighter2": "Gillian Robertson",
+        "fighter1_url": "https://www.ufc.com/athlete/amanda-lemos",
+        "fighter2_url": "https://www.ufc.com/athlete/gillian-robertson",
         "weight_class": "Women's Strawweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -257,6 +297,8 @@
       {
         "fighter1": "Joanderson Brito",
         "fighter2": "Melsik Baghdasaryan",
+        "fighter1_url": "https://www.ufc.com/athlete/joanderson-brito",
+        "fighter2_url": "https://www.ufc.com/athlete/melsik-baghdasaryan",
         "weight_class": "Featherweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -266,6 +308,8 @@
       {
         "fighter1": "Neil Magny",
         "fighter2": "Yaroslav Amosov",
+        "fighter1_url": "https://www.ufc.com/athlete/neil-magny",
+        "fighter2_url": "https://www.ufc.com/athlete/yaroslav-amosov",
         "weight_class": "Welterweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -274,6 +318,8 @@
       {
         "fighter1": "Sean Sharaf",
         "fighter2": "Steven Asplund",
+        "fighter1_url": "https://www.ufc.com/athlete/sean-sharaf",
+        "fighter2_url": "https://www.ufc.com/athlete/steven-asplund",
         "weight_class": "Heavyweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -283,6 +329,8 @@
       {
         "fighter1": "Melissa Croden",
         "fighter2": "Luana Santos",
+        "fighter1_url": "https://www.ufc.com/athlete/melissa-croden",
+        "fighter2_url": "https://www.ufc.com/athlete/luana-santos",
         "weight_class": "Women's Bantamweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -292,6 +340,8 @@
       {
         "fighter1": "Allen Frye Jr.",
         "fighter2": "Guilherme Pat",
+        "fighter1_url": "https://www.ufc.com/athlete/allen-frye-jr",
+        "fighter2_url": "https://www.ufc.com/athlete/guilherme-pat",
         "weight_class": "Heavyweight Bout",
         "odds1": "-",
         "odds2": "-"
@@ -299,6 +349,8 @@
       {
         "fighter1": "Jamey-Lyn Horth",
         "fighter2": "Tereza Bleda",
+        "fighter1_url": "https://www.ufc.com/athlete/jamey-lyn-horth",
+        "fighter2_url": "https://www.ufc.com/athlete/tereza-bleda",
         "weight_class": "Women's Flyweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -319,6 +371,8 @@
       {
         "fighter1": "Justin Gaethje",
         "fighter2": "Paddy Pimblett",
+        "fighter1_url": "https://www.ufc.com/athlete/justin-gaethje",
+        "fighter2_url": "https://www.ufc.com/athlete/paddy-pimblett",
         "weight_class": "Lightweight Interim Title Bout",
         "odds1": "-",
         "odds2": "-",
@@ -328,6 +382,8 @@
       {
         "fighter1": "Kayla Harrison",
         "fighter2": "Amanda Nunes",
+        "fighter1_url": "https://www.ufc.com/athlete/kayla-harrison",
+        "fighter2_url": "https://www.ufc.com/athlete/amanda-nunes",
         "weight_class": "Women's Bantamweight Title Bout",
         "odds1": "-",
         "odds2": "-",
@@ -337,6 +393,8 @@
       {
         "fighter1": "Sean O'Malley",
         "fighter2": "Song Yadong",
+        "fighter1_url": "https://www.ufc.com/athlete/sean-omalley",
+        "fighter2_url": "https://www.ufc.com/athlete/yadong-song",
         "weight_class": "Bantamweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -346,6 +404,8 @@
       {
         "fighter1": "Natalia Silva",
         "fighter2": "Rose Namajunas",
+        "fighter1_url": "https://www.ufc.com/athlete/natalia-silva",
+        "fighter2_url": "https://www.ufc.com/athlete/rose-namajunas",
         "weight_class": "Women's Flyweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -355,6 +415,8 @@
       {
         "fighter1": "Arnold Allen",
         "fighter2": "Jean Silva",
+        "fighter1_url": "https://www.ufc.com/athlete/arnold-allen",
+        "fighter2_url": "https://www.ufc.com/athlete/jean-silva",
         "weight_class": "Featherweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -364,6 +426,8 @@
       {
         "fighter1": "Waldo Cortes Acosta",
         "fighter2": "Derrick Lewis",
+        "fighter1_url": "https://www.ufc.com/athlete/waldo-cortes-acosta",
+        "fighter2_url": "https://www.ufc.com/athlete/derrick-lewis",
         "weight_class": "Heavyweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -373,6 +437,8 @@
       {
         "fighter1": "Umar Nurmagomedov",
         "fighter2": "Deiveson Figueiredo",
+        "fighter1_url": "https://www.ufc.com/athlete/umar-nurmagomedov",
+        "fighter2_url": "https://www.ufc.com/athlete/deiveson-figueiredo",
         "weight_class": "Bantamweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -382,6 +448,8 @@
       {
         "fighter1": "Ateba Gautier",
         "fighter2": "Andrey Pulyaev",
+        "fighter1_url": "https://www.ufc.com/athlete/ateba-gautier",
+        "fighter2_url": "https://www.ufc.com/athlete/andrey-pulyaev",
         "weight_class": "Middleweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -402,6 +470,8 @@
       {
         "fighter1": "Alexander Volkanovski",
         "fighter2": "Diego Lopes",
+        "fighter1_url": "https://www.ufc.com/athlete/alexander-volkanovski",
+        "fighter2_url": "https://www.ufc.com/athlete/diego-lopes",
         "weight_class": "Featherweight Title Bout",
         "odds1": "-",
         "odds2": "-",
@@ -432,6 +502,8 @@
       {
         "fighter1": "Sean Strickland",
         "fighter2": "Anthony Hernandez",
+        "fighter1_url": "https://www.ufc.com/athlete/sean-strickland",
+        "fighter2_url": "https://www.ufc.com/athlete/anthony-hernandez",
         "weight_class": "Middleweight Bout",
         "odds1": "-",
         "odds2": "-",
@@ -462,6 +534,8 @@
       {
         "fighter1": "Max Holloway",
         "fighter2": "Charles Oliveira",
+        "fighter1_url": "https://www.ufc.com/athlete/max-holloway",
+        "fighter2_url": "https://www.ufc.com/athlete/charles-oliveira",
         "weight_class": "Lightweight Lightweight",
         "odds1": "-",
         "odds2": "-",
