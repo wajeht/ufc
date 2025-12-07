@@ -53,6 +53,28 @@ func main() {
 		w.Write([]byte("ok"))
 	})
 
+	mux.HandleFunc("GET /robots.txt", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/plain")
+		fmt.Fprint(w, `User-agent: *
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+`)
+	})
+
 	mux.HandleFunc("GET /", func(w http.ResponseWriter, r *http.Request) {
 		if r.URL.Path != "/" {
 			w.Header().Set("Content-Type", "text/html; charset=utf-8")
@@ -61,6 +83,7 @@ func main() {
 <html>
 <head>
     <title>404 Not Found</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
 </head>
 <body>
     <h1>404 Not Found</h1>
@@ -82,6 +105,7 @@ func main() {
 <html>
 <head>
     <title>UFC Calendar</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
 </head>
 <body>
     <h1>UFC Calendar</h1>
