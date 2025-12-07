@@ -172,8 +172,54 @@ Disallow: /
 `, r.Host, len(events))
 
 		for _, e := range events {
-			fmt.Fprintf(w, `<li><a href="https://www.ufc.com%s"><strong>%s: %s</strong></a><br>%s<br>%s, %s<br>%d fights</li>
-`, e.URL, e.Name, e.Headline, e.Date, e.Venue, e.Location, len(e.Fights))
+			fmt.Fprintf(w, `<li><a href="https://www.ufc.com%s"><strong>%s: %s</strong></a><br>%s<br>%s, %s<br>`, e.URL, e.Name, e.Headline, e.Date, e.Venue, e.Location)
+			if len(e.Fights) > 0 {
+				fmt.Fprintf(w, `<details><summary>%d fights</summary><ul>`, len(e.Fights))
+				for _, f := range e.Fights {
+					// Fighter names with winner indicator
+					f1 := f.Fighter1
+					f2 := f.Fighter2
+					if f.Winner == 1 {
+						f1 = "<strong>" + f1 + " (W)</strong>"
+					} else if f.Winner == 2 {
+						f2 = "<strong>" + f2 + " (W)</strong>"
+					}
+
+					// Build fight details line
+					fmt.Fprintf(w, `<li>%s`, f1)
+					if f.Country1 != "" {
+						fmt.Fprintf(w, ` <small>(%s)</small>`, f.Country1)
+					}
+					if f.Odds1 != "" {
+						fmt.Fprintf(w, ` [%s]`, f.Odds1)
+					}
+					fmt.Fprintf(w, ` vs %s`, f2)
+					if f.Country2 != "" {
+						fmt.Fprintf(w, ` <small>(%s)</small>`, f.Country2)
+					}
+					if f.Odds2 != "" {
+						fmt.Fprintf(w, ` [%s]`, f.Odds2)
+					}
+					fmt.Fprintf(w, ` - <em>%s</em>`, f.WeightClass)
+
+					// Result details if available
+					if f.Method != "" {
+						fmt.Fprintf(w, ` | %s`, f.Method)
+						if f.Round != "" {
+							fmt.Fprintf(w, ` R%s`, f.Round)
+						}
+						if f.Time != "" {
+							fmt.Fprintf(w, ` %s`, f.Time)
+						}
+					}
+					fmt.Fprintf(w, `</li>`)
+				}
+				fmt.Fprintf(w, `</ul></details>`)
+			} else {
+				fmt.Fprintf(w, `0 fights`)
+			}
+			fmt.Fprintf(w, `</li>
+`)
 		}
 
 		fmt.Fprintf(w, `</ul></body></html>`)

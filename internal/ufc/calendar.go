@@ -43,7 +43,43 @@ func (c *Calendar) formatEvent(e *EventDetails) string {
 	var desc strings.Builder
 	desc.WriteString("Main Card:\\n")
 	for _, f := range e.Fights {
-		desc.WriteString(fmt.Sprintf("• %s vs %s (%s)\\n", f.Fighter1, f.Fighter2, f.WeightClass))
+		// Fighter names with country
+		f1 := f.Fighter1
+		f2 := f.Fighter2
+		if f.Country1 != "" {
+			f1 += " (" + f.Country1 + ")"
+		}
+		if f.Country2 != "" {
+			f2 += " (" + f.Country2 + ")"
+		}
+
+		line := fmt.Sprintf("• %s vs %s - %s", f1, f2, f.WeightClass)
+
+		// Add odds if available
+		if f.Odds1 != "" && f.Odds2 != "" {
+			line += fmt.Sprintf(" [%s / %s]", f.Odds1, f.Odds2)
+		}
+
+		// Add result if available
+		if f.Method != "" {
+			winner := ""
+			if f.Winner == 1 {
+				winner = f.Fighter1
+			} else if f.Winner == 2 {
+				winner = f.Fighter2
+			}
+			if winner != "" {
+				line += fmt.Sprintf(" | Winner: %s via %s", winner, f.Method)
+				if f.Round != "" {
+					line += fmt.Sprintf(" R%s", f.Round)
+				}
+				if f.Time != "" {
+					line += fmt.Sprintf(" %s", f.Time)
+				}
+			}
+		}
+
+		desc.WriteString(line + "\\n")
 	}
 	desc.WriteString(fmt.Sprintf("\\nMore info: %s%s", BaseURL, e.URL))
 

@@ -11,72 +11,183 @@
       {
         "fighter1": "Merab Dvalishvili",
         "fighter2": "Petr Yan",
-        "weight_class": "Bantamweight Title Bout"
+        "weight_class": "Bantamweight Title Bout",
+        "winner": 2,
+        "method": "Decision - Unanimous",
+        "round": "5",
+        "time": "5:00",
+        "odds1": "-485",
+        "odds2": "+370",
+        "country1": "Georgia",
+        "country2": "Russia"
       },
       {
         "fighter1": "Alexandre Pantoja",
         "fighter2": "Joshua Van",
-        "weight_class": "Flyweight Title Bout"
+        "weight_class": "Flyweight Title Bout",
+        "winner": 2,
+        "method": "KO/TKO",
+        "round": "1",
+        "time": "0:26",
+        "odds1": "-238",
+        "odds2": "+195",
+        "country1": "Brazil",
+        "country2": "Myanmar"
       },
       {
         "fighter1": "Brandon Moreno",
         "fighter2": "Tatsuro Taira",
-        "weight_class": "Flyweight Bout"
+        "weight_class": "Flyweight Bout",
+        "winner": 2,
+        "method": "KO/TKO",
+        "round": "2",
+        "time": "2:24",
+        "odds1": "-102",
+        "odds2": "-118",
+        "country1": "Mexico",
+        "country2": "Japan"
       },
       {
         "fighter1": "Henry Cejudo",
         "fighter2": "Payton Talbott",
-        "weight_class": "Bantamweight Bout"
+        "weight_class": "Bantamweight Bout",
+        "winner": 2,
+        "method": "Decision - Unanimous",
+        "round": "3",
+        "time": "5:00",
+        "odds1": "+230",
+        "odds2": "-285",
+        "country1": "United States",
+        "country2": "United States"
       },
       {
         "fighter1": "Jan Błachowicz",
         "fighter2": "Bogdan Guskov",
-        "weight_class": "Light Heavyweight Bout"
+        "weight_class": "Light Heavyweight Bout",
+        "method": "Decision - Majority",
+        "round": "3",
+        "time": "5:00",
+        "odds1": "-120",
+        "odds2": "+100",
+        "country1": "Poland",
+        "country2": "Uzbekistan"
       },
       {
         "fighter1": "Grant Dawson",
         "fighter2": "Manuel Torres",
-        "weight_class": "Lightweight Bout"
+        "weight_class": "Lightweight Bout",
+        "winner": 2,
+        "method": "KO/TKO",
+        "round": "1",
+        "time": "2:25",
+        "odds1": "-205",
+        "odds2": "+170",
+        "country1": "United States",
+        "country2": "Mexico"
       },
       {
         "fighter1": "Terrance McKinney",
         "fighter2": "Chris Duncan",
-        "weight_class": "Lightweight Bout"
+        "weight_class": "Lightweight Bout",
+        "winner": 2,
+        "method": "Submission",
+        "round": "1",
+        "time": "2:30",
+        "odds1": "+154",
+        "odds2": "-185",
+        "country1": "United States",
+        "country2": "Scotland"
       },
       {
         "fighter1": "Maycee Barber",
         "fighter2": "Karine Silva",
-        "weight_class": "Women's Flyweight Bout"
+        "weight_class": "Women's Flyweight Bout",
+        "winner": 1,
+        "method": "Decision - Unanimous",
+        "round": "3",
+        "time": "5:00",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Brazil"
       },
       {
         "fighter1": "Nazim Sadykhov",
         "fighter2": "Farès Ziam",
-        "weight_class": "Lightweight Bout"
+        "weight_class": "Lightweight Bout",
+        "winner": 2,
+        "method": "KO/TKO",
+        "round": "2",
+        "time": "4:59",
+        "odds1": "+120",
+        "odds2": "-142",
+        "country1": "Azerbaijan",
+        "country2": "France"
       },
       {
         "fighter1": "Marvin Vettori",
         "fighter2": "Brunno Ferreira",
-        "weight_class": "Middleweight Bout"
+        "weight_class": "Middleweight Bout",
+        "winner": 2,
+        "method": "Decision - Unanimous",
+        "round": "3",
+        "time": "5:00",
+        "odds1": "-120",
+        "odds2": "+100",
+        "country1": "Italy",
+        "country2": "Brazil"
       },
       {
         "fighter1": "Edson Barboza",
         "fighter2": "Jalin Turner",
-        "weight_class": "Lightweight Bout"
+        "weight_class": "Lightweight Bout",
+        "winner": 2,
+        "method": "KO/TKO",
+        "round": "1",
+        "time": "2:24",
+        "odds1": "+210",
+        "odds2": "-258",
+        "country1": "Brazil",
+        "country2": "United States"
       },
       {
         "fighter1": "Iwo Baraniewski",
         "fighter2": "Ibo Aslan",
-        "weight_class": "Light Heavyweight Bout"
+        "weight_class": "Light Heavyweight Bout",
+        "winner": 1,
+        "method": "KO/TKO",
+        "round": "1",
+        "time": "1:29",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Poland",
+        "country2": "Türkiye"
       },
       {
         "fighter1": "Mansur Abdul-Malik",
         "fighter2": "Antonio Trocoli",
-        "weight_class": "Middleweight Bout"
+        "weight_class": "Middleweight Bout",
+        "winner": 1,
+        "method": "Submission",
+        "round": "1",
+        "time": "1:09",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Brazil"
       },
       {
         "fighter1": "Muhammad Naimov",
         "fighter2": "Mairon Santos",
-        "weight_class": "Featherweight Bout"
+        "weight_class": "Featherweight Bout",
+        "winner": 2,
+        "method": "KO/TKO",
+        "round": "3",
+        "time": "0:21",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Tajikistan",
+        "country2": "Brazil"
       }
     ]
   },
@@ -92,62 +203,107 @@
       {
         "fighter1": "Brandon Royval",
         "fighter2": "Manel Kape",
-        "weight_class": "Flyweight Bout"
+        "weight_class": "Flyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Portugal"
       },
       {
         "fighter1": "Giga Chikadze",
         "fighter2": "Kevin Vallejos",
-        "weight_class": "Featherweight Bout"
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Georgia",
+        "country2": "Argentina"
       },
       {
         "fighter1": "Cesar Almeida",
         "fighter2": "Cezary Oleksiejczuk",
-        "weight_class": "Middleweight Bout"
+        "weight_class": "Middleweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Poland"
       },
       {
         "fighter1": "Melquizael Costa",
         "fighter2": "Morgan Charriere",
-        "weight_class": "Featherweight Bout"
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "France"
       },
       {
         "fighter1": "Kennedy Nzechukwu",
         "fighter2": "Marcus Buchecha",
-        "weight_class": "Heavyweight Bout"
+        "weight_class": "Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Nigeria",
+        "country2": "Brazil"
       },
       {
         "fighter1": "Amanda Lemos",
         "fighter2": "Gillian Robertson",
-        "weight_class": "Women's Strawweight Bout"
+        "weight_class": "Women's Strawweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Canada"
       },
       {
         "fighter1": "Joanderson Brito",
         "fighter2": "Melsik Baghdasaryan",
-        "weight_class": "Featherweight Bout"
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Armenia"
       },
       {
         "fighter1": "Neil Magny",
         "fighter2": "Yaroslav Amosov",
-        "weight_class": "Welterweight Bout"
+        "weight_class": "Welterweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States"
       },
       {
         "fighter1": "Sean Sharaf",
         "fighter2": "Steven Asplund",
-        "weight_class": "Heavyweight Bout"
+        "weight_class": "Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "United States"
       },
       {
         "fighter1": "Melissa Croden",
         "fighter2": "Luana Santos",
-        "weight_class": "Women's Bantamweight Bout"
+        "weight_class": "Women's Bantamweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Canada",
+        "country2": "Brazil"
       },
       {
         "fighter1": "Allen Frye Jr.",
         "fighter2": "Guilherme Pat",
-        "weight_class": "Heavyweight Bout"
+        "weight_class": "Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-"
       },
       {
         "fighter1": "Jamey-Lyn Horth",
         "fighter2": "Tereza Bleda",
-        "weight_class": "Women's Flyweight Bout"
+        "weight_class": "Women's Flyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Canada",
+        "country2": "Czechia"
       }
     ]
   },
@@ -163,42 +319,74 @@
       {
         "fighter1": "Justin Gaethje",
         "fighter2": "Paddy Pimblett",
-        "weight_class": "Lightweight Interim Title Bout"
+        "weight_class": "Lightweight Interim Title Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "England"
       },
       {
         "fighter1": "Kayla Harrison",
         "fighter2": "Amanda Nunes",
-        "weight_class": "Women's Bantamweight Title Bout"
+        "weight_class": "Women's Bantamweight Title Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Brazil"
       },
       {
         "fighter1": "Sean O'Malley",
         "fighter2": "Song Yadong",
-        "weight_class": "Bantamweight Bout"
+        "weight_class": "Bantamweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "China"
       },
       {
         "fighter1": "Natalia Silva",
         "fighter2": "Rose Namajunas",
-        "weight_class": "Women's Flyweight Bout"
+        "weight_class": "Women's Flyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "United States"
       },
       {
         "fighter1": "Arnold Allen",
         "fighter2": "Jean Silva",
-        "weight_class": "Featherweight Bout"
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "England",
+        "country2": "Brazil"
       },
       {
         "fighter1": "Waldo Cortes Acosta",
         "fighter2": "Derrick Lewis",
-        "weight_class": "Heavyweight Bout"
+        "weight_class": "Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Dominican Republic",
+        "country2": "United States"
       },
       {
         "fighter1": "Umar Nurmagomedov",
         "fighter2": "Deiveson Figueiredo",
-        "weight_class": "Bantamweight Bout"
+        "weight_class": "Bantamweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Russia",
+        "country2": "Brazil"
       },
       {
         "fighter1": "Ateba Gautier",
         "fighter2": "Andrey Pulyaev",
-        "weight_class": "Middleweight Bout"
+        "weight_class": "Middleweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Cameroon",
+        "country2": "Russia"
       }
     ]
   },
@@ -214,7 +402,11 @@
       {
         "fighter1": "Alexander Volkanovski",
         "fighter2": "Diego Lopes",
-        "weight_class": "Featherweight Title Bout"
+        "weight_class": "Featherweight Title Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Australia",
+        "country2": "Brazil"
       }
     ]
   },
@@ -240,7 +432,11 @@
       {
         "fighter1": "Sean Strickland",
         "fighter2": "Anthony Hernandez",
-        "weight_class": "Middleweight Bout"
+        "weight_class": "Middleweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "United States"
       }
     ]
   },
@@ -266,7 +462,11 @@
       {
         "fighter1": "Max Holloway",
         "fighter2": "Charles Oliveira",
-        "weight_class": "Lightweight Lightweight"
+        "weight_class": "Lightweight Lightweight",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Brazil"
       }
     ]
   },
