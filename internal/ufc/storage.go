@@ -8,7 +8,7 @@ import (
 
 const (
 	DefaultDataFile = "assets/events.json"
-	DefaultICSFile  = "assets/ufc-events.ics"
+	DefaultICSFile  = "assets/events.ics"
 )
 
 func SaveEvents(events []*EventDetails, filename string) error {

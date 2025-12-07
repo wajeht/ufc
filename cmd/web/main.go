@@ -23,8 +23,8 @@ func main() {
 	mux := http.NewServeMux()
 
 	// Serve ICS calendar
-	mux.HandleFunc("GET /calendar.ics", func(w http.ResponseWriter, r *http.Request) {
-		icsPath := filepath.Join(*assetsDir, "ufc-events.ics")
+	mux.HandleFunc("GET /events.ics", func(w http.ResponseWriter, r *http.Request) {
+		icsPath := filepath.Join(*assetsDir, "events.ics")
 		data, err := os.ReadFile(icsPath)
 		if err != nil {
 			http.Error(w, "Calendar not found", http.StatusNotFound)
@@ -32,7 +32,7 @@ func main() {
 		}
 
 		w.Header().Set("Content-Type", "text/calendar; charset=utf-8")
-		w.Header().Set("Content-Disposition", "inline; filename=\"ufc-events.ics\"")
+		w.Header().Set("Content-Disposition", "inline; filename=\"events.ics\"")
 		w.Write(data)
 	})
 
@@ -88,8 +88,8 @@ func main() {
 <body>
     <h1>UFC Calendar</h1>
     <p>Subscribe to upcoming UFC events in your calendar app.</p>
-    <a class="subscribe" href="/calendar.ics">Download Calendar (.ics)</a>
-    <p>Or subscribe via URL: <code>%s/calendar.ics</code></p>
+    <a class="subscribe" href="/events.ics">Download Calendar (.ics)</a>
+    <p>Or subscribe via URL: <code>%s/events.ics</code></p>
     <h2>Upcoming Events (%d)</h2>
 `, r.Host, len(events))
 
