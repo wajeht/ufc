@@ -6,37 +6,37 @@ METHOD:PUBLISH
 X-WR-CALNAME:UFC Events
 BEGIN:VEVENT
 UID:-event-ufc-324@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20260125T020000Z
 DTEND:20260125T060000Z
 SUMMARY:UFC 324: Gaethje vs Pimblett
 LOCATION:T-Mobile Arena\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Justin Gaethje (United States) vs Paddy Pimblett (England) - Lightweight Interim Title Bout [- / -]\n• Kayla Harrison (United States) vs Amanda Nunes (Brazil) - Women's Bantamweight Title Bout [- / -]\n• Sean O'Malley (United States) vs Song Yadong (China) - Bantamweight Bout [- / -]\n• Waldo Cortes Acosta (Dominican Republic) vs Derrick Lewis (United States) - Heavyweight Bout [- / -]\n• Arnold Allen (England) vs Jean Silva (Brazil) - Featherweight Bout [- / -]\n• Natalia Silva (Brazil) vs Rose Namajunas (United States) - Women's Flyweight Bout [- / -]\n• Umar Nurmagomedov (Russia) vs Deiveson Figueiredo (Brazil) - Bantamweight Bout [- / -]\n• Ateba Gautier (Cameroon) vs Andrey Pulyaev (Russia) - Middleweight Bout [- / -]\n• Nikita Krylov (Russia) vs Modestas Bukauskas (Lithuania) - Light Heavyweight Bout [- / -]\n• Alex Perez (United States) vs Charles Johnson (United States) - Flyweight Bout [- / -]\n• Michael Johnson (United States) vs Alexander Hernandez (United States) - Lightweight Bout [- / -]\n• Josh Hokit (United States) vs Denzel Freeman (United States) - Heavyweight Bout [- / -]\n• Ricky Turcios (United States) vs Cameron Smotherman (United States) - Bantamweight Bout [- / -]\n• Adam Fugitt (United States) vs Ty Miller (United States) - Welterweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-324
+DESCRIPTION:Main Card:\n• Justin Gaethje (United States) vs Paddy Pimblett (England) - Lightweight Interim Title Bout [- / -]\n• Sean O'Malley (United States) vs Song Yadong (China) - Bantamweight Bout [- / -]\n• Waldo Cortes Acosta (Dominican Republic) vs Derrick Lewis (United States) - Heavyweight Bout [- / -]\n• Natalia Silva (Brazil) vs Rose Namajunas (United States) - Women's Flyweight Bout [- / -]\n• Arnold Allen (England) vs Jean Silva (Brazil) - Featherweight Bout [- / -]\n• Umar Nurmagomedov (Russia) vs Deiveson Figueiredo (Brazil) - Bantamweight Bout [- / -]\n• Ateba Gautier (Cameroon) vs Andrey Pulyaev (Russia) - Middleweight Bout [- / -]\n• Nikita Krylov (Russia) vs Modestas Bukauskas (Lithuania) - Light Heavyweight Bout [- / -]\n• Alex Perez (United States) vs Charles Johnson (United States) - Flyweight Bout [- / -]\n• Michael Johnson (United States) vs Alexander Hernandez (United States) - Lightweight Bout [- / -]\n• Josh Hokit (United States) vs Denzel Freeman (United States) - Heavyweight Bout [- / -]\n• Ricky Turcios (United States) vs Cameron Smotherman (United States) - Bantamweight Bout [- / -]\n• Adam Fugitt (United States) vs Ty Miller (United States) - Welterweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-324
 URL:https://www.ufc.com/event/ufc-324
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-325@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20260201T020000Z
 DTEND:20260201T060000Z
 SUMMARY:UFC 325: Volkanovski vs Lopes
 LOCATION:Qudos Bank Arena\, Sydney Olympic Park NSW Australia
-DESCRIPTION:Main Card:\n• Alexander Volkanovski (Australia) vs Diego Lopes (Brazil) - Featherweight Title Bout [- / -]\n• Dan Hooker (New Zealand) vs Benoît Saint Denis (France) - Lightweight Bout [- / -]\n• Rafael Fiziev (Azerbaijan) vs Mauricio Ruffy (Brazil) - Lightweight Bout [- / -]\n• Tai Tuivasa (Australia) vs Tallison Teixeira (Brazil) - Heavyweight Bout [- / -]\n• Jimmy Crute (Australia) vs Dustin Jacoby (United States) - Light Heavyweight Bout [- / -]\n• Quillan Salkilld (Australia) vs Rongzhu (China) - Lightweight Bout [- / -]\n• Junior Tafa (Australia) vs Billy Elekana (United States) - Light Heavyweight Bout [- / -]\n• Cam Rowston (Australia) vs Cody Brundage (United States) - Middleweight Bout [- / -]\n• Jacob Malkoun (Australia) vs Torrez Finney (United States) - Middleweight Bout [- / -]\n• Jonathan Micallef (Australia) vs Oban Elliott (Wales) - Welterweight Bout [- / -]\n• Kaan Ofli (Australia) vs Yizha (China) - Featherweight Bout [- / -]\n• SangWook Kim (South Korea) vs Dom Mar Fan (Australia) - Lightweight Bout [- / -]\n• Keiichiro Nakamura (Japan) vs Sebastian Szalay (Australia) - Featherweight Bout [- / -]\n• Sulangrangbo (China) vs Lawrence Lui (New Zealand) - Bantamweight Bout [- / -]\n• Aaron Tau (New Zealand) vs Namsrai Batbayar (Mongolia) - Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-325
+DESCRIPTION:Main Card:\n• Alexander Volkanovski (Australia) vs Diego Lopes (Brazil) - Featherweight Title Bout [- / -]\n• Dan Hooker (New Zealand) vs Benoît Saint Denis (France) - Lightweight Bout [- / -]\n• Rafael Fiziev (Azerbaijan) vs Mauricio Ruffy (Brazil) - Lightweight Bout [- / -]\n• Tai Tuivasa (Australia) vs Tallison Teixeira (Brazil) - Heavyweight Bout [- / -]\n• Quillan Salkilld (Australia) vs Rongzhu (China) - Lightweight Bout [- / -]\n• Junior Tafa (Australia) vs Billy Elekana (United States) - Light Heavyweight Bout [- / -]\n• Cam Rowston (Australia) vs Cody Brundage (United States) - Middleweight Bout [- / -]\n• Jacob Malkoun (Australia) vs Torrez Finney (United States) - Middleweight Bout [- / -]\n• Jonathan Micallef (Australia) vs Oban Elliott (Wales) - Welterweight Bout [- / -]\n• Kaan Ofli (Australia) vs Yizha (China) - Featherweight Bout [- / -]\n• SangWook Kim (South Korea) vs Dom Mar Fan (Australia) - Lightweight Bout [- / -]\n• Keiichiro Nakamura (Japan) vs Sebastian Szalay (Australia) - Featherweight Bout [- / -]\n• Sulangrangbo (China) vs Lawrence Lui (New Zealand) - Bantamweight Bout [- / -]\n• Aaron Tau (New Zealand) vs Namsrai Batbayar (Mongolia) - Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-325
 URL:https://www.ufc.com/event/ufc-325
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-07-2026@ufc.com
-DTSTAMP:20260111T003343Z
-DTSTART:20260208T010000Z
-DTEND:20260208T050000Z
+DTSTAMP:20260118T003317Z
+DTSTART:20260208T020000Z
+DTEND:20260208T060000Z
 SUMMARY:UFC Fight Night: Bautista vs Oliveira
-LOCATION:UFC APEX\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Mario Bautista (United States) vs Vinicius Oliveira (Brazil) - Bantamweight Bout [- / -]\n• Amir Albazi (Iraq) vs Kyoji Horiguchi (Japan) - Flyweight Bout [- / -]\n• Ryan Spann (United States) vs Rizvan Kuniev (Russia) - Heavyweight Bout [- / -]\n• Michal Oleksiejczuk (Poland) vs Marc-Andre Barriault (Canada) - Middleweight Bout [- / -]\n• Uran Satybaldiev (Kyrgyzstan) vs Julius Walker (United States) - Light Heavyweight Bout [- / -]\n• Wang Cong (China) vs Eduarda Moura (Brazil) - Women's Flyweight Bout [- / -]\n• Bruna Brasil (Brazil) vs Ketlen Souza (Brazil) - Women's Strawweight Bout [- / -]\n• Klaudia Syguła (Poland) vs Priscila Cachoeira (Brazil) - Women's Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-07-2026
+LOCATION:Meta APEX\, Las Vegas\, NV United States
+DESCRIPTION:Main Card:\n• Mario Bautista (United States) vs Vinicius Oliveira (Brazil) - Bantamweight Bout [- / -]\n• Amir Albazi (Iraq) vs Kyoji Horiguchi (Japan) - Flyweight Bout [- / -]\n• Ryan Spann (United States) vs Rizvan Kuniev (Russia) - Heavyweight Bout [- / -]\n• Michal Oleksiejczuk (Poland) vs Marc-Andre Barriault (Canada) - Middleweight Bout [- / -]\n• Jean Matsumoto (Brazil) vs Farid Basharat - Bantamweight Bout [- / -]\n• Uran Satybaldiev (Kyrgyzstan) vs Julius Walker (United States) - Light Heavyweight Bout [- / -]\n• Bruna Brasil (Brazil) vs Ketlen Souza (Brazil) - Women's Strawweight Bout [- / -]\n• Said Nurmagomedov (Russia) vs Javid Basharat - Bantamweight Bout [- / -]\n• Wang Cong (China) vs Eduarda Moura (Brazil) - Women's Flyweight Bout [- / -]\n• Muin Gafurov (Tajikistan) vs Jakub Wiklacz (Poland) - Bantamweight Bout [- / -]\n• Klaudia Syguła (Poland) vs Priscila Cachoeira (Brazil) - Women's Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-07-2026
 URL:https://www.ufc.com/event/ufc-fight-night-february-07-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-21-2026@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20260222T010000Z
 DTEND:20260222T050000Z
 SUMMARY:UFC Fight Night: Strickland vs Hernandez
@@ -46,37 +46,37 @@ URL:https://www.ufc.com/event/ufc-fight-night-february-21-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-28-2026@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20260301T020000Z
 DTEND:20260301T060000Z
 SUMMARY:UFC Fight Night: Moreno vs Almabayev
 LOCATION:Arena CDMX\, México D.F.\, CDMX Mexico
-DESCRIPTION:Main Card:\n• Brandon Moreno (Mexico) vs Asu Almabayev (Kazakhstan) - Flyweight Bout [- / -]\n• Cristian Quiñonez (Mexico) vs Kris Moutinho (United States) - Bantamweight Bout [- / -]\n• Santiago Luna (Mexico) vs Angel Pacheco (United States) - Bantamweight Bout [- / -]\n• Sofia Montenegro (Argentina) vs Ernesta Kareckaitė (Lithuania) - Women's Flyweight Bout [- / -]\n• Macy Chiasson (United States) vs Ailin Perez (Argentina) - Women's Bantamweight Bout [- / -]\n• Damian Pinas (Suriname) vs Wes Schultz (United States) - Middleweight Bout [- / -]\n• Ryan Gandra (Brazil) vs Jose Daniel Medina (Bolivia) - Middleweight Bout [- / -]\n• Edgar Chairez (Mexico) vs Felipe Bunes (Brazil) - Flyweight Bout [- / -]\n• Imanol Rodriguez (Mexico) vs Kevin Borjas (Peru) - Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-28-2026
+DESCRIPTION:Main Card:\n• Brandon Moreno (Mexico) vs Asu Almabayev (Kazakhstan) - Flyweight Bout [- / -]\n• Edgar Chairez (Mexico) vs Felipe Bunes (Brazil) - Flyweight Bout [- / -]\n• Marlon Vera (Ecuador) vs David Martinez (Mexico) - Bantamweight Bout [- / -]\n• Imanol Rodriguez (Mexico) vs Kevin Borjas (Peru) - Flyweight Bout [- / -]\n• Daniel Zellhuber (Mexico) vs King Green (United States) - Lightweight Bout [- / -]\n• Santiago Luna (Mexico) vs Angel Pacheco (United States) - Bantamweight Bout [- / -]\n• Ryan Gandra (Brazil) vs Jose Daniel Medina (Bolivia) - Middleweight Bout [- / -]\n• Macy Chiasson (United States) vs Ailin Perez (Argentina) - Women's Bantamweight Bout [- / -]\n• Damian Pinas (Suriname) vs Wes Schultz (United States) - Middleweight Bout [- / -]\n• Cristian Quiñonez (Mexico) vs Kris Moutinho (United States) - Bantamweight Bout [- / -]\n• Sofia Montenegro (Argentina) vs Ernesta Kareckaitė (Lithuania) - Women's Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-28-2026
 URL:https://www.ufc.com/event/ufc-fight-night-february-28-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-326@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20260308T020000Z
 DTEND:20260308T060000Z
 SUMMARY:UFC 326: Holloway vs Oliveira 2
 LOCATION:T-Mobile Arena\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Max Holloway (United States) vs Charles Oliveira (Brazil) - Lightweight Bout [- / -]\n• Renato Moicano (Brazil) vs Brian Ortega (United States) - Lightweight Bout [- / -]\n• Caio Borralho (Brazil) vs Reinier de Ridder (Netherlands) - Middleweight Bout [- / -]\n• Paulo Costa (Brazil) vs Brunno Ferreira (Brazil) - Middleweight Bout [- / -]\n• Cody Garbrandt (United States) vs Xiao Long (China) - Bantamweight Bout [- / -]\n• Sumudaerji (China) vs Jesus Aguilar (Mexico) - Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-326
+DESCRIPTION:Main Card:\n• Max Holloway (United States) vs Charles Oliveira (Brazil) - Lightweight Bout [- / -]\n• Renato Moicano (Brazil) vs Brian Ortega (United States) - Lightweight Bout [- / -]\n• Caio Borralho (Brazil) vs Reinier de Ridder (Netherlands) - Middleweight Bout [- / -]\n• Gregory Rodrigues (Brazil) vs Brunno Ferreira (Brazil) - Middleweight Bout [- / -]\n• Rob Font (Puerto Rico) vs Raul Rosas Jr. (Mexico) - Bantamweight Bout [- / -]\n• Cody Garbrandt (United States) vs Xiao Long (China) - Bantamweight Bout [- / -]\n• Cody Durden (United States) vs Nyamjargal Tumendemberel (Mongolia) - Flyweight Bout [- / -]\n• Donte Johnson (United States) vs Duško Todorović (Serbia) - Middleweight Bout [- / -]\n• JooSang Yoo (South Korea) vs Gaston Bolanos (Peru) - Featherweight Bout [- / -]\n• Luke Fernandez (United States) vs Rodolfo Bellato (Brazil) - Light Heavyweight Bout [- / -]\n• Sumudaerji (China) vs Jesus Aguilar (Mexico) - Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-326
 URL:https://www.ufc.com/event/ufc-326
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-march-14-2026@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20260315T010000Z
 DTEND:20260315T050000Z
-SUMMARY:UFC Fight Night: TBD vs TBD
-LOCATION:UFC APEX\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Amanda Lemos (Brazil) vs Gillian Robertson (Canada) - Women's Strawweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-march-14-2026
+SUMMARY:UFC Fight Night: Emmett vs Vallejos
+LOCATION:Meta APEX\, Las Vegas\, NV United States
+DESCRIPTION:Main Card:\n• Josh Emmett (United States) vs Kevin Vallejos (Argentina) - Featherweight Bout [- / -]\n• Ion Cutelaba (Moldova) vs Oumar Sy (France) - Light Heavyweight Bout [- / -]\n• Amanda Lemos (Brazil) vs Gillian Robertson (Canada) - Women's Strawweight Bout [- / -]\n• Bruno Silva (Brazil) vs Lone’er Kavanagh (England) - Flyweight Bout [- / -]\n• Rinya Nakamura (Japan) vs Luan Lacerda (Brazil) - Bantamweight Bout [- / -]\n• Marwan Rahiki (Morocco) vs Harry Hardwick (England) - Featherweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-march-14-2026
 URL:https://www.ufc.com/event/ufc-fight-night-march-14-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-march-21-2026@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20260321T200000Z
 DTEND:20260322T000000Z
 SUMMARY:UFC Fight Night: TBD vs TBD
@@ -86,7 +86,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-march-21-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-october-18-2025@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20261018T230000Z
 DTEND:20261019T030000Z
 SUMMARY:UFC Fight Night: de Ridder vs Allen
@@ -96,7 +96,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-october-18-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-321@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20261025T180000Z
 DTEND:20261025T220000Z
 SUMMARY:UFC 321: Aspinall vs Gane
@@ -106,27 +106,27 @@ URL:https://www.ufc.com/event/ufc-321
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-01-2025@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20261101T230000Z
 DTEND:20261102T030000Z
 SUMMARY:UFC Fight Night: Garcia vs Onama
-LOCATION:UFC APEX\, Las Vegas\, NV United States
+LOCATION:Meta APEX\, Las Vegas\, NV United States
 DESCRIPTION:Main Card:\n• Steve Garcia (United States) vs David Onama (Uganda) - Featherweight Bout [-135 / +114] | Winner: Steve Garcia via KO/TKO R1 3:34\n• Waldo Cortes Acosta (Dominican Republic) vs Ante Delija (Croatia) - Heavyweight Bout [+105 / -125] | Winner: Waldo Cortes Acosta via KO/TKO R1 3:59\n• Jeremiah Wells (United States) vs Themba Gorimbo - Welterweight Bout [+114 / -135] | Winner: Jeremiah Wells via Decision - Unanimous R3 5:00\n• Isaac Dulgarian (United States) vs Yadier del Valle (Cuba) - Featherweight Bout [-270 / +220] | Winner: Yadier del Valle via Submission R1 3:41\n• Charles Radtke (United States) vs Daniel Frunza (Romania) - Welterweight Bout [-170 / +142] | Winner: Charles Radtke via Submission R3 4:29\n• Allan Nascimento (Brazil) vs Cody Durden (United States) - Catchweight Bout [-285 / +230] | Winner: Allan Nascimento via Submission R2 3:13\n• Billy Elekana (United States) vs Kevin Christian (Brazil) - Light Heavyweight Bout [-265 / +215] | Winner: Billy Elekana via Submission R1 3:33\n• Timmy Cuamba (United States) vs ChangHo Lee (South Korea) - Bantamweight Bout [-112 / -108] | Winner: Timmy Cuamba via Decision - Unanimous R3 5:00\n• Donte Johnson (United States) vs Sedriques Dumas (United States) - Middleweight Bout [-355 / +280] | Winner: Donte Johnson via Submission R2 1:25\n• Ketlen Vieira (Brazil) vs Norma Dumont (Brazil) - Women's Bantamweight Bout [+145 / -175] | Winner: Norma Dumont via Decision - Split R3 5:00\n• Alice Ardelean (Romania) vs Montserrat Conejo Ruiz (Mexico) - Women's Strawweight Bout [-355 / +280] | Winner: Alice Ardelean via Decision - Unanimous R3 5:00\n• Phil Rowe (United States) vs Seokhyeon Ko (South Korea) - Welterweight Bout [+154 / -185] | Winner: Seokhyeon Ko via Decision - Unanimous R3 5:00\n• Talita Alencar (Brazil) vs Ariane Carnelossi (Brazil) - Women's Strawweight Bout [-225 / +185] | Winner: Talita Alencar via Submission R3 4:36\n\nMore info: https://www.ufc.com/event/ufc-fight-night-november-01-2025
 URL:https://www.ufc.com/event/ufc-fight-night-november-01-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-08-2025@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20261109T000000Z
 DTEND:20261109T040000Z
 SUMMARY:UFC Fight Night: Bonfim vs Brown
-LOCATION:UFC APEX\, Las Vegas\, NV United States
+LOCATION:Meta APEX\, Las Vegas\, NV United States
 DESCRIPTION:Main Card:\n• Gabriel Bonfim (Brazil) vs Randy Brown (Jamaica) - Welterweight Bout [- / -] | Winner: Gabriel Bonfim via KO/TKO R2 1:40\n• Matt Schnell (United States) vs Joseph Morales (United States) - Flyweight Bout [- / -] | Winner: Joseph Morales via Submission R1 2:54\n• Muslim Salikhov (Russia) vs Uroš Medić (Serbia) - Welterweight Bout [- / -] | Winner: Uroš Medić via KO/TKO R1 1:03\n• Chris Padilla (United States) vs Ismael Bonfim (Brazil) - Lightweight Bout [- / -] | Winner: Chris Padilla via KO/TKO R2 4:30\n• Christian Leroy Duncan (England) vs Marco Tulio (Brazil) - Middleweight Bout [- / -] | Winner: Christian Leroy Duncan via KO/TKO R2 3:20\n• Hyder Amil (Philippines) vs Jamall Emmers (United States) - Featherweight Bout [- / -] | Winner: Jamall Emmers via Decision - Unanimous R3 5:00\n• Ricky Simon (United States) vs Raoni Barcelos (Brazil) - Bantamweight Bout [- / -] | Winner: Raoni Barcelos via Decision - Unanimous R3 5:00\n• Mayra Bueno Silva (Brazil) vs Jacqueline Cavalcanti (Portugal) - Women's Bantamweight Bout [- / -] | Winner: Jacqueline Cavalcanti via Decision - Unanimous R3 5:00\n• Josh Hokit (United States) vs Max Gimenis (Brazil) - Heavyweight Bout [- / -] | Winner: Josh Hokit via KO/TKO R1 0:56\n• Tecia Pennington (United States) vs Denise Gomes (Brazil) - Women's Strawweight Bout [- / -] | Winner: Denise Gomes via Decision - Unanimous R3 5:00\n• Miles Johns (United States) vs Daniel Marcos (Peru) - Bantamweight Bout [- / -] | Winner: Daniel Marcos via Submission R2 4:23\n• Zach Reese (United States) vs Jackson McVey (United States) - Catchweight Bout [- / -] | Winner: Zach Reese via Submission R2 1:38\n\nMore info: https://www.ufc.com/event/ufc-fight-night-november-08-2025
 URL:https://www.ufc.com/event/ufc-fight-night-november-08-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-322@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20261116T030000Z
 DTEND:20261116T070000Z
 SUMMARY:UFC 322: Della Maddalena vs Makhachev
@@ -136,7 +136,7 @@ URL:https://www.ufc.com/event/ufc-322
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-22-2025@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20261122T180000Z
 DTEND:20261122T220000Z
 SUMMARY:UFC Fight Night: Tsarukyan vs Hooker
@@ -146,7 +146,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-november-22-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-323@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20261207T030000Z
 DTEND:20261207T070000Z
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
@@ -156,11 +156,11 @@ URL:https://www.ufc.com/event/ufc-323
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-december-13-2025@ufc.com
-DTSTAMP:20260111T003343Z
+DTSTAMP:20260118T003317Z
 DTSTART:20261214T030000Z
 DTEND:20261214T070000Z
 SUMMARY:UFC Fight Night: Royval vs Kape
-LOCATION:UFC APEX\, Las Vegas\, NV United States
+LOCATION:Meta APEX\, Las Vegas\, NV United States
 DESCRIPTION:Main Card:\n• Brandon Royval (United States) vs Manel Kape (Portugal) - Flyweight Bout [- / -] | Winner: Manel Kape via KO/TKO R1 3:18\n• Giga Chikadze (Georgia) vs Kevin Vallejos (Argentina) - Featherweight Bout [- / -] | Winner: Kevin Vallejos via KO/TKO R2 1:29\n• Cesar Almeida (Brazil) vs Cezary Oleksiejczuk (Poland) - Middleweight Bout [- / -] | Winner: Cezary Oleksiejczuk via Decision - Unanimous R3 5:00\n• Melquizael Costa (Brazil) vs Morgan Charriere (France) - Featherweight Bout [- / -] | Winner: Melquizael Costa via KO/TKO R1 1:14\n• Kennedy Nzechukwu (Nigeria) vs Marcus Buchecha (Brazil) - Heavyweight Bout [- / -]\n• King Green (United States) vs Lance Gibson Jr. (Canada) - Catchweight Bout [- / -] | Winner: King Green via Decision - Split R3 5:00\n• Joanderson Brito (Brazil) vs Isaac Thomson (Australia) - Featherweight Bout [- / -] | Winner: Joanderson Brito via Decision - Unanimous R3 5:00\n• Neil Magny (United States) vs Yaroslav Amosov (Ukraine) - Welterweight Bout [- / -] | Winner: Yaroslav Amosov via Submission R1 3:14\n• Sean Sharaf (United States) vs Steven Asplund (United States) - Heavyweight Bout [- / -] | Winner: Steven Asplund via KO/TKO R2 3:49\n• Melissa Croden (Canada) vs Luana Santos (Brazil) - Women's Bantamweight Bout [- / -] | Winner: Luana Santos via Decision - Unanimous R3 5:00\n• Allen Frye Jr. (United States) vs Guilherme Pat (Brazil) - Heavyweight Bout [- / -] | Winner: Guilherme Pat via Decision - Unanimous R3 5:00\n• Jamey-Lyn Horth (Canada) vs Tereza Bledá (Czechia) - Women's Flyweight Bout [- / -] | Winner: Jamey-Lyn Horth via KO/TKO R1 2:05\n\nMore info: https://www.ufc.com/event/ufc-fight-night-december-13-2025
 URL:https://www.ufc.com/event/ufc-fight-night-december-13-2025
 END:VEVENT
