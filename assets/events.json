@@ -14,8 +14,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/justin-gaethje",
         "fighter2_url": "https://www.ufc.com/athlete/paddy-pimblett",
         "weight_class": "Lightweight Interim Title Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "+187",
+        "odds2": "-180",
         "country1": "United States",
         "country2": "England"
       },
@@ -25,8 +25,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/sean-omalley",
         "fighter2_url": "https://www.ufc.com/athlete/yadong-song",
         "weight_class": "Bantamweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "-200",
+        "odds2": "+170",
         "country1": "United States",
         "country2": "China"
       },
@@ -36,8 +36,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/waldo-cortes-acosta",
         "fighter2_url": "https://www.ufc.com/athlete/derrick-lewis",
         "weight_class": "Heavyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "-334",
+        "odds2": "+250",
         "country1": "Dominican Republic",
         "country2": "United States"
       },
@@ -47,8 +47,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/natalia-silva",
         "fighter2_url": "https://www.ufc.com/athlete/rose-namajunas",
         "weight_class": "Women's Flyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "-400",
+        "odds2": "+300",
         "country1": "Brazil",
         "country2": "United States"
       },
@@ -58,8 +58,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/arnold-allen",
         "fighter2_url": "https://www.ufc.com/athlete/jean-silva",
         "weight_class": "Featherweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "+225",
+        "odds2": "-275",
         "country1": "England",
         "country2": "Brazil"
       },
@@ -69,8 +69,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/umar-nurmagomedov",
         "fighter2_url": "https://www.ufc.com/athlete/deiveson-figueiredo",
         "weight_class": "Bantamweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "-1400",
+        "odds2": "+800",
         "country1": "Russia",
         "country2": "Brazil"
       },
@@ -80,8 +80,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/ateba-gautier",
         "fighter2_url": "https://www.ufc.com/athlete/andrey-pulyaev",
         "weight_class": "Middleweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "-1000",
+        "odds2": "+600",
         "country1": "Cameroon",
         "country2": "Russia"
       },
@@ -91,8 +91,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/nikita-krylov",
         "fighter2_url": "https://www.ufc.com/athlete/modestas-bukauskas",
         "weight_class": "Light Heavyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "+110",
+        "odds2": "-138",
         "country1": "Russia",
         "country2": "Lithuania"
       },
@@ -102,19 +102,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/alex-perez",
         "fighter2_url": "https://www.ufc.com/athlete/charles-johnson",
         "weight_class": "Flyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "United States",
-        "country2": "United States"
-      },
-      {
-        "fighter1": "Michael Johnson",
-        "fighter2": "Alexander Hernandez",
-        "fighter1_url": "https://www.ufc.com/athlete/michael-johnson",
-        "fighter2_url": "https://www.ufc.com/athlete/alexander-hernandez",
-        "weight_class": "Lightweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "+170",
+        "odds2": "-200",
         "country1": "United States",
         "country2": "United States"
       },
@@ -124,19 +113,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/josh-hokit",
         "fighter2_url": "https://www.ufc.com/athlete/denzel-freeman",
         "weight_class": "Heavyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "United States",
-        "country2": "United States"
-      },
-      {
-        "fighter1": "Ricky Turcios",
-        "fighter2": "Cameron Smotherman",
-        "fighter1_url": "https://www.ufc.com/athlete/ricky-turcios",
-        "fighter2_url": "https://www.ufc.com/athlete/cameron-smotherman",
-        "weight_class": "Bantamweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "-225",
+        "odds2": "+187",
         "country1": "United States",
         "country2": "United States"
       },
@@ -146,8 +124,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/adam-fugitt",
         "fighter2_url": "https://www.ufc.com/athlete/ty-miller",
         "weight_class": "Welterweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "+350",
+        "odds2": "-450",
         "country1": "United States",
         "country2": "United States"
       }
@@ -155,7 +133,7 @@
   },
   {
     "name": "UFC 325",
-    "headline": "Volkanovski vs Lopes",
+    "headline": "Volkanovski vs Lopes 2",
     "date": "Sat, Jan 31 / 9:00 PM EST / Main Card",
     "parsed_date": "2026-01-31T21:00:00-05:00",
     "venue": "Qudos Bank Arena",
@@ -208,14 +186,14 @@
       },
       {
         "fighter1": "Quillan Salkilld",
-        "fighter2": "Rongzhu",
+        "fighter2": "Jamie Mullarkey",
         "fighter1_url": "https://www.ufc.com/athlete/quillan-salkilld",
-        "fighter2_url": "https://www.ufc.com/athlete/zhu-rong",
+        "fighter2_url": "https://www.ufc.com/athlete/jamie-mullarkey",
         "weight_class": "Lightweight Bout",
         "odds1": "-",
         "odds2": "-",
         "country1": "Australia",
-        "country2": "China"
+        "country2": "Australia"
       },
       {
         "fighter1": "Junior Tafa",

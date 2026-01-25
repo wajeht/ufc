@@ -6,27 +6,27 @@ METHOD:PUBLISH
 X-WR-CALNAME:UFC Events
 BEGIN:VEVENT
 UID:-event-ufc-324@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20260125T020000Z
 DTEND:20260125T060000Z
 SUMMARY:UFC 324: Gaethje vs Pimblett
 LOCATION:T-Mobile Arena\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Justin Gaethje (United States) vs Paddy Pimblett (England) - Lightweight Interim Title Bout [- / -]\n• Sean O'Malley (United States) vs Song Yadong (China) - Bantamweight Bout [- / -]\n• Waldo Cortes Acosta (Dominican Republic) vs Derrick Lewis (United States) - Heavyweight Bout [- / -]\n• Natalia Silva (Brazil) vs Rose Namajunas (United States) - Women's Flyweight Bout [- / -]\n• Arnold Allen (England) vs Jean Silva (Brazil) - Featherweight Bout [- / -]\n• Umar Nurmagomedov (Russia) vs Deiveson Figueiredo (Brazil) - Bantamweight Bout [- / -]\n• Ateba Gautier (Cameroon) vs Andrey Pulyaev (Russia) - Middleweight Bout [- / -]\n• Nikita Krylov (Russia) vs Modestas Bukauskas (Lithuania) - Light Heavyweight Bout [- / -]\n• Alex Perez (United States) vs Charles Johnson (United States) - Flyweight Bout [- / -]\n• Michael Johnson (United States) vs Alexander Hernandez (United States) - Lightweight Bout [- / -]\n• Josh Hokit (United States) vs Denzel Freeman (United States) - Heavyweight Bout [- / -]\n• Ricky Turcios (United States) vs Cameron Smotherman (United States) - Bantamweight Bout [- / -]\n• Adam Fugitt (United States) vs Ty Miller (United States) - Welterweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-324
+DESCRIPTION:Main Card:\n• Justin Gaethje (United States) vs Paddy Pimblett (England) - Lightweight Interim Title Bout [+187 / -180]\n• Sean O'Malley (United States) vs Song Yadong (China) - Bantamweight Bout [-200 / +170]\n• Waldo Cortes Acosta (Dominican Republic) vs Derrick Lewis (United States) - Heavyweight Bout [-334 / +250]\n• Natalia Silva (Brazil) vs Rose Namajunas (United States) - Women's Flyweight Bout [-400 / +300]\n• Arnold Allen (England) vs Jean Silva (Brazil) - Featherweight Bout [+225 / -275]\n• Umar Nurmagomedov (Russia) vs Deiveson Figueiredo (Brazil) - Bantamweight Bout [-1400 / +800]\n• Ateba Gautier (Cameroon) vs Andrey Pulyaev (Russia) - Middleweight Bout [-1000 / +600]\n• Nikita Krylov (Russia) vs Modestas Bukauskas (Lithuania) - Light Heavyweight Bout [+110 / -138]\n• Alex Perez (United States) vs Charles Johnson (United States) - Flyweight Bout [+170 / -200]\n• Josh Hokit (United States) vs Denzel Freeman (United States) - Heavyweight Bout [-225 / +187]\n• Adam Fugitt (United States) vs Ty Miller (United States) - Welterweight Bout [+350 / -450]\n\nMore info: https://www.ufc.com/event/ufc-324
 URL:https://www.ufc.com/event/ufc-324
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-325@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20260201T020000Z
 DTEND:20260201T060000Z
-SUMMARY:UFC 325: Volkanovski vs Lopes
+SUMMARY:UFC 325: Volkanovski vs Lopes 2
 LOCATION:Qudos Bank Arena\, Sydney Olympic Park NSW Australia
-DESCRIPTION:Main Card:\n• Alexander Volkanovski (Australia) vs Diego Lopes (Brazil) - Featherweight Title Bout [- / -]\n• Dan Hooker (New Zealand) vs Benoît Saint Denis (France) - Lightweight Bout [- / -]\n• Rafael Fiziev (Azerbaijan) vs Mauricio Ruffy (Brazil) - Lightweight Bout [- / -]\n• Tai Tuivasa (Australia) vs Tallison Teixeira (Brazil) - Heavyweight Bout [- / -]\n• Quillan Salkilld (Australia) vs Rongzhu (China) - Lightweight Bout [- / -]\n• Junior Tafa (Australia) vs Billy Elekana (United States) - Light Heavyweight Bout [- / -]\n• Cam Rowston (Australia) vs Cody Brundage (United States) - Middleweight Bout [- / -]\n• Jacob Malkoun (Australia) vs Torrez Finney (United States) - Middleweight Bout [- / -]\n• Jonathan Micallef (Australia) vs Oban Elliott (Wales) - Welterweight Bout [- / -]\n• Kaan Ofli (Australia) vs Yizha (China) - Featherweight Bout [- / -]\n• SangWook Kim (South Korea) vs Dom Mar Fan (Australia) - Lightweight Bout [- / -]\n• Keiichiro Nakamura (Japan) vs Sebastian Szalay (Australia) - Featherweight Bout [- / -]\n• Sulangrangbo (China) vs Lawrence Lui (New Zealand) - Bantamweight Bout [- / -]\n• Aaron Tau (New Zealand) vs Namsrai Batbayar (Mongolia) - Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-325
+DESCRIPTION:Main Card:\n• Alexander Volkanovski (Australia) vs Diego Lopes (Brazil) - Featherweight Title Bout [- / -]\n• Dan Hooker (New Zealand) vs Benoît Saint Denis (France) - Lightweight Bout [- / -]\n• Rafael Fiziev (Azerbaijan) vs Mauricio Ruffy (Brazil) - Lightweight Bout [- / -]\n• Tai Tuivasa (Australia) vs Tallison Teixeira (Brazil) - Heavyweight Bout [- / -]\n• Quillan Salkilld (Australia) vs Jamie Mullarkey (Australia) - Lightweight Bout [- / -]\n• Junior Tafa (Australia) vs Billy Elekana (United States) - Light Heavyweight Bout [- / -]\n• Cam Rowston (Australia) vs Cody Brundage (United States) - Middleweight Bout [- / -]\n• Jacob Malkoun (Australia) vs Torrez Finney (United States) - Middleweight Bout [- / -]\n• Jonathan Micallef (Australia) vs Oban Elliott (Wales) - Welterweight Bout [- / -]\n• Kaan Ofli (Australia) vs Yizha (China) - Featherweight Bout [- / -]\n• SangWook Kim (South Korea) vs Dom Mar Fan (Australia) - Lightweight Bout [- / -]\n• Keiichiro Nakamura (Japan) vs Sebastian Szalay (Australia) - Featherweight Bout [- / -]\n• Sulangrangbo (China) vs Lawrence Lui (New Zealand) - Bantamweight Bout [- / -]\n• Aaron Tau (New Zealand) vs Namsrai Batbayar (Mongolia) - Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-325
 URL:https://www.ufc.com/event/ufc-325
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-07-2026@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20260208T020000Z
 DTEND:20260208T060000Z
 SUMMARY:UFC Fight Night: Bautista vs Oliveira
@@ -36,7 +36,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-february-07-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-21-2026@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20260222T010000Z
 DTEND:20260222T050000Z
 SUMMARY:UFC Fight Night: Strickland vs Hernandez
@@ -46,7 +46,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-february-21-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-28-2026@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20260301T020000Z
 DTEND:20260301T060000Z
 SUMMARY:UFC Fight Night: Moreno vs Almabayev
@@ -56,7 +56,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-february-28-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-326@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20260308T020000Z
 DTEND:20260308T060000Z
 SUMMARY:UFC 326: Holloway vs Oliveira 2
@@ -66,7 +66,7 @@ URL:https://www.ufc.com/event/ufc-326
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-march-14-2026@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20260315T010000Z
 DTEND:20260315T050000Z
 SUMMARY:UFC Fight Night: Emmett vs Vallejos
@@ -76,7 +76,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-march-14-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-march-21-2026@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20260321T200000Z
 DTEND:20260322T000000Z
 SUMMARY:UFC Fight Night: TBD vs TBD
@@ -86,7 +86,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-march-21-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-october-18-2025@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20261018T230000Z
 DTEND:20261019T030000Z
 SUMMARY:UFC Fight Night: de Ridder vs Allen
@@ -96,7 +96,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-october-18-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-321@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20261025T180000Z
 DTEND:20261025T220000Z
 SUMMARY:UFC 321: Aspinall vs Gane
@@ -106,7 +106,7 @@ URL:https://www.ufc.com/event/ufc-321
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-01-2025@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20261101T230000Z
 DTEND:20261102T030000Z
 SUMMARY:UFC Fight Night: Garcia vs Onama
@@ -116,7 +116,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-november-01-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-08-2025@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20261109T000000Z
 DTEND:20261109T040000Z
 SUMMARY:UFC Fight Night: Bonfim vs Brown
@@ -126,7 +126,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-november-08-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-322@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20261116T030000Z
 DTEND:20261116T070000Z
 SUMMARY:UFC 322: Della Maddalena vs Makhachev
@@ -136,7 +136,7 @@ URL:https://www.ufc.com/event/ufc-322
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-22-2025@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20261122T180000Z
 DTEND:20261122T220000Z
 SUMMARY:UFC Fight Night: Tsarukyan vs Hooker
@@ -146,7 +146,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-november-22-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-323@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20261207T030000Z
 DTEND:20261207T070000Z
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
@@ -156,7 +156,7 @@ URL:https://www.ufc.com/event/ufc-323
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-december-13-2025@ufc.com
-DTSTAMP:20260118T003317Z
+DTSTAMP:20260125T003445Z
 DTSTART:20261214T030000Z
 DTEND:20261214T070000Z
 SUMMARY:UFC Fight Night: Royval vs Kape
