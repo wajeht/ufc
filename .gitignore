@@ -31,6 +31,9 @@ go.work.sum
 # .idea/
 # .vscode/
 
+# Claude
+.claude/
+
 # Binaries
 bin/
 

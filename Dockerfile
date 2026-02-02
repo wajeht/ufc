@@ -18,7 +18,6 @@ RUN addgroup -g 1001 -S ufc && adduser -S ufc -u 1001 -G ufc
 WORKDIR /app
 
 COPY --from=build /app/ufc-web ./ufc-web
-COPY --from=build /app/assets ./assets
 
 USER ufc
 

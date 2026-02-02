@@ -8,16 +8,15 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
-	"path/filepath"
 	"syscall"
 	"time"
 
+	"github.com/wajeht/ufc/assets"
 	"github.com/wajeht/ufc/internal/ufc"
 )
 
 func main() {
 	port := flag.String("port", "80", "port to listen on")
-	assetsDir := flag.String("assets", "assets", "assets directory")
 	flag.Parse()
 
 	if p := os.Getenv("PORT"); p != "" {
@@ -27,10 +26,23 @@ func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("GET /events.ics", func(w http.ResponseWriter, r *http.Request) {
-		icsPath := filepath.Join(*assetsDir, "events.ics")
-		data, err := os.ReadFile(icsPath)
+		data, err := assets.FS.ReadFile("events.ics")
 		if err != nil {
-			http.Error(w, "Calendar not found", http.StatusNotFound)
+			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+			w.WriteHeader(http.StatusNotFound)
+			fmt.Fprintf(w, `<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>404 Not Found</h1>
+    <p>Calendar not found.</p>
+    <p><a href="/">Go to homepage</a></p>
+</body>
+</html>`)
 			return
 		}
 
@@ -40,10 +52,23 @@ func main() {
 	})
 
 	mux.HandleFunc("GET /events.json", func(w http.ResponseWriter, r *http.Request) {
-		jsonPath := filepath.Join(*assetsDir, "events.json")
-		data, err := os.ReadFile(jsonPath)
+		data, err := assets.FS.ReadFile("events.json")
 		if err != nil {
-			http.Error(w, "Events not found", http.StatusNotFound)
+			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+			w.WriteHeader(http.StatusNotFound)
+			fmt.Fprintf(w, `<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>404 Not Found</h1>
+    <p>Events not found.</p>
+    <p><a href="/">Go to homepage</a></p>
+</body>
+</html>`)
 			return
 		}
 
@@ -56,15 +81,76 @@ func main() {
 		w.Write([]byte("ok"))
 	})
 
-	mux.HandleFunc("GET /", func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.Path != "/" {
-			http.NotFound(w, r)
+	mux.HandleFunc("GET /favicon.ico", func(w http.ResponseWriter, r *http.Request) {
+		data, err := assets.FS.ReadFile("favicon.ico")
+		if err != nil {
+			w.WriteHeader(http.StatusNotFound)
 			return
 		}
 
-		events, err := ufc.LoadEvents(filepath.Join(*assetsDir, "events.json"))
+		w.Header().Set("Content-Type", "image/x-icon")
+		w.Write(data)
+	})
+
+	mux.HandleFunc("GET /robots.txt", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/plain")
+		fmt.Fprint(w, `User-agent: *
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+`)
+	})
+
+	mux.HandleFunc("GET /", func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path != "/" {
+			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+			w.WriteHeader(http.StatusNotFound)
+			fmt.Fprintf(w, `<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>404 Not Found</h1>
+    <p>The page you requested could not be found.</p>
+    <p><a href="/">Go to homepage</a></p>
+</body>
+</html>`)
+			return
+		}
+
+		events, err := ufc.LoadEventsFromFS(assets.FS, "events.json")
 		if err != nil {
-			http.Error(w, "Failed to load events", http.StatusInternalServerError)
+			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+			w.WriteHeader(http.StatusInternalServerError)
+			fmt.Fprintf(w, `<!DOCTYPE html>
+<html>
+<head>
+    <title>500 Internal Server Error</title>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>500 Internal Server Error</h1>
+    <p>Failed to load events.</p>
+    <p><a href="/">Go to homepage</a></p>
+</body>
+</html>`)
 			return
 		}
 
@@ -73,37 +159,109 @@ func main() {
 <html>
 <head>
     <title>UFC Calendar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { margin-bottom: 10px; }
-        .subscribe { background: #d20a0a; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 10px 0; border-radius: 4px; }
-        .event { border-bottom: 1px solid #eee; padding: 15px 0; }
-        .event-name { font-weight: bold; font-size: 1.1em; }
-        .event-date { color: #666; margin: 5px 0; }
-        .event-location { color: #888; font-size: 0.9em; }
-        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
-    </style>
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <h1>UFC Calendar</h1>
     <p>Subscribe to upcoming UFC events in your calendar app.</p>
-    <a class="subscribe" href="/events.ics">Download Calendar (.ics)</a>
+    <p><a href="/events.ics">Download Calendar (.ics)</a></p>
     <p>Or subscribe via URL: <code>%s/events.ics</code></p>
     <h2>Upcoming Events (%d)</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Venue</th>
+            <th>Location</th>
+            <th>Fights</th>
+        </tr>
+    </thead>
+    <tbody>
 `, r.Host, len(events))
 
 		for _, e := range events {
-			fmt.Fprintf(w, `<div class="event">
-        <div class="event-name">%s: %s</div>
-        <div class="event-date">%s</div>
-        <div class="event-location">%s, %s</div>
-        <div>%d fights</div>
-    </div>
-`, e.Name, e.Headline, e.Date, e.Venue, e.Location, len(e.Fights))
+			fmt.Fprintf(w, `<tr>`)
+			fmt.Fprintf(w, `<td><a href="https://www.ufc.com%s"><strong>%s</strong><br>%s</a></td>`, e.URL, e.Name, e.Headline)
+			fmt.Fprintf(w, `<td>%s</td>`, e.Date)
+			fmt.Fprintf(w, `<td>%s</td>`, e.Venue)
+			fmt.Fprintf(w, `<td>%s</td>`, e.Location)
+
+			// Fights column
+			fmt.Fprintf(w, `<td>`)
+			if len(e.Fights) > 0 {
+				fmt.Fprintf(w, `<details><summary>%d fights</summary>`, len(e.Fights))
+				fmt.Fprintf(w, `<table border="1" cellpadding="3" cellspacing="0">`)
+				fmt.Fprintf(w, `<thead><tr><th>Weight Class</th><th>Fighter 1</th><th>Odds</th><th></th><th>Fighter 2</th><th>Odds</th><th>Method</th><th>R</th><th>Time</th></tr></thead>`)
+				fmt.Fprintf(w, `<tbody>`)
+				for _, f := range e.Fights {
+					// Fighter names with links and winner indicator
+					f1 := f.Fighter1
+					f2 := f.Fighter2
+					if f.Fighter1URL != "" {
+						f1 = fmt.Sprintf(`<a href="%s">%s</a>`, f.Fighter1URL, f.Fighter1)
+					}
+					if f.Fighter2URL != "" {
+						f2 = fmt.Sprintf(`<a href="%s">%s</a>`, f.Fighter2URL, f.Fighter2)
+					}
+					if f.Country1 != "" {
+						f1 += "<br><small>" + f.Country1 + "</small>"
+					}
+					if f.Country2 != "" {
+						f2 += "<br><small>" + f.Country2 + "</small>"
+					}
+					if f.Winner == 1 {
+						f1 = "<strong>" + f1 + "</strong>"
+					} else if f.Winner == 2 {
+						f2 = "<strong>" + f2 + "</strong>"
+					}
+
+					// Odds - show dash if empty or just "-"
+					odds1 := f.Odds1
+					odds2 := f.Odds2
+					if odds1 == "" || odds1 == "-" {
+						odds1 = "-"
+					}
+					if odds2 == "" || odds2 == "-" {
+						odds2 = "-"
+					}
+
+					// Result
+					method := f.Method
+					if method == "" {
+						method = "-"
+					}
+					round := f.Round
+					if round == "" {
+						round = "-"
+					}
+					ftime := f.Time
+					if ftime == "" {
+						ftime = "-"
+					}
+
+					fmt.Fprintf(w, `<tr>`)
+					fmt.Fprintf(w, `<td>%s</td>`, f.WeightClass)
+					fmt.Fprintf(w, `<td>%s</td>`, f1)
+					fmt.Fprintf(w, `<td>%s</td>`, odds1)
+					fmt.Fprintf(w, `<td>vs</td>`)
+					fmt.Fprintf(w, `<td>%s</td>`, f2)
+					fmt.Fprintf(w, `<td>%s</td>`, odds2)
+					fmt.Fprintf(w, `<td>%s</td>`, method)
+					fmt.Fprintf(w, `<td>%s</td>`, round)
+					fmt.Fprintf(w, `<td>%s</td>`, ftime)
+					fmt.Fprintf(w, `</tr>`)
+				}
+				fmt.Fprintf(w, `</tbody></table></details>`)
+			} else {
+				fmt.Fprintf(w, `0 fights`)
+			}
+			fmt.Fprintf(w, `</td></tr>
+`)
 		}
 
-		fmt.Fprintf(w, `</body></html>`)
+		fmt.Fprintf(w, `</tbody></table></body></html>`)
 	})
 
 	srv := &http.Server{

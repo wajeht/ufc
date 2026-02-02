@@ -145,11 +145,55 @@ func (s *Scraper) parseFight(sel *goquery.Selection) *Fight {
 		weightClass = weightClass[:idx+4]
 	}
 
-	return &Fight{
+	fight := &Fight{
 		Fighter1:    fighter1,
 		Fighter2:    fighter2,
 		WeightClass: weightClass,
 	}
+
+	// Determine winner (red corner is fighter1, blue corner is fighter2)
+	if sel.Find(".c-listing-fight__corner--red .c-listing-fight__outcome--win").Length() > 0 {
+		fight.Winner = 1
+	} else if sel.Find(".c-listing-fight__corner--blue .c-listing-fight__outcome--win").Length() > 0 {
+		fight.Winner = 2
+	}
+
+	// Extract round, time, method from result sections
+	sel.Find(".c-listing-fight__result").Each(func(_ int, result *goquery.Selection) {
+		label := cleanText(result.Find(".c-listing-fight__result-label").Text())
+		value := cleanText(result.Find(".c-listing-fight__result-text").Text())
+		switch label {
+		case "Round":
+			fight.Round = value
+		case "Time":
+			fight.Time = value
+		case "Method":
+			fight.Method = value
+		}
+	})
+
+	// Extract odds
+	odds := sel.Find(".c-listing-fight__odds-amount")
+	if odds.Length() >= 2 {
+		fight.Odds1 = cleanText(odds.Eq(0).Text())
+		fight.Odds2 = cleanText(odds.Eq(1).Text())
+	}
+
+	// Extract countries
+	countries := sel.Find(".c-listing-fight__country-text")
+	if countries.Length() >= 2 {
+		fight.Country1 = cleanText(countries.Eq(0).Text())
+		fight.Country2 = cleanText(countries.Eq(1).Text())
+	}
+
+	// Extract athlete URLs from corner name links
+	fighterLinks := sel.Find(".c-listing-fight__corner-name a[href*='athlete']")
+	if fighterLinks.Length() >= 2 {
+		fight.Fighter1URL, _ = fighterLinks.Eq(0).Attr("href")
+		fight.Fighter2URL, _ = fighterLinks.Eq(1).Attr("href")
+	}
+
+	return fight
 }
 
 func cleanText(s string) string {

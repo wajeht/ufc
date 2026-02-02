@@ -3,6 +3,7 @@ package ufc
 import (
 	"encoding/json"
 	"fmt"
+	"io/fs"
 	"os"
 )
 
@@ -26,6 +27,20 @@ func SaveEvents(events []*EventDetails, filename string) error {
 
 func LoadEvents(filename string) ([]*EventDetails, error) {
 	data, err := os.ReadFile(filename)
+	if err != nil {
+		return nil, fmt.Errorf("reading file: %w", err)
+	}
+
+	var events []*EventDetails
+	if err := json.Unmarshal(data, &events); err != nil {
+		return nil, fmt.Errorf("unmarshaling events: %w", err)
+	}
+
+	return events, nil
+}
+
+func LoadEventsFromFS(fsys fs.FS, filename string) ([]*EventDetails, error) {
+	data, err := fs.ReadFile(fsys, filename)
 	if err != nil {
 		return nil, fmt.Errorf("reading file: %w", err)
 	}
