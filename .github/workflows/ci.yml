@@ -54,7 +54,7 @@ jobs:
       - name: Deploy Image to Production
         uses: caprover/deploy-from-github@v1.1.2
         with:
-          server: '${{ secrets.CAPROVER_SERVER }}'
+          server: '${{ secrets.CAPROVER_DOMAIN }}'
           app: '${{ secrets.APP_NAME }}'
-          token: '${{ secrets.APP_TOKEN }}'
+          token: '${{ secrets.CAPROVER_APP_TOKEN }}'
           image: ${{ env.IMAGE_URL }}
