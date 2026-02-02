@@ -50,3 +50,11 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ env.IMAGE_URL }}
+
+      - name: Deploy Image to Production
+        uses: caprover/deploy-from-github@v1.1.2
+        with:
+          server: '${{ secrets.CAPROVER_SERVER }}'
+          app: '${{ secrets.APP_NAME }}'
+          token: '${{ secrets.APP_TOKEN }}'
+          image: ${{ env.IMAGE_URL }}
