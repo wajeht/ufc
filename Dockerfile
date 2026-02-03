@@ -13,7 +13,7 @@ FROM alpine:latest
 
 RUN apk --no-cache add ca-certificates curl
 
-RUN addgroup -g 1001 -S ufc && adduser -S ufc -u 1001 -G ufc
+RUN addgroup -g 1000 -S ufc && adduser -S ufc -u 1000 -G ufc
 
 WORKDIR /app
 
