@@ -47,4 +47,4 @@ jobs:
       app-path: apps/ufc
       tag: ${{ needs.build-and-push.outputs.version }}
     secrets:
-      deploy-key: ${{ secrets.HOME_OPS_DEPLOY_KEY }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
