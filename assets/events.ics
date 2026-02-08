@@ -5,28 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:UFC Events
 BEGIN:VEVENT
-UID:-event-ufc-325@ufc.com
-DTSTAMP:20260201T004229Z
-DTSTART:20260201T020000Z
-DTEND:20260201T060000Z
-SUMMARY:UFC 325: Volkanovski vs Lopes 2
-LOCATION:Qudos Bank Arena\, Sydney Olympic Park NSW Australia
-DESCRIPTION:Main Card:\n• Alexander Volkanovski (Australia) vs Diego Lopes (Brazil) - Featherweight Title Bout [-150 / +125]\n• Dan Hooker (New Zealand) vs Benoît Saint Denis (France) - Lightweight Bout [+275 / -350]\n• Rafael Fiziev (Azerbaijan) vs Mauricio Ruffy (Brazil) - Lightweight Bout [+100 / -125]\n• Tai Tuivasa (Australia) vs Tallison Teixeira (Brazil) - Heavyweight Bout [+275 / -350]\n• Quillan Salkilld (Australia) vs Jamie Mullarkey (Australia) - Lightweight Bout [-1200 / +700]\n• Junior Tafa (Australia) vs Billy Elekana (United States) - Light Heavyweight Bout [+200 / -250]\n• Cam Rowston (Australia) vs Cody Brundage (United States) - Middleweight Bout [-350 / +275]\n• Jacob Malkoun (Australia) vs Torrez Finney (United States) - Middleweight Bout [-138 / +110]\n• Jonathan Micallef (Australia) vs Oban Elliott (Wales) - Welterweight Bout [-138 / +110]\n• Kaan Ofli (Australia) vs Yizha (China) - Featherweight Bout [+170 / -200]\n• SangWook Kim (South Korea) vs Dom Mar Fan (Australia) - Lightweight Bout [+125 / -150]\n• Keiichiro Nakamura (Japan) vs Sebastian Szalay (Australia) - Featherweight Bout [+125 / -150]\n• Sulangrangbo (China) vs Lawrence Lui (New Zealand) - Bantamweight Bout [-250 / +200]\n\nMore info: https://www.ufc.com/event/ufc-325
-URL:https://www.ufc.com/event/ufc-325
-END:VEVENT
-BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-07-2026@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20260208T010000Z
 DTEND:20260208T050000Z
 SUMMARY:UFC Fight Night: Bautista vs Oliveira
 LOCATION:Meta APEX\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Mario Bautista (United States) vs Vinicius Oliveira (Brazil) - Bantamweight Bout [- / -]\n• Amir Albazi (Iraq) vs Kyoji Horiguchi (Japan) - Flyweight Bout [- / -]\n• Jailton Almeida (Brazil) vs Rizvan Kuniev (Russia) - Heavyweight Bout [- / -]\n• Michal Oleksiejczuk (Poland) vs Marc-Andre Barriault (Canada) - Middleweight Bout [- / -]\n• Jean Matsumoto (Brazil) vs Farid Basharat - Bantamweight Bout [- / -]\n• Dustin Jacoby (United States) vs Julius Walker (United States) - Light Heavyweight Bout [- / -]\n• Alex Morono (United States) vs Daniil Donchenko (Ukraine) - Welterweight Bout [- / -]\n• Bruna Brasil (Brazil) vs Ketlen Souza (Brazil) - Women's Strawweight Bout [- / -]\n• Said Nurmagomedov (Russia) vs Javid Basharat - Bantamweight Bout [- / -]\n• Wang Cong (China) vs Eduarda Moura (Brazil) - Women's Flyweight Bout [- / -]\n• Muin Gafurov (Tajikistan) vs Jakub Wiklacz (Poland) - Bantamweight Bout [- / -]\n• Klaudia Syguła (Poland) vs Priscila Cachoeira (Brazil) - Women's Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-07-2026
+DESCRIPTION:Main Card:\n• Mario Bautista (United States) vs Vinicius Oliveira (Brazil) - Bantamweight Bout [-175 / +150]\n• Amir Albazi (Iraq) vs Kyoji Horiguchi (Japan) - Flyweight Bout [+300 / -400]\n• Jailton Almeida (Brazil) vs Rizvan Kuniev (Russia) - Heavyweight Bout [- / -]\n• Michal Oleksiejczuk (Poland) vs Marc-Andre Barriault (Canada) - Middleweight Bout [- / -]\n• Jean Matsumoto (Brazil) vs Farid Basharat - Bantamweight Bout [- / -]\n• Dustin Jacoby (United States) vs Julius Walker (United States) - Light Heavyweight Bout [- / -]\n• Alex Morono (United States) vs Daniil Donchenko (Ukraine) - Welterweight Bout [- / -]\n• Nikolay Veretennikov (Kazakhstan) vs Niko Price (United States) - Welterweight Bout [- / -]\n• Bruna Brasil (Brazil) vs Ketlen Souza (Brazil) - Women's Strawweight Bout [- / -]\n• Javid Basharat vs Gianni Vazquez (Mexico) - Bantamweight Bout [- / -]\n• Wang Cong (China) vs Eduarda Moura (Brazil) - Women's Flyweight Bout [- / -]\n• Muin Gafurov (Tajikistan) vs Jakub Wiklacz (Poland) - Bantamweight Bout [- / -]\n• Klaudia Sygula (Poland) vs Priscila Cachoeira (Brazil) - Women's Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-07-2026
 URL:https://www.ufc.com/event/ufc-fight-night-february-07-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-21-2026@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20260222T010000Z
 DTEND:20260222T050000Z
 SUMMARY:UFC Fight Night: Strickland vs Hernandez
@@ -36,17 +26,17 @@ URL:https://www.ufc.com/event/ufc-fight-night-february-21-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-28-2026@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20260301T010000Z
 DTEND:20260301T050000Z
-SUMMARY:UFC Fight Night: Moreno vs Almabayev
+SUMMARY:UFC Fight Night: Moreno vs Kavanagh
 LOCATION:Arena CDMX\, México D.F.\, CDMX Mexico
-DESCRIPTION:Main Card:\n• Brandon Moreno (Mexico) vs Asu Almabayev (Kazakhstan) - Flyweight Bout [- / -]\n• Marlon Vera (Ecuador) vs David Martinez (Mexico) - Bantamweight Bout [- / -]\n• Macy Chiasson (United States) vs Ailin Perez (Argentina) - Women's Bantamweight Bout [- / -]\n• Edgar Chairez (Mexico) vs Felipe Bunes (Brazil) - Flyweight Bout [- / -]\n• Daniel Zellhuber (Mexico) vs King Green (United States) - Lightweight Bout [- / -]\n• Imanol Rodriguez (Mexico) vs Kevin Borjas (Peru) - Flyweight Bout [- / -]\n• Santiago Luna (Mexico) vs Angel Pacheco (United States) - Bantamweight Bout [- / -]\n• Ryan Gandra (Brazil) vs Jose Daniel Medina (Bolivia) - Middleweight Bout [- / -]\n• Cristian Quiñonez (Mexico) vs Kris Moutinho (United States) - Bantamweight Bout [- / -]\n• Damian Pinas (Suriname) vs Wes Schultz (United States) - Middleweight Bout [- / -]\n• Sofia Montenegro (Argentina) vs Ernesta Kareckaitė (Lithuania) - Women's Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-28-2026
+DESCRIPTION:Main Card:\n• Brandon Moreno (Mexico) vs Lone’er Kavanagh (England) - Flyweight Bout [- / -]\n• Marlon Vera (Ecuador) vs David Martinez (Mexico) - Bantamweight Bout [- / -]\n• Daniel Zellhuber (Mexico) vs King Green (United States) - Lightweight Bout [- / -]\n• Edgar Chairez (Mexico) vs Felipe Bunes (Brazil) - Flyweight Bout [- / -]\n• Imanol Rodriguez (Mexico) vs Kevin Borjas (Peru) - Flyweight Bout [- / -]\n• Santiago Luna (Mexico) vs Angel Pacheco (United States) - Bantamweight Bout [- / -]\n• Ryan Gandra (Brazil) vs Jose Daniel Medina (Bolivia) - Middleweight Bout [- / -]\n• Ailin Perez (Argentina) vs Macy Chiasson (United States) - Women's Bantamweight Bout [- / -]\n• Cristian Quiñonez (Mexico) vs Kris Moutinho (United States) - Bantamweight Bout [- / -]\n• Douglas Silva de Andrade (Brazil) vs Javier Reyes (Colombia) - Featherweight Bout [- / -]\n• Sofia Montenegro (Argentina) vs Ernesta Kareckaitė (Lithuania) - Women's Flyweight Bout [- / -]\n• Erik Silva (Venezuela) vs Francis Marshall (United States) - Featherweight Bout [- / -]\n• Damian Pinas (Suriname) vs Wes Schultz (United States) - Middleweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-28-2026
 URL:https://www.ufc.com/event/ufc-fight-night-february-28-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-326@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20260308T020000Z
 DTEND:20260308T060000Z
 SUMMARY:UFC 326: Holloway vs Oliveira 2
@@ -56,47 +46,47 @@ URL:https://www.ufc.com/event/ufc-326
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-march-14-2026@ufc.com
-DTSTAMP:20260201T004229Z
-DTSTART:20260315T010000Z
-DTEND:20260315T050000Z
+DTSTAMP:20260208T004716Z
+DTSTART:20260315T000000Z
+DTEND:20260315T040000Z
 SUMMARY:UFC Fight Night: Emmett vs Vallejos
 LOCATION:Meta APEX\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Josh Emmett (United States) vs Kevin Vallejos (Argentina) - Featherweight Bout [- / -]\n• Ion Cutelaba (Moldova) vs Oumar Sy (France) - Light Heavyweight Bout [- / -]\n• Amanda Lemos (Brazil) vs Gillian Robertson (Canada) - Women's Strawweight Bout [- / -]\n• Bruno Silva (Brazil) vs Lone’er Kavanagh (England) - Flyweight Bout [- / -]\n• Rinya Nakamura (Japan) vs Luan Lacerda (Brazil) - Bantamweight Bout [- / -]\n• Marwan Rahiki (Morocco) vs Harry Hardwick (England) - Featherweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-march-14-2026
+DESCRIPTION:Main Card:\n• Josh Emmett (United States) vs Kevin Vallejos (Argentina) - Featherweight Bout [- / -]\n• Amanda Lemos (Brazil) vs Gillian Robertson (Canada) - Women's Strawweight Bout [- / -]\n• Ion Cutelaba (Moldova) vs Oumar Sy (France) - Light Heavyweight Bout [- / -]\n• Marwan Rahiki (Morocco) vs Harry Hardwick (England) - Featherweight Bout [- / -]\n• Luan Lacerda (Brazil) vs Hecher Sosa (Spain) - Bantamweight Bout [- / -]\n• Bia Mesquita (Brazil) vs Montse Rendon (Mexico) - Women's Bantamweight Bout [- / -]\n• Piera Rodriguez (Venezuela) vs Sam Hughes (United States) - Women's Strawweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-march-14-2026
 URL:https://www.ufc.com/event/ufc-fight-night-march-14-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-march-21-2026@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20260321T200000Z
 DTEND:20260322T000000Z
-SUMMARY:UFC Fight Night: TBD vs TBD
+SUMMARY:UFC Fight Night: Evloev vs Murphy
 LOCATION:O2 Arena\, London United Kingdom
-DESCRIPTION:Main Card:\n\nMore info: https://www.ufc.com/event/ufc-fight-night-march-21-2026
+DESCRIPTION:Main Card:\n• Movsar Evloev (Russia) vs Lerone Murphy (England) - Featherweight Bout [- / -]\n• Luke Riley (England) vs Michael Aswell Jr. (United States) - Featherweight Bout [- / -]\n• Michael Page vs Sam Patterson (England) - Welterweight Bout [- / -]\n• Iwo Baraniewski (Poland) vs Austen Lane (United States) - Light Heavyweight Bout [- / -]\n• Roman Dolidze (Georgia) vs Christian Leroy Duncan (England) - Middleweight Bout [- / -]\n• Kurtis Campbell (England) vs Danny Silva (United States) - Featherweight Bout [- / -]\n• Mason Jones (Wales) vs Axel Sola (France) - Lightweight Bout [- / -]\n• Nathaniel Wood (England) vs Losene Keita (Belgium) - Featherweight Bout [- / -]\n• Louie Sutherland (England) vs Brando Peričić (Australia) - Heavyweight Bout [- / -]\n• Mantas Kondratavicius (Lithuania) vs Antonio Trocoli (Brazil) - Middleweight Bout [- / -]\n• Mick Parkin (England) vs Mario Pinto (Portugal) - Heavyweight Bout [- / -]\n• Shem Rock vs Abdul-Kareem Al-Selwady (Palestine) - Lightweight Bout [- / -]\n• Shanelle Dyer (England) vs Ravena Oliveira (Brazil) - Women's Strawweight Bout [- / -]\n• Melissa Mullins (England) vs Luana Carolina (Brazil) - Women's Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-march-21-2026
 URL:https://www.ufc.com/event/ufc-fight-night-march-21-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-march-28-2026@ufc.com
-DTSTAMP:20260201T004229Z
-DTSTART:20260329T010000Z
-DTEND:20260329T050000Z
+DTSTAMP:20260208T004716Z
+DTSTART:20260329T000000Z
+DTEND:20260329T040000Z
 SUMMARY:UFC Fight Night: Adesanya vs Pyfer
 LOCATION:Climate Pledge Arena\, Seattle\, WA United States
-DESCRIPTION:Main Card:\n• Israel Adesanya (Nigeria) vs Joe Pyfer (United States) - Middleweight Bout [- / -]\n• Alexa Grasso (Mexico) vs Maycee Barber (United States) - Women's Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-march-28-2026
+DESCRIPTION:Main Card:\n• Israel Adesanya (Nigeria) vs Joe Pyfer (United States) - Middleweight Bout [- / -]\n• Alexa Grasso (Mexico) vs Maycee Barber (United States) - Women's Flyweight Bout [- / -]\n• Navajo Stirling (New Zealand) vs Bruno Lopes (Brazil) - Light Heavyweight Bout [- / -]\n• Chase Hooper (United States) vs Lance Gibson Jr. (Canada) - Lightweight Bout [- / -]\n• Marcin Tybura (Poland) vs Valter Walker (Brazil) - Heavyweight Bout [- / -]\n• Michael Chiesa (United States) vs Carlston Harris (Guyana) - Welterweight Bout [- / -]\n• Mansur Abdul-Malik (United States) vs Yousri Belgaroui (Netherlands) - Middleweight Bout [- / -]\n• Casey O'Neill (Australia) vs Gabriella Fernandes (Brazil) - Women's Flyweight Bout [- / -]\n• Julian Erosa (United States) vs Lerryan Douglas (Brazil) - Featherweight Bout [- / -]\n• Zhu Kangjie (China) vs Marcio Barbosa (Brazil) - Featherweight Bout [- / -]\n• Carol Foro (Brazil) vs Stephanie Luciano (Brazil) - Women's Strawweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-march-28-2026
 URL:https://www.ufc.com/event/ufc-fight-night-march-28-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:-event-ufc-321@ufc.com
-DTSTAMP:20260201T004229Z
-DTSTART:20261025T180000Z
-DTEND:20261025T220000Z
-SUMMARY:UFC 321: Aspinall vs Gane
-LOCATION:Etihad Arena\, Abu Dhabi United Arab Emirates
-DESCRIPTION:Main Card:\n• Tom Aspinall (England) vs Ciryl Gane (France) - Heavyweight Title Bout [-355 / +280]\n• Virna Jandiroba (Brazil) vs Mackenzie Dern (Brazil) - Women's Strawweight Title Bout [+130 / -155] | Winner: Mackenzie Dern via Decision - Unanimous R5 5:00\n• Umar Nurmagomedov (Russia) vs Mario Bautista (United States) - Bantamweight Bout [-625 / +455] | Winner: Umar Nurmagomedov via Decision - Unanimous R3 5:00\n• Aleksandar Rakić (Serbia) vs Azamat Murzakanov (Russia) - Light Heavyweight Bout [-105 / -115] | Winner: Azamat Murzakanov via KO/TKO R1 3:11\n• Alexander Volkov (Russia) vs Jailton Almeida (Brazil) - Heavyweight Bout [+185 / -225] | Winner: Alexander Volkov via Decision - Split R3 5:00\n• Nasrat Haqparast (Morocco) vs Quillan Salkilld (Australia) - Lightweight Bout [-115 / -105] | Winner: Quillan Salkilld via KO/TKO R1 2:30\n• Ikram Aliskerov (Russia) vs JunYong Park (South Korea) - Middleweight Bout [-258 / +210] | Winner: Ikram Aliskerov via Decision - Unanimous R3 5:00\n• Ludovit Klein (Slovakia) vs Mateusz Rębecki (Poland) - Lightweight Bout [-142 / +120] | Winner: Ludovit Klein via Decision - Majority R3 5:00\n• Valter Walker (Brazil) vs Louie Sutherland (England) - Heavyweight Bout [-360 / +285] | Winner: Valter Walker via Submission R1 1:24\n• Nathaniel Wood (England) vs Jose Miguel Delgado (Mexico) - Featherweight Bout [+124 / -148] | Winner: Nathaniel Wood via Decision - Unanimous R3 5:00\n• Hamdy Abdelwahab (Egypt) vs Chris Barnett (Spain) - Heavyweight Bout [-425 / +330] | Winner: Hamdy Abdelwahab via Decision - Unanimous R3 5:00\n• Azat Maksum (Kazakhstan) vs Mitch Raposo (United States) - Flyweight Bout [-380 / +300] | Winner: Mitch Raposo via Decision - Unanimous R3 5:00\n• Jaqueline Amorim (Brazil) vs Mizuki (Japan) - Women's Strawweight Bout [-425 / +330] | Winner: Mizuki via Decision - Unanimous R3 5:00\n\nMore info: https://www.ufc.com/event/ufc-321
-URL:https://www.ufc.com/event/ufc-321
+UID:-event-ufc-fight-night-may-30-2026@ufc.com
+DTSTAMP:20260208T004716Z
+DTSTART:20260530T220000Z
+DTEND:20260531T020000Z
+SUMMARY:UFC Fight Night: TBD vs TBD
+LOCATION:Galaxy Arena\, Macao
+DESCRIPTION:Main Card:\n\nMore info: https://www.ufc.com/event/ufc-fight-night-may-30-2026
+URL:https://www.ufc.com/event/ufc-fight-night-may-30-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-01-2025@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20261101T230000Z
 DTEND:20261102T030000Z
 SUMMARY:UFC Fight Night: Garcia vs Onama
@@ -106,7 +96,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-november-01-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-08-2025@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20261109T000000Z
 DTEND:20261109T040000Z
 SUMMARY:UFC Fight Night: Bonfim vs Brown
@@ -116,7 +106,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-november-08-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-322@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20261116T030000Z
 DTEND:20261116T070000Z
 SUMMARY:UFC 322: Della Maddalena vs Makhachev
@@ -126,7 +116,7 @@ URL:https://www.ufc.com/event/ufc-322
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-november-22-2025@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20261122T180000Z
 DTEND:20261122T220000Z
 SUMMARY:UFC Fight Night: Tsarukyan vs Hooker
@@ -136,7 +126,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-november-22-2025
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-323@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20261207T030000Z
 DTEND:20261207T070000Z
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
@@ -146,7 +136,7 @@ URL:https://www.ufc.com/event/ufc-323
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-december-13-2025@ufc.com
-DTSTAMP:20260201T004229Z
+DTSTAMP:20260208T004716Z
 DTSTART:20261214T030000Z
 DTEND:20261214T070000Z
 SUMMARY:UFC Fight Night: Royval vs Kape

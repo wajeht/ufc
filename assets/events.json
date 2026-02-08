@@ -1,159 +1,5 @@
 [
   {
-    "name": "UFC 325",
-    "headline": "Volkanovski vs Lopes 2",
-    "date": "Sat, Jan 31 / 9:00 PM EST / Main Card",
-    "parsed_date": "2026-01-31T21:00:00-05:00",
-    "venue": "Qudos Bank Arena",
-    "location": "Sydney Olympic Park NSW Australia",
-    "url": "/event/ufc-325",
-    "fights": [
-      {
-        "fighter1": "Alexander Volkanovski",
-        "fighter2": "Diego Lopes",
-        "fighter1_url": "https://www.ufc.com/athlete/alexander-volkanovski",
-        "fighter2_url": "https://www.ufc.com/athlete/diego-lopes",
-        "weight_class": "Featherweight Title Bout",
-        "odds1": "-150",
-        "odds2": "+125",
-        "country1": "Australia",
-        "country2": "Brazil"
-      },
-      {
-        "fighter1": "Dan Hooker",
-        "fighter2": "Benoît Saint Denis",
-        "fighter1_url": "https://www.ufc.com/athlete/dan-hooker",
-        "fighter2_url": "https://www.ufc.com/athlete/benoit-saint-denis",
-        "weight_class": "Lightweight Bout",
-        "odds1": "+275",
-        "odds2": "-350",
-        "country1": "New Zealand",
-        "country2": "France"
-      },
-      {
-        "fighter1": "Rafael Fiziev",
-        "fighter2": "Mauricio Ruffy",
-        "fighter1_url": "https://www.ufc.com/athlete/rafael-fiziev",
-        "fighter2_url": "https://www.ufc.com/athlete/mauricio-ruffy",
-        "weight_class": "Lightweight Bout",
-        "odds1": "+100",
-        "odds2": "-125",
-        "country1": "Azerbaijan",
-        "country2": "Brazil"
-      },
-      {
-        "fighter1": "Tai Tuivasa",
-        "fighter2": "Tallison Teixeira",
-        "fighter1_url": "https://www.ufc.com/athlete/tai-tuivasa",
-        "fighter2_url": "https://www.ufc.com/athlete/tallison-teixeira",
-        "weight_class": "Heavyweight Bout",
-        "odds1": "+275",
-        "odds2": "-350",
-        "country1": "Australia",
-        "country2": "Brazil"
-      },
-      {
-        "fighter1": "Quillan Salkilld",
-        "fighter2": "Jamie Mullarkey",
-        "fighter1_url": "https://www.ufc.com/athlete/quillan-salkilld",
-        "fighter2_url": "https://www.ufc.com/athlete/jamie-mullarkey",
-        "weight_class": "Lightweight Bout",
-        "odds1": "-1200",
-        "odds2": "+700",
-        "country1": "Australia",
-        "country2": "Australia"
-      },
-      {
-        "fighter1": "Junior Tafa",
-        "fighter2": "Billy Elekana",
-        "fighter1_url": "https://www.ufc.com/athlete/junior-tafa",
-        "fighter2_url": "https://www.ufc.com/athlete/billy-elekana",
-        "weight_class": "Light Heavyweight Bout",
-        "odds1": "+200",
-        "odds2": "-250",
-        "country1": "Australia",
-        "country2": "United States"
-      },
-      {
-        "fighter1": "Cam Rowston",
-        "fighter2": "Cody Brundage",
-        "fighter1_url": "https://www.ufc.com/athlete/cameron-rowston",
-        "fighter2_url": "https://www.ufc.com/athlete/cody-brundage",
-        "weight_class": "Middleweight Bout",
-        "odds1": "-350",
-        "odds2": "+275",
-        "country1": "Australia",
-        "country2": "United States"
-      },
-      {
-        "fighter1": "Jacob Malkoun",
-        "fighter2": "Torrez Finney",
-        "fighter1_url": "https://www.ufc.com/athlete/jacob-malkoun",
-        "fighter2_url": "https://www.ufc.com/athlete/torrez-finney",
-        "weight_class": "Middleweight Bout",
-        "odds1": "-138",
-        "odds2": "+110",
-        "country1": "Australia",
-        "country2": "United States"
-      },
-      {
-        "fighter1": "Jonathan Micallef",
-        "fighter2": "Oban Elliott",
-        "fighter1_url": "https://www.ufc.com/athlete/jonathan-micallef",
-        "fighter2_url": "https://www.ufc.com/athlete/oban-elliott",
-        "weight_class": "Welterweight Bout",
-        "odds1": "-138",
-        "odds2": "+110",
-        "country1": "Australia",
-        "country2": "Wales"
-      },
-      {
-        "fighter1": "Kaan Ofli",
-        "fighter2": "Yizha",
-        "fighter1_url": "https://www.ufc.com/athlete/kaan-ofli",
-        "fighter2_url": "https://www.ufc.com/athlete/yi-zha",
-        "weight_class": "Featherweight Bout",
-        "odds1": "+170",
-        "odds2": "-200",
-        "country1": "Australia",
-        "country2": "China"
-      },
-      {
-        "fighter1": "SangWook Kim",
-        "fighter2": "Dom Mar Fan",
-        "fighter1_url": "https://www.ufc.com/athlete/sangwook-kim",
-        "fighter2_url": "https://www.ufc.com/athlete/dom-mar-fan",
-        "weight_class": "Lightweight Bout",
-        "odds1": "+125",
-        "odds2": "-150",
-        "country1": "South Korea",
-        "country2": "Australia"
-      },
-      {
-        "fighter1": "Keiichiro Nakamura",
-        "fighter2": "Sebastian Szalay",
-        "fighter1_url": "https://www.ufc.com/athlete/keiichiro-nakamura",
-        "fighter2_url": "https://www.ufc.com/athlete/sebastian-szalay",
-        "weight_class": "Featherweight Bout",
-        "odds1": "+125",
-        "odds2": "-150",
-        "country1": "Japan",
-        "country2": "Australia"
-      },
-      {
-        "fighter1": "Sulangrangbo",
-        "fighter2": "Lawrence Lui",
-        "fighter1_url": "https://www.ufc.com/athlete/sulang-rangbo",
-        "fighter2_url": "https://www.ufc.com/athlete/lawrence-lui",
-        "weight_class": "Bantamweight Bout",
-        "odds1": "-250",
-        "odds2": "+200",
-        "country1": "China",
-        "country2": "New Zealand"
-      }
-    ]
-  },
-  {
     "name": "UFC Fight Night",
     "headline": "Bautista vs Oliveira",
     "date": "Sat, Feb 7 / 8:00 PM EST / Main Card",
@@ -168,8 +14,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/mario-bautista",
         "fighter2_url": "https://www.ufc.com/athlete/vinicius-oliveira",
         "weight_class": "Bantamweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "-175",
+        "odds2": "+150",
         "country1": "United States",
         "country2": "Brazil"
       },
@@ -179,8 +25,8 @@
         "fighter1_url": "https://www.ufc.com/athlete/amir-albazi",
         "fighter2_url": "https://www.ufc.com/athlete/kyoji-horiguchi",
         "weight_class": "Flyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
+        "odds1": "+300",
+        "odds2": "-400",
         "country1": "Iraq",
         "country2": "Japan"
       },
@@ -239,6 +85,17 @@
         "country2": "Ukraine"
       },
       {
+        "fighter1": "Nikolay Veretennikov",
+        "fighter2": "Niko Price",
+        "fighter1_url": "https://www.ufc.com/athlete/nikolay-veretennikov",
+        "fighter2_url": "https://www.ufc.com/athlete/niko-price",
+        "weight_class": "Welterweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Kazakhstan",
+        "country2": "United States"
+      },
+      {
         "fighter1": "Bruna Brasil",
         "fighter2": "Ketlen Souza",
         "fighter1_url": "https://www.ufc.com/athlete/bruna-brasil",
@@ -250,14 +107,14 @@
         "country2": "Brazil"
       },
       {
-        "fighter1": "Said Nurmagomedov",
-        "fighter2": "Javid Basharat",
-        "fighter1_url": "https://www.ufc.com/athlete/said-nurmagomedov",
-        "fighter2_url": "https://www.ufc.com/athlete/javid-basharat",
+        "fighter1": "Javid Basharat",
+        "fighter2": "Gianni Vazquez",
+        "fighter1_url": "https://www.ufc.com/athlete/javid-basharat",
+        "fighter2_url": "https://www.ufc.com/athlete/gianni-vazquez",
         "weight_class": "Bantamweight Bout",
         "odds1": "-",
         "odds2": "-",
-        "country1": "Russia"
+        "country2": "Mexico"
       },
       {
         "fighter1": "Wang Cong",
@@ -282,7 +139,7 @@
         "country2": "Poland"
       },
       {
-        "fighter1": "Klaudia Syguła",
+        "fighter1": "Klaudia Sygula",
         "fighter2": "Priscila Cachoeira",
         "fighter1_url": "https://www.ufc.com/athlete/klaudia-sygula",
         "fighter2_url": "https://www.ufc.com/athlete/priscila-cachoeira",
@@ -439,7 +296,7 @@
   },
   {
     "name": "UFC Fight Night",
-    "headline": "Moreno vs Almabayev",
+    "headline": "Moreno vs Kavanagh",
     "date": "Sat, Feb 28 / 8:00 PM EST / Main Card",
     "parsed_date": "2026-02-28T20:00:00-05:00",
     "venue": "Arena CDMX",
@@ -448,14 +305,14 @@
     "fights": [
       {
         "fighter1": "Brandon Moreno",
-        "fighter2": "Asu Almabayev",
+        "fighter2": "Lone’er Kavanagh",
         "fighter1_url": "https://www.ufc.com/athlete/brandon-moreno",
-        "fighter2_url": "https://www.ufc.com/athlete/assu-almabayev",
+        "fighter2_url": "https://www.ufc.com/athlete/loneer-kavanagh",
         "weight_class": "Flyweight Bout",
         "odds1": "-",
         "odds2": "-",
         "country1": "Mexico",
-        "country2": "Kazakhstan"
+        "country2": "England"
       },
       {
         "fighter1": "Marlon Vera",
@@ -469,15 +326,15 @@
         "country2": "Mexico"
       },
       {
-        "fighter1": "Macy Chiasson",
-        "fighter2": "Ailin Perez",
-        "fighter1_url": "https://www.ufc.com/athlete/macy-chiasson",
-        "fighter2_url": "https://www.ufc.com/athlete/ailin-perez",
-        "weight_class": "Women's Bantamweight Bout",
+        "fighter1": "Daniel Zellhuber",
+        "fighter2": "King Green",
+        "fighter1_url": "https://www.ufc.com/athlete/daniel-zellhuber",
+        "fighter2_url": "https://www.ufc.com/athlete/bobby-green",
+        "weight_class": "Lightweight Bout",
         "odds1": "-",
         "odds2": "-",
-        "country1": "United States",
-        "country2": "Argentina"
+        "country1": "Mexico",
+        "country2": "United States"
       },
       {
         "fighter1": "Edgar Chairez",
@@ -489,17 +346,6 @@
         "odds2": "-",
         "country1": "Mexico",
         "country2": "Brazil"
-      },
-      {
-        "fighter1": "Daniel Zellhuber",
-        "fighter2": "King Green",
-        "fighter1_url": "https://www.ufc.com/athlete/daniel-zellhuber",
-        "fighter2_url": "https://www.ufc.com/athlete/bobby-green",
-        "weight_class": "Lightweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "Mexico",
-        "country2": "United States"
       },
       {
         "fighter1": "Imanol Rodriguez",
@@ -535,6 +381,17 @@
         "country2": "Bolivia"
       },
       {
+        "fighter1": "Ailin Perez",
+        "fighter2": "Macy Chiasson",
+        "fighter1_url": "https://www.ufc.com/athlete/ailin-perez",
+        "fighter2_url": "https://www.ufc.com/athlete/macy-chiasson",
+        "weight_class": "Women's Bantamweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Argentina",
+        "country2": "United States"
+      },
+      {
         "fighter1": "Cristian Quiñonez",
         "fighter2": "Kris Moutinho",
         "fighter1_url": "https://www.ufc.com/athlete/cristian-quinonez",
@@ -543,6 +400,39 @@
         "odds1": "-",
         "odds2": "-",
         "country1": "Mexico",
+        "country2": "United States"
+      },
+      {
+        "fighter1": "Douglas Silva de Andrade",
+        "fighter2": "Javier Reyes",
+        "fighter1_url": "https://www.ufc.com/athlete/douglas-silva-de-andrade",
+        "fighter2_url": "https://www.ufc.com/athlete/javier-reyes",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Colombia"
+      },
+      {
+        "fighter1": "Sofia Montenegro",
+        "fighter2": "Ernesta Kareckaitė",
+        "fighter1_url": "https://www.ufc.com/athlete/sofia-montenegro",
+        "fighter2_url": "https://www.ufc.com/athlete/ernesta-kareckaite",
+        "weight_class": "Women's Flyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Argentina",
+        "country2": "Lithuania"
+      },
+      {
+        "fighter1": "Erik Silva",
+        "fighter2": "Francis Marshall",
+        "fighter1_url": "https://www.ufc.com/athlete/erik-silva",
+        "fighter2_url": "https://www.ufc.com/athlete/francis-marshall",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Venezuela",
         "country2": "United States"
       },
       {
@@ -555,17 +445,6 @@
         "odds2": "-",
         "country1": "Suriname",
         "country2": "United States"
-      },
-      {
-        "fighter1": "Sofia Montenegro",
-        "fighter2": "Ernesta Kareckaitė",
-        "fighter1_url": "https://www.ufc.com/athlete/sofia-montenegro",
-        "fighter2_url": "https://www.ufc.com/athlete/ernesta-kareckaite",
-        "weight_class": "Women's Flyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "Argentina",
-        "country2": "Lithuania"
       }
     ]
   },
@@ -704,8 +583,8 @@
   {
     "name": "UFC Fight Night",
     "headline": "Emmett vs Vallejos",
-    "date": "Sat, Mar 14 / 9:00 PM EDT / Main Card",
-    "parsed_date": "2026-03-14T21:00:00-04:00",
+    "date": "Sat, Mar 14 / 8:00 PM EDT / Main Card",
+    "parsed_date": "2026-03-14T20:00:00-04:00",
     "venue": "Meta APEX",
     "location": "Las Vegas, NV United States",
     "url": "/event/ufc-fight-night-march-14-2026",
@@ -722,17 +601,6 @@
         "country2": "Argentina"
       },
       {
-        "fighter1": "Ion Cutelaba",
-        "fighter2": "Oumar Sy",
-        "fighter1_url": "https://www.ufc.com/athlete/ion-cutelaba",
-        "fighter2_url": "https://www.ufc.com/athlete/oumar-sy",
-        "weight_class": "Light Heavyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "Moldova",
-        "country2": "France"
-      },
-      {
         "fighter1": "Amanda Lemos",
         "fighter2": "Gillian Robertson",
         "fighter1_url": "https://www.ufc.com/athlete/amanda-lemos",
@@ -744,26 +612,15 @@
         "country2": "Canada"
       },
       {
-        "fighter1": "Bruno Silva",
-        "fighter2": "Lone’er Kavanagh",
-        "fighter1_url": "https://www.ufc.com/athlete/bruno-silva",
-        "fighter2_url": "https://www.ufc.com/athlete/loneer-kavanagh",
-        "weight_class": "Flyweight Bout",
+        "fighter1": "Ion Cutelaba",
+        "fighter2": "Oumar Sy",
+        "fighter1_url": "https://www.ufc.com/athlete/ion-cutelaba",
+        "fighter2_url": "https://www.ufc.com/athlete/oumar-sy",
+        "weight_class": "Light Heavyweight Bout",
         "odds1": "-",
         "odds2": "-",
-        "country1": "Brazil",
-        "country2": "England"
-      },
-      {
-        "fighter1": "Rinya Nakamura",
-        "fighter2": "Luan Lacerda",
-        "fighter1_url": "https://www.ufc.com/athlete/rinya-nakamura",
-        "fighter2_url": "https://www.ufc.com/athlete/luan-lacerda",
-        "weight_class": "Bantamweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "Japan",
-        "country2": "Brazil"
+        "country1": "Moldova",
+        "country2": "France"
       },
       {
         "fighter1": "Marwan Rahiki",
@@ -775,24 +632,210 @@
         "odds2": "-",
         "country1": "Morocco",
         "country2": "England"
+      },
+      {
+        "fighter1": "Luan Lacerda",
+        "fighter2": "Hecher Sosa",
+        "fighter1_url": "https://www.ufc.com/athlete/luan-lacerda",
+        "fighter2_url": "https://www.ufc.com/athlete/hecher-sosa",
+        "weight_class": "Bantamweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Spain"
+      },
+      {
+        "fighter1": "Bia Mesquita",
+        "fighter2": "Montse Rendon",
+        "fighter1_url": "https://www.ufc.com/athlete/bia-mesquita-bia-mesquita",
+        "fighter2_url": "https://www.ufc.com/athlete/montserrat-rendon",
+        "weight_class": "Women's Bantamweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Mexico"
+      },
+      {
+        "fighter1": "Piera Rodriguez",
+        "fighter2": "Sam Hughes",
+        "fighter1_url": "https://www.ufc.com/athlete/piera-rodriguez",
+        "fighter2_url": "https://www.ufc.com/athlete/sam-hughes",
+        "weight_class": "Women's Strawweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Venezuela",
+        "country2": "United States"
       }
     ]
   },
   {
     "name": "UFC Fight Night",
-    "headline": "TBD vs TBD",
+    "headline": "Evloev vs Murphy",
     "date": "Sat, Mar 21 / 4:00 PM EDT / Main Card",
     "parsed_date": "2026-03-21T16:00:00-04:00",
     "venue": "O2 Arena",
     "location": "London United Kingdom",
     "url": "/event/ufc-fight-night-march-21-2026",
-    "fights": null
+    "fights": [
+      {
+        "fighter1": "Movsar Evloev",
+        "fighter2": "Lerone Murphy",
+        "fighter1_url": "https://www.ufc.com/athlete/movsar-evloev",
+        "fighter2_url": "https://www.ufc.com/athlete/lerone-murphy",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Russia",
+        "country2": "England"
+      },
+      {
+        "fighter1": "Luke Riley",
+        "fighter2": "Michael Aswell Jr.",
+        "fighter1_url": "https://www.ufc.com/athlete/luke-riley",
+        "fighter2_url": "https://www.ufc.com/athlete/michael-aswell",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "England",
+        "country2": "United States"
+      },
+      {
+        "fighter1": "Michael Page",
+        "fighter2": "Sam Patterson",
+        "fighter1_url": "https://www.ufc.com/athlete/michael-page",
+        "fighter2_url": "https://www.ufc.com/athlete/sam-patterson",
+        "weight_class": "Welterweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country2": "England"
+      },
+      {
+        "fighter1": "Iwo Baraniewski",
+        "fighter2": "Austen Lane",
+        "fighter1_url": "https://www.ufc.com/athlete/iwo-baraniewski",
+        "fighter2_url": "https://www.ufc.com/athlete/austen-lane",
+        "weight_class": "Light Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Poland",
+        "country2": "United States"
+      },
+      {
+        "fighter1": "Roman Dolidze",
+        "fighter2": "Christian Leroy Duncan",
+        "fighter1_url": "https://www.ufc.com/athlete/roman-dolidze",
+        "fighter2_url": "https://www.ufc.com/athlete/christian-leroy-duncan",
+        "weight_class": "Middleweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Georgia",
+        "country2": "England"
+      },
+      {
+        "fighter1": "Kurtis Campbell",
+        "fighter2": "Danny Silva",
+        "fighter1_url": "https://www.ufc.com/athlete/kurtis-campbell",
+        "fighter2_url": "https://www.ufc.com/athlete/danny-silva",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "England",
+        "country2": "United States"
+      },
+      {
+        "fighter1": "Mason Jones",
+        "fighter2": "Axel Sola",
+        "fighter1_url": "https://www.ufc.com/athlete/mason-jones",
+        "fighter2_url": "https://www.ufc.com/athlete/axel-sola",
+        "weight_class": "Lightweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Wales",
+        "country2": "France"
+      },
+      {
+        "fighter1": "Nathaniel Wood",
+        "fighter2": "Losene Keita",
+        "fighter1_url": "https://www.ufc.com/athlete/nathaniel-wood",
+        "fighter2_url": "https://www.ufc.com/athlete/losen-keita",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "England",
+        "country2": "Belgium"
+      },
+      {
+        "fighter1": "Louie Sutherland",
+        "fighter2": "Brando Peričić",
+        "fighter1_url": "https://www.ufc.com/athlete/louie-sutherland",
+        "fighter2_url": "https://www.ufc.com/athlete/brando-pericic",
+        "weight_class": "Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "England",
+        "country2": "Australia"
+      },
+      {
+        "fighter1": "Mantas Kondratavicius",
+        "fighter2": "Antonio Trocoli",
+        "fighter1_url": "https://www.ufc.com/athlete/mantas-kondratavicius",
+        "fighter2_url": "https://www.ufc.com/athlete/antonio-trocoli",
+        "weight_class": "Middleweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Lithuania",
+        "country2": "Brazil"
+      },
+      {
+        "fighter1": "Mick Parkin",
+        "fighter2": "Mario Pinto",
+        "fighter1_url": "https://www.ufc.com/athlete/mick-parkin",
+        "fighter2_url": "https://www.ufc.com/athlete/mario-pinto",
+        "weight_class": "Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "England",
+        "country2": "Portugal"
+      },
+      {
+        "fighter1": "Shem Rock",
+        "fighter2": "Abdul-Kareem Al-Selwady",
+        "fighter1_url": "https://www.ufc.com/athlete/shem-rock",
+        "fighter2_url": "https://www.ufc.com/athlete/abdul-kareem-al-selwady",
+        "weight_class": "Lightweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country2": "Palestine"
+      },
+      {
+        "fighter1": "Shanelle Dyer",
+        "fighter2": "Ravena Oliveira",
+        "fighter1_url": "https://www.ufc.com/athlete/shanelle-dyer",
+        "fighter2_url": "https://www.ufc.com/athlete/ravena-oliveira",
+        "weight_class": "Women's Strawweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "England",
+        "country2": "Brazil"
+      },
+      {
+        "fighter1": "Melissa Mullins",
+        "fighter2": "Luana Carolina",
+        "fighter1_url": "https://www.ufc.com/athlete/melissa-mullins",
+        "fighter2_url": "https://www.ufc.com/athlete/luana-carolina",
+        "weight_class": "Women's Bantamweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "England",
+        "country2": "Brazil"
+      }
+    ]
   },
   {
     "name": "UFC Fight Night",
     "headline": "Adesanya vs Pyfer",
-    "date": "Sat, Mar 28 / 9:00 PM EDT / Main Card",
-    "parsed_date": "2026-03-28T21:00:00-04:00",
+    "date": "Sat, Mar 28 / 8:00 PM EDT / Main Card",
+    "parsed_date": "2026-03-28T20:00:00-04:00",
     "venue": "Climate Pledge Arena",
     "location": "Seattle, WA United States",
     "url": "/event/ufc-fight-night-march-28-2026",
@@ -818,213 +861,117 @@
         "odds2": "-",
         "country1": "Mexico",
         "country2": "United States"
+      },
+      {
+        "fighter1": "Navajo Stirling",
+        "fighter2": "Bruno Lopes",
+        "fighter1_url": "https://www.ufc.com/athlete/navajo-stirling",
+        "fighter2_url": "https://www.ufc.com/athlete/bruno-lopes",
+        "weight_class": "Light Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "New Zealand",
+        "country2": "Brazil"
+      },
+      {
+        "fighter1": "Chase Hooper",
+        "fighter2": "Lance Gibson Jr.",
+        "fighter1_url": "https://www.ufc.com/athlete/chase-hooper",
+        "fighter2_url": "https://www.ufc.com/athlete/lance-gibson-jr",
+        "weight_class": "Lightweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Canada"
+      },
+      {
+        "fighter1": "Marcin Tybura",
+        "fighter2": "Valter Walker",
+        "fighter1_url": "https://www.ufc.com/athlete/marcin-tybura",
+        "fighter2_url": "https://www.ufc.com/athlete/valter-walker",
+        "weight_class": "Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Poland",
+        "country2": "Brazil"
+      },
+      {
+        "fighter1": "Michael Chiesa",
+        "fighter2": "Carlston Harris",
+        "fighter1_url": "https://www.ufc.com/athlete/michael-chiesa",
+        "fighter2_url": "https://www.ufc.com/athlete/carlston-harris",
+        "weight_class": "Welterweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Guyana"
+      },
+      {
+        "fighter1": "Mansur Abdul-Malik",
+        "fighter2": "Yousri Belgaroui",
+        "fighter1_url": "https://www.ufc.com/athlete/mansur-abdul-malik",
+        "fighter2_url": "https://www.ufc.com/athlete/yousri-belgaroui",
+        "weight_class": "Middleweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Netherlands"
+      },
+      {
+        "fighter1": "Casey O'Neill",
+        "fighter2": "Gabriella Fernandes",
+        "fighter1_url": "https://www.ufc.com/athlete/casey-oneill",
+        "fighter2_url": "https://www.ufc.com/athlete/gabriella-fernandes",
+        "weight_class": "Women's Flyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Australia",
+        "country2": "Brazil"
+      },
+      {
+        "fighter1": "Julian Erosa",
+        "fighter2": "Lerryan Douglas",
+        "fighter1_url": "https://www.ufc.com/athlete/julian-erosa",
+        "fighter2_url": "https://www.ufc.com/athlete/lerryan-douglas",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Brazil"
+      },
+      {
+        "fighter1": "Zhu Kangjie",
+        "fighter2": "Marcio Barbosa",
+        "fighter1_url": "https://www.ufc.com/athlete/zhu-kangjie",
+        "fighter2_url": "https://www.ufc.com/athlete/marcio-barbosa",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "China",
+        "country2": "Brazil"
+      },
+      {
+        "fighter1": "Carol Foro",
+        "fighter2": "Stephanie Luciano",
+        "fighter1_url": "https://www.ufc.com/athlete/carol-foro",
+        "fighter2_url": "https://www.ufc.com/athlete/stephanie-bruna-luciano",
+        "weight_class": "Women's Strawweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Brazil"
       }
     ]
   },
   {
-    "name": "UFC 321",
-    "headline": "Aspinall vs Gane",
-    "date": "Sat, Oct 25 / 2:00 PM EDT / Main Card",
-    "parsed_date": "2026-10-25T14:00:00-04:00",
-    "venue": "Etihad Arena",
-    "location": "Abu Dhabi United Arab Emirates",
-    "url": "/event/ufc-321",
-    "fights": [
-      {
-        "fighter1": "Tom Aspinall",
-        "fighter2": "Ciryl Gane",
-        "fighter1_url": "https://www.ufc.com/athlete/tom-aspinall",
-        "fighter2_url": "https://www.ufc.com/athlete/ciryl-gane",
-        "weight_class": "Heavyweight Title Bout",
-        "method": "Could Not Continue",
-        "round": "1",
-        "time": "4:35",
-        "odds1": "-355",
-        "odds2": "+280",
-        "country1": "England",
-        "country2": "France"
-      },
-      {
-        "fighter1": "Virna Jandiroba",
-        "fighter2": "Mackenzie Dern",
-        "fighter1_url": "https://www.ufc.com/athlete/virna-jandiroba",
-        "fighter2_url": "https://www.ufc.com/athlete/mackenzie-dern",
-        "weight_class": "Women's Strawweight Title Bout",
-        "winner": 2,
-        "method": "Decision - Unanimous",
-        "round": "5",
-        "time": "5:00",
-        "odds1": "+130",
-        "odds2": "-155",
-        "country1": "Brazil",
-        "country2": "Brazil"
-      },
-      {
-        "fighter1": "Umar Nurmagomedov",
-        "fighter2": "Mario Bautista",
-        "fighter1_url": "https://www.ufc.com/athlete/umar-nurmagomedov",
-        "fighter2_url": "https://www.ufc.com/athlete/mario-bautista",
-        "weight_class": "Bantamweight Bout",
-        "winner": 1,
-        "method": "Decision - Unanimous",
-        "round": "3",
-        "time": "5:00",
-        "odds1": "-625",
-        "odds2": "+455",
-        "country1": "Russia",
-        "country2": "United States"
-      },
-      {
-        "fighter1": "Aleksandar Rakić",
-        "fighter2": "Azamat Murzakanov",
-        "fighter1_url": "https://www.ufc.com/athlete/aleksandar-rakic",
-        "fighter2_url": "https://www.ufc.com/athlete/azamat-murzakanov",
-        "weight_class": "Light Heavyweight Bout",
-        "winner": 2,
-        "method": "KO/TKO",
-        "round": "1",
-        "time": "3:11",
-        "odds1": "-105",
-        "odds2": "-115",
-        "country1": "Serbia",
-        "country2": "Russia"
-      },
-      {
-        "fighter1": "Alexander Volkov",
-        "fighter2": "Jailton Almeida",
-        "fighter1_url": "https://www.ufc.com/athlete/alexander-volkov",
-        "fighter2_url": "https://www.ufc.com/athlete/jailton-almeida",
-        "weight_class": "Heavyweight Bout",
-        "winner": 1,
-        "method": "Decision - Split",
-        "round": "3",
-        "time": "5:00",
-        "odds1": "+185",
-        "odds2": "-225",
-        "country1": "Russia",
-        "country2": "Brazil"
-      },
-      {
-        "fighter1": "Nasrat Haqparast",
-        "fighter2": "Quillan Salkilld",
-        "fighter1_url": "https://www.ufc.com/athlete/nasrat-haqparast",
-        "fighter2_url": "https://www.ufc.com/athlete/quillan-salkilld",
-        "weight_class": "Lightweight Bout",
-        "winner": 2,
-        "method": "KO/TKO",
-        "round": "1",
-        "time": "2:30",
-        "odds1": "-115",
-        "odds2": "-105",
-        "country1": "Morocco",
-        "country2": "Australia"
-      },
-      {
-        "fighter1": "Ikram Aliskerov",
-        "fighter2": "JunYong Park",
-        "fighter1_url": "https://www.ufc.com/athlete/ikram-aliskerov",
-        "fighter2_url": "https://www.ufc.com/athlete/jun-yong-park",
-        "weight_class": "Middleweight Bout",
-        "winner": 1,
-        "method": "Decision - Unanimous",
-        "round": "3",
-        "time": "5:00",
-        "odds1": "-258",
-        "odds2": "+210",
-        "country1": "Russia",
-        "country2": "South Korea"
-      },
-      {
-        "fighter1": "Ludovit Klein",
-        "fighter2": "Mateusz Rębecki",
-        "fighter1_url": "https://www.ufc.com/athlete/ludovit-klein",
-        "fighter2_url": "https://www.ufc.com/athlete/mateusz-rebecki",
-        "weight_class": "Lightweight Bout",
-        "winner": 1,
-        "method": "Decision - Majority",
-        "round": "3",
-        "time": "5:00",
-        "odds1": "-142",
-        "odds2": "+120",
-        "country1": "Slovakia",
-        "country2": "Poland"
-      },
-      {
-        "fighter1": "Valter Walker",
-        "fighter2": "Louie Sutherland",
-        "fighter1_url": "https://www.ufc.com/athlete/valter-walker",
-        "fighter2_url": "https://www.ufc.com/athlete/louie-sutherland",
-        "weight_class": "Heavyweight Bout",
-        "winner": 1,
-        "method": "Submission",
-        "round": "1",
-        "time": "1:24",
-        "odds1": "-360",
-        "odds2": "+285",
-        "country1": "Brazil",
-        "country2": "England"
-      },
-      {
-        "fighter1": "Nathaniel Wood",
-        "fighter2": "Jose Miguel Delgado",
-        "fighter1_url": "https://www.ufc.com/athlete/nathaniel-wood",
-        "fighter2_url": "https://www.ufc.com/athlete/jose-delgado",
-        "weight_class": "Featherweight Bout",
-        "winner": 1,
-        "method": "Decision - Unanimous",
-        "round": "3",
-        "time": "5:00",
-        "odds1": "+124",
-        "odds2": "-148",
-        "country1": "England",
-        "country2": "Mexico"
-      },
-      {
-        "fighter1": "Hamdy Abdelwahab",
-        "fighter2": "Chris Barnett",
-        "fighter1_url": "https://www.ufc.com/athlete/hamdy-abdelwahab",
-        "fighter2_url": "https://www.ufc.com/athlete/chris-barnett",
-        "weight_class": "Heavyweight Bout",
-        "winner": 1,
-        "method": "Decision - Unanimous",
-        "round": "3",
-        "time": "5:00",
-        "odds1": "-425",
-        "odds2": "+330",
-        "country1": "Egypt",
-        "country2": "Spain"
-      },
-      {
-        "fighter1": "Azat Maksum",
-        "fighter2": "Mitch Raposo",
-        "fighter1_url": "https://www.ufc.com/athlete/azat-maksum",
-        "fighter2_url": "https://www.ufc.com/athlete/mitch-raposo",
-        "weight_class": "Flyweight Bout",
-        "winner": 2,
-        "method": "Decision - Unanimous",
-        "round": "3",
-        "time": "5:00",
-        "odds1": "-380",
-        "odds2": "+300",
-        "country1": "Kazakhstan",
-        "country2": "United States"
-      },
-      {
-        "fighter1": "Jaqueline Amorim",
-        "fighter2": "Mizuki",
-        "fighter1_url": "https://www.ufc.com/athlete/jaqueline-amorim",
-        "fighter2_url": "https://www.ufc.com/athlete/mizuki",
-        "weight_class": "Women's Strawweight Bout",
-        "winner": 2,
-        "method": "Decision - Unanimous",
-        "round": "3",
-        "time": "5:00",
-        "odds1": "-425",
-        "odds2": "+330",
-        "country1": "Brazil",
-        "country2": "Japan"
-      }
-    ]
+    "name": "UFC Fight Night",
+    "headline": "TBD vs TBD",
+    "date": "Sat, May 30 / 6:00 PM EDT / Main Card",
+    "parsed_date": "2026-05-30T18:00:00-04:00",
+    "venue": "Galaxy Arena",
+    "location": "Macao",
+    "url": "/event/ufc-fight-night-may-30-2026",
+    "fights": null
   },
   {
     "name": "UFC Fight Night",
