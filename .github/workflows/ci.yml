@@ -3,12 +3,7 @@ name: CI
 on:
   push:
     branches: [main]
-    tags: ['v*']
   pull_request:
-
-env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   test:
@@ -25,44 +20,51 @@ jobs:
       - name: Run unit tests
         run: go test ./...
 
-  build-and-push:
-    if: startsWith(github.ref, 'refs/tags/v')
+  build:
+    if: github.event_name == 'push'
     needs: test
+    name: Build
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     outputs:
-      version: ${{ steps.version.outputs.VERSION }}
+      tag: ${{ steps.image-name.outputs.TAG }}
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-      - name: Log in to Container registry
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to Container Registry
         uses: docker/login-action@v3
         with:
-          registry: ${{ env.REGISTRY }}
+          registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GH_TOKEN }}
 
-      - name: Extract version from tag
-        id: version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+      - name: Generate Image Name
+        id: image-name
+        run: |
+          TAG=$(echo ${{ github.sha }} | cut -c1-7)
+          IMAGE_URL=$(echo ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:$TAG | tr '[:upper:]' '[:lower:]')
+          echo "IMAGE_URL=$IMAGE_URL" >> $GITHUB_OUTPUT
+          echo "TAG=$TAG" >> $GITHUB_OUTPUT
 
-      - name: Build and push Docker image
+      - name: Build and push Docker Image
         uses: docker/build-push-action@v5
         with:
           context: .
+          file: ./Dockerfile
           push: true
-          tags: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.VERSION }}
+          tags: ${{ steps.image-name.outputs.IMAGE_URL }}
 
   deploy:
-    if: startsWith(github.ref, 'refs/tags/v')
-    needs: build-and-push
+    if: github.event_name == 'push'
+    needs: build
+    name: Deploy
     uses: wajeht/docker-cd-deploy-workflow/.github/workflows/deploy.yaml@main
     with:
       app-path: apps/ufc
-      tag: ${{ needs.build-and-push.outputs.version }}
+      tag: ${{ needs.build.outputs.tag }}
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
