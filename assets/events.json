@@ -86,7 +86,7 @@
         "country2": "Brazil"
       },
       {
-        "fighter1": "Ode Osbourne",
+        "fighter1": "Ode' Osbourne",
         "fighter2": "Alibi Idiris",
         "fighter1_url": "https://www.ufc.com/athlete/ode-osbourne",
         "fighter2_url": "https://www.ufc.com/athlete/alibi-idiris",
@@ -131,7 +131,7 @@
       },
       {
         "fighter1": "Phil Rowe",
-        "fighter2": "Jean Paul Lebosnoyani",
+        "fighter2": "Jean-Paul Lebosnoyani",
         "fighter1_url": "https://www.ufc.com/athlete/philip-rowe",
         "fighter2_url": "https://www.ufc.com/athlete/jean-paul-lebosnoyani",
         "weight_class": "Welterweight Bout",
@@ -339,17 +339,6 @@
         "country2": "Brazil"
       },
       {
-        "fighter1": "Renato Moicano",
-        "fighter2": "Brian Ortega",
-        "fighter1_url": "https://www.ufc.com/athlete/renato-moicano",
-        "fighter2_url": "https://www.ufc.com/athlete/brian-ortega",
-        "weight_class": "Lightweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "Brazil",
-        "country2": "United States"
-      },
-      {
         "fighter1": "Caio Borralho",
         "fighter2": "Reinier de Ridder",
         "fighter1_url": "https://www.ufc.com/athlete/caio-borralho",
@@ -359,17 +348,6 @@
         "odds2": "-",
         "country1": "Brazil",
         "country2": "Netherlands"
-      },
-      {
-        "fighter1": "Gregory Rodrigues",
-        "fighter2": "Brunno Ferreira",
-        "fighter1_url": "https://www.ufc.com/athlete/gregory-rodrigues",
-        "fighter2_url": "https://www.ufc.com/athlete/brunno-ferreira",
-        "weight_class": "Middleweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "Brazil",
-        "country2": "Brazil"
       },
       {
         "fighter1": "Rob Font",
@@ -383,6 +361,17 @@
         "country2": "Mexico"
       },
       {
+        "fighter1": "Gregory Rodrigues",
+        "fighter2": "Brunno Ferreira",
+        "fighter1_url": "https://www.ufc.com/athlete/gregory-rodrigues",
+        "fighter2_url": "https://www.ufc.com/athlete/brunno-ferreira",
+        "weight_class": "Middleweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Brazil"
+      },
+      {
         "fighter1": "Cody Garbrandt",
         "fighter2": "Xiao Long",
         "fighter1_url": "https://www.ufc.com/athlete/cody-garbrandt",
@@ -392,6 +381,28 @@
         "odds2": "-",
         "country1": "United States",
         "country2": "China"
+      },
+      {
+        "fighter1": "Donte Johnson",
+        "fighter2": "Duško Todorović",
+        "fighter1_url": "https://www.ufc.com/athlete/donte-johnson",
+        "fighter2_url": "https://www.ufc.com/athlete/dusko-todorovic",
+        "weight_class": "Middleweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Serbia"
+      },
+      {
+        "fighter1": "Ricky Turcios",
+        "fighter2": "Alberto Montes",
+        "fighter1_url": "https://www.ufc.com/athlete/ricky-turcios",
+        "fighter2_url": "https://www.ufc.com/athlete/alberto-montes",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Venezuela"
       },
       {
         "fighter1": "Cody Durden",
@@ -405,15 +416,15 @@
         "country2": "Mongolia"
       },
       {
-        "fighter1": "Donte Johnson",
-        "fighter2": "Duško Todorović",
-        "fighter1_url": "https://www.ufc.com/athlete/donte-johnson",
-        "fighter2_url": "https://www.ufc.com/athlete/dusko-todorovic",
-        "weight_class": "Middleweight Bout",
+        "fighter1": "Sumudaerji",
+        "fighter2": "Jesus Aguilar",
+        "fighter1_url": "https://www.ufc.com/athlete/sumudaerji",
+        "fighter2_url": "https://www.ufc.com/athlete/jesus-aguilar",
+        "weight_class": "Flyweight Bout",
         "odds1": "-",
         "odds2": "-",
-        "country1": "United States",
-        "country2": "Serbia"
+        "country1": "China",
+        "country2": "Mexico"
       },
       {
         "fighter1": "JooSang Yoo",
@@ -436,17 +447,6 @@
         "odds2": "-",
         "country1": "United States",
         "country2": "Brazil"
-      },
-      {
-        "fighter1": "Sumudaerji",
-        "fighter2": "Jesus Aguilar",
-        "fighter1_url": "https://www.ufc.com/athlete/sumudaerji",
-        "fighter2_url": "https://www.ufc.com/athlete/jesus-aguilar",
-        "weight_class": "Flyweight Bout",
-        "odds1": "-",
-        "odds2": "-",
-        "country1": "China",
-        "country2": "Mexico"
       }
     ]
   },
@@ -493,6 +493,17 @@
         "country2": "France"
       },
       {
+        "fighter1": "Andre Fili",
+        "fighter2": "Jose Miguel Delgado",
+        "fighter1_url": "https://www.ufc.com/athlete/andre-fili",
+        "fighter2_url": "https://www.ufc.com/athlete/jose-delgado",
+        "weight_class": "Featherweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "United States",
+        "country2": "Mexico"
+      },
+      {
         "fighter1": "Marwan Rahiki",
         "fighter2": "Harry Hardwick",
         "fighter1_url": "https://www.ufc.com/athlete/marwan-rahiki",
@@ -502,6 +513,17 @@
         "odds2": "-",
         "country1": "Morocco",
         "country2": "England"
+      },
+      {
+        "fighter1": "Vitor Petrino",
+        "fighter2": "Steven Asplund",
+        "fighter1_url": "https://www.ufc.com/athlete/vitor-petrino",
+        "fighter2_url": "https://www.ufc.com/athlete/steven-asplund",
+        "weight_class": "Heavyweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "United States"
       },
       {
         "fighter1": "Charles Johnson",
@@ -874,6 +896,28 @@
         "odds2": "-",
         "country1": "Brazil",
         "country2": "Brazil"
+      }
+    ]
+  },
+  {
+    "name": "UFC Fight Night",
+    "headline": "Burns vs Malott",
+    "date": "Sat, Apr 18 / 8:00 PM EDT / Main Card",
+    "parsed_date": "2026-04-18T20:00:00-04:00",
+    "venue": "Canada Life Centre",
+    "location": "Winnipeg MB Canada",
+    "url": "/event/ufc-fight-night-april-18-2026",
+    "fights": [
+      {
+        "fighter1": "Gilbert Burns",
+        "fighter2": "Mike Malott",
+        "fighter1_url": "https://www.ufc.com/athlete/gilbert-burns",
+        "fighter2_url": "https://www.ufc.com/athlete/mike-malott",
+        "weight_class": "Welterweight Bout",
+        "odds1": "-",
+        "odds2": "-",
+        "country1": "Brazil",
+        "country2": "Canada"
       }
     ]
   },
