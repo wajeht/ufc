@@ -12,6 +12,7 @@ jobs:
 
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -30,14 +31,11 @@ jobs:
       - name: Generate ICS calendar
         run: go run ./cmd/ics
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add assets/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update UFC calendar events"
-            git push
-          fi
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b31e2c788f8122c6d27f # v7.0.8
+        with:
+          commit-message: 'chore: update UFC calendar events'
+          title: 'chore: update UFC calendar events'
+          body: 'Automated UFC calendar update.'
+          branch: chore/update-ufc-calendar
+          add-paths: assets/
