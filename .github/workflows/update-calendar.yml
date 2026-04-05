@@ -35,6 +35,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
         with:
+          token: ${{ secrets.PAT }}
           commit-message: 'chore: update UFC calendar events'
           title: 'chore: update UFC calendar events'
           body: 'Automated UFC calendar update.'
@@ -45,4 +46,4 @@ jobs:
         if: steps.cpr.outputs.pull-request-number
         run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --auto --squash
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT }}
