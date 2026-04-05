@@ -37,5 +37,7 @@ go.work.sum
 # Binaries
 bin/
 
+.mcp.json
+
 # Assets are committed by CI
 # assets/
