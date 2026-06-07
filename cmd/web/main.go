@@ -161,6 +161,7 @@ Disallow: /
     <title>UFC Calendar</title>
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script defer src="https://umami.jaw.dev/script.js" data-website-id="5293b200-13c5-4151-a833-b57313867e89"></script>
 </head>
 <body>
     <h1>UFC Calendar</h1>
