@@ -6,17 +6,17 @@ METHOD:PUBLISH
 X-WR-CALNAME:UFC Events
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-june-06-2026@ufc.com
-DTSTAMP:20260531T010407Z
+DTSTAMP:20260607T010553Z
 DTSTART:20260607T000000Z
 DTEND:20260607T040000Z
 SUMMARY:UFC Fight Night: Muhammad vs Bonfim
 LOCATION:Meta APEX\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Belal Muhammad (Palestine) vs Gabriel Bonfim (Brazil) - Welterweight Bout [-142 / +120]\n• Brendan Allen (Canada) vs Edmen Shahbazyan (United States) - Middleweight Bout [-230 / +190]\n• Farès Ziam (France) vs Tom Nolan (Australia) - Lightweight Bout [-325 / +260]\n• Bryce Mitchell (United States) vs Santiago Luna (Mexico) - Bantamweight Bout [- / -]\n• Iwo Baraniewski (Poland) vs Junior Tafa (Australia) - Light Heavyweight Bout [- / -]\n• Matt Schnell (United States) vs Alessandro Costa (Brazil) - Catchweight Bout [- / -]\n• Marcus McGhee (United States) vs John Yannis (United States) - Bantamweight Bout [- / -]\n• Bruno Silva (Brazil) vs Edgar Chairez (Mexico) - Flyweight Bout [-125 / +105]\n• Priscila Cachoeira (Brazil) vs Chelsea Chandler (United States) - Women's Bantamweight Bout [+100 / -120]\n• Jordan Leavitt (United States) vs Joanderson Brito (Brazil) - Featherweight Bout [+154 / -185]\n• Jeisla Chaves (Brazil) vs Yuneisy Duben (Venezuela) - Women's Flyweight Bout [-400 / +300]\n• Ketlen Souza (Brazil) vs Ariane Carnelossi (Brazil) - Women's Strawweight Bout [-270 / +220]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-june-06-2026
+DESCRIPTION:Main Card:\n• Belal Muhammad (Palestine) vs Gabriel Bonfim (Brazil) - Welterweight Bout [-125 / +105]\n• Brendan Allen (Brazil) vs Edmen Shahbazyan (United States) - Middleweight Bout [-210 / +175]\n• Farès Ziam (France) vs Tom Nolan (Australia) - Lightweight Bout [-315 / +250]\n• Bryce Mitchell (United States) vs Santiago Luna (Mexico) - Bantamweight Bout [-140 / +115]\n• Iwo Baraniewski (Poland) vs Junior Tafa (Australia) - Light Heavyweight Bout [-400 / +300]\n• Matt Schnell (United States) vs Alessandro Costa (Brazil) - Catchweight Bout [+425 / -600]\n• Marcus McGhee (United States) vs John Yannis (United States) - Bantamweight Bout [-450 / +350]\n• Bruno Silva (Brazil) vs Edgar Chairez (Mexico) - Flyweight Bout [-135 / +115]\n• Priscila Cachoeira (Brazil) vs Chelsea Chandler (United States) - Women's Bantamweight Bout [+100 / -120]\n• Jordan Leavitt (United States) vs Joanderson Brito (Brazil) - Featherweight Bout [+170 / -205]\n• Jeisla Chaves (Brazil) vs Yuneisy Duben (Venezuela) - Women's Flyweight Bout [-400 / +300]\n• Ketlen Souza (Brazil) vs Ariane Carnelossi (Brazil) - Women's Strawweight Bout [-300 / +240]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-june-06-2026
 URL:https://www.ufc.com/event/ufc-fight-night-june-06-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-freedom-250@ufc.com
-DTSTAMP:20260531T010407Z
+DTSTAMP:20260607T010553Z
 DTSTART:20260615T000000Z
 DTEND:20260615T040000Z
 SUMMARY:UFC freedom-250: UFC Freedom 250
@@ -26,27 +26,27 @@ URL:https://www.ufc.com/event/ufc-freedom-250
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-june-20-2026@ufc.com
-DTSTAMP:20260531T010407Z
+DTSTAMP:20260607T010553Z
 DTSTART:20260621T000000Z
 DTEND:20260621T040000Z
 SUMMARY:UFC Fight Night: Kape vs Horiguchi
 LOCATION:Meta APEX\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Manel Kape (Portugal) vs Kyoji Horiguchi (Japan) - Flyweight Bout [- / -]\n• Ion Cutelaba (Moldova) vs Navajo Stirling (New Zealand) - Light Heavyweight Bout [- / -]\n• Hyder Amil (Philippines) vs Christian Rodriguez (United States) - Featherweight Bout [- / -]\n• Andre Lima (Brazil) vs Kevin Borjas (Peru) - Flyweight Bout [- / -]\n• Melsik Baghdasaryan (Armenia) vs Murtazali Magomedov (Kyrgyzstan) - Featherweight Bout [- / -]\n• Bia Mesquita (Brazil) vs Melissa Mullins (England) - Women's Bantamweight Bout [- / -]\n• Jhonata Diniz (Brazil) vs Jose Montanha - Heavyweight Bout [- / -]\n• Allan Nascimento (Brazil) vs Mitch Raposo (United States) - Flyweight Bout [- / -]\n• Gaston Bolanos (Peru) vs Michael Aswell Jr. (United States) - Featherweight Bout [- / -]\n• Karol Rosa (Brazil) vs Luana Santos (Brazil) - Women's Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-june-20-2026
+DESCRIPTION:Main Card:\n• Manel Kape (Portugal) vs Kyoji Horiguchi (Japan) - Flyweight Bout [- / -]\n• Ion Cutelaba (Moldova) vs Navajo Stirling (New Zealand) - Light Heavyweight Bout [- / -]\n• Giga Chikadze (Georgia) vs Vinicius Oliveira (Brazil) - Featherweight Bout [- / -]\n• Hyder Amil (Philippines) vs Christian Rodriguez (United States) - Featherweight Bout [- / -]\n• Andre Lima (Brazil) vs Kevin Borjas (Peru) - Flyweight Bout [- / -]\n• Melsik Baghdasaryan (Armenia) vs Murtazali Magomedov (Kyrgyzstan) - Featherweight Bout [- / -]\n• Bia Mesquita (Brazil) vs Melissa Mullins (England) - Women's Bantamweight Bout [- / -]\n• Allan Nascimento (Brazil) vs Mitch Raposo (United States) - Flyweight Bout [- / -]\n• Gaston Bolanos (Peru) vs Michael Aswell Jr. (United States) - Featherweight Bout [- / -]\n• Karol Rosa (Brazil) vs Luana Santos (Brazil) - Women's Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-june-20-2026
 URL:https://www.ufc.com/event/ufc-fight-night-june-20-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-june-27-2026@ufc.com
-DTSTAMP:20260531T010407Z
+DTSTAMP:20260607T010553Z
 DTSTART:20260627T160000Z
 DTEND:20260627T200000Z
 SUMMARY:UFC Fight Night: Fiziev vs Torres
 LOCATION:National Gymnastics Arena\, Baku Azerbaijan
-DESCRIPTION:Main Card:\n• Rafael Fiziev (Azerbaijan) vs Manuel Torres (Mexico) - Lightweight Bout [- / -]\n• Shara Magomedov (Russia) vs Michel Pereira (Brazil) - Middleweight Bout [- / -]\n• Nazim Sadykhov (Azerbaijan) vs Matheus Camilo (Brazil) - Lightweight Bout [- / -]\n• Asu Almabayev (Kazakhstan) vs Charles Johnson (United States) - Flyweight Bout [- / -]\n• Ikram Aliskerov (Russia) vs Brunno Ferreira (Brazil) - Middleweight Bout [- / -]\n• Abus Magomedov (Germany) vs Michal Oleksiejczuk (Poland) - Middleweight Bout [- / -]\n• Farman Hasanov vs Eric Nolan (United States) - Welterweight Bout [- / -]\n• Abdul Rakhman Yakhyaev (Türkiye) vs Julius Walker (United States) - Light Heavyweight Bout [- / -]\n• Nursulton Ruziboev (Uzbekistan) vs Andrey Pulyaev (Russia) - Middleweight Bout [- / -]\n• Daniil Donchenko (Ukraine) vs Andreas Gustafsson (Sweden) - Welterweight Bout [- / -]\n• Bekzat Almakhan (Kazakhstan) vs Jean Matsumoto (Brazil) - Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-june-27-2026
+DESCRIPTION:Main Card:\n• Rafael Fiziev (Azerbaijan) vs Manuel Torres (Mexico) - Lightweight Bout [- / -]\n• Shara Magomedov (Russia) vs Michel Pereira (Brazil) - Middleweight Bout [- / -]\n• Nazim Sadykhov (Azerbaijan) vs Matheus Camilo (Brazil) - Lightweight Bout [- / -]\n• Asu Almabayev (Kazakhstan) vs Charles Johnson (United States) - Flyweight Bout [- / -]\n• Ikram Aliskerov (Russia) vs Brunno Ferreira (Brazil) - Middleweight Bout [- / -]\n• Abus Magomedov (Germany) vs Michal Oleksiejczuk (Poland) - Middleweight Bout [- / -]\n• Farman Hasanov vs Eric Nolan (United States) - Welterweight Bout [- / -]\n• Abdul Rakhman Yakhyaev (Türkiye) vs Julius Walker (United States) - Light Heavyweight Bout [- / -]\n• Nursulton Ruziboev (Uzbekistan) vs Andrey Pulyaev (Russia) - Middleweight Bout [- / -]\n• Kaan Ofli (Australia) vs Javier Reyes (Colombia) - Featherweight Bout [- / -]\n• Daniil Donchenko (Ukraine) vs Andreas Gustafsson (Sweden) - Welterweight Bout [- / -]\n• Bekzat Almakhan (Kazakhstan) vs Jean Matsumoto (Brazil) - Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-june-27-2026
 URL:https://www.ufc.com/event/ufc-fight-night-june-27-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-329@ufc.com
-DTSTAMP:20260531T010407Z
+DTSTAMP:20260607T010553Z
 DTSTART:20260712T010000Z
 DTEND:20260712T050000Z
 SUMMARY:UFC 329: McGregor vs Holloway 2
@@ -56,32 +56,42 @@ URL:https://www.ufc.com/event/ufc-329
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-july-18-2026@ufc.com
-DTSTAMP:20260531T010407Z
+DTSTAMP:20260607T010553Z
 DTSTART:20260719T000000Z
 DTEND:20260719T040000Z
 SUMMARY:UFC Fight Night: TBD vs TBD
 LOCATION:Paycom Center\, Oklahoma City\, OK United States
-DESCRIPTION:Main Card:\n• Brad Tavares (United States) vs Marc-Andre Barriault (Canada) - Middleweight Bout [- / -]\n• Chase Hooper (United States) vs Mitch Ramirez (United States) - Lightweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-july-18-2026
+DESCRIPTION:Main Card:\n• Jared Cannonier (United States) vs Christian Leroy Duncan (England) - Middleweight Bout [- / -]\n• Kevin Holland (United States) vs Jacobe Smith (United States) - Welterweight Bout [- / -]\n• Amanda Ribas (Brazil) vs Fatima Kline (United States) - Women's Strawweight Bout [- / -]\n• Brad Tavares (United States) vs Marc-Andre Barriault (Canada) - Middleweight Bout [- / -]\n• Chase Hooper (United States) vs Mitch Ramirez (United States) - Lightweight Bout [- / -]\n• Veronica Hardy (Venezuela) vs Dione Barbosa (Brazil) - Women's Flyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-july-18-2026
 URL:https://www.ufc.com/event/ufc-fight-night-july-18-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-july-25-2026@ufc.com
-DTSTAMP:20260531T010407Z
+DTSTAMP:20260607T010553Z
 DTSTART:20260725T160000Z
 DTEND:20260725T200000Z
-SUMMARY:UFC Fight Night: TBD vs TBD
+SUMMARY:UFC Fight Night: Ankalaev vs Rountree Jr.
 LOCATION:Etihad Arena\, Abu Dhabi United Arab Emirates
-DESCRIPTION:Main Card:\n\nMore info: https://www.ufc.com/event/ufc-fight-night-july-25-2026
+DESCRIPTION:Main Card:\n• Magomed Ankalaev (Russia) vs Khalil Rountree Jr. (United States) - Light Heavyweight Bout [- / -]\n• Umar Nurmagomedov (Russia) vs David Martinez (Mexico) - Bantamweight Bout [- / -]\n• Rizvan Kuniev (Russia) vs Tyrell Fortune (United States) - Heavyweight Bout [- / -]\n• Valter Walker (Brazil) vs Thomas Petersen (United States) - Heavyweight Bout [- / -]\n• Magomed Tuchalov vs Brendson Ribeiro (Brazil) - Light Heavyweight Bout [- / -]\n• Steve Erceg (Australia) vs Ramazan Temirov (Uzbekistan) - Flyweight Bout [- / -]\n• Islam Dulatov (Germany) vs Wellington Turman (Brazil) - Welterweight Bout [- / -]\n• Ismael Bonfim (Brazil) vs Axel Sola (France) - Lightweight Bout [- / -]\n• Uran Satybaldiev (Kyrgyzstan) vs Dustin Jacoby (United States) - Light Heavyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-july-25-2026
 URL:https://www.ufc.com/event/ufc-fight-night-july-25-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-august-01-2026@ufc.com
-DTSTAMP:20260531T010407Z
+DTSTAMP:20260607T010553Z
 DTSTART:20260801T180000Z
 DTEND:20260801T220000Z
 SUMMARY:UFC Fight Night: Medic vs Rodriguez
 LOCATION:Belgrade Arena\, BG Serbia
-DESCRIPTION:Main Card:\n• Uroš Medić (Serbia) vs Daniel Rodriguez (United States) - Welterweight Bout [- / -]\n• Ante Delija (Croatia) vs Johnny Walker (Brazil) - Heavyweight Bout [- / -]\n• Aleksandar Rakić (Serbia) vs Marcin Tybura (Poland) - Heavyweight Bout [- / -]\n• Duško Todorović (Serbia) vs Robert Valentin (Switzerland) - Middleweight Bout [- / -]\n• Vlasto Cepo vs Gilbert Urbina (United States) - Middleweight Bout [- / -]\n• Jovan Leka (Serbia) vs Max Gimenis (Brazil) - Heavyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-august-01-2026
+DESCRIPTION:Main Card:\n• Uroš Medić (Serbia) vs Daniel Rodriguez (United States) - Welterweight Bout [- / -]\n• Ante Delija (Croatia) vs Johnny Walker (Brazil) - Heavyweight Bout [- / -]\n• Aleksandar Rakić (Serbia) vs Marcin Tybura (Poland) - Heavyweight Bout [- / -]\n• Ludovit Klein (Slovakia) vs Tofiq Musayev (Azerbaijan) - Lightweight Bout [- / -]\n• Mark Vologdin (Russia) vs Josias Musasa (Democratic Republic of the Congo) - Bantamweight Bout [- / -]\n• Duško Todorović (Serbia) vs Robert Valentin (Switzerland) - Middleweight Bout [- / -]\n• Dennis Buzukja (United States) vs Bogdan Grad (Austria) - Featherweight Bout [- / -]\n• Vlasto Cepo vs Gilbert Urbina (United States) - Middleweight Bout [- / -]\n• Jovan Leka (Serbia) vs Max Gimenis (Brazil) - Heavyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-august-01-2026
 URL:https://www.ufc.com/event/ufc-fight-night-august-01-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:-event-ufc-fight-night-april-04-2026@ufc.com
+DTSTAMP:20260607T010553Z
+DTSTART:20270405T000000Z
+DTEND:20270405T040000Z
+SUMMARY:UFC Fight Night: Moicano vs Duncan
+LOCATION:Meta APEX\, Las Vegas\, NV United States
+DESCRIPTION:Main Card:\n• Renato Moicano (Brazil) vs Chris Duncan (Scotland) - Lightweight Bout [- / -] | Winner: Renato Moicano via Submission R2 3:14\n• Virna Jandiroba (Brazil) vs Tabatha Ricci (Brazil) - Women's Strawweight Bout [- / -] | Winner: Virna Jandiroba via Decision - Unanimous R3 5:00\n• Abdul Rakhman Yakhyaev (Türkiye) vs Brendson Ribeiro (Brazil) - Light Heavyweight Bout [- / -] | Winner: Abdul Rakhman Yakhyaev via Submission R1 2:52\n• Ethyn Ewing (United States) vs Rafael Estevam (Brazil) - Bantamweight Bout [- / -] | Winner: Ethyn Ewing via KO/TKO R3 1:44\n• Tommy McMillen (United States) vs Manolo Zecchini (Italy) - Featherweight Bout [- / -] | Winner: Tommy McMillen via KO/TKO R1 3:57\n• Jose Delano (Brazil) vs Robert Ruchala (Poland) - Featherweight Bout [- / -] | Winner: Jose Delano via Decision - Unanimous R3 5:00\n• Guilherme Pat (Brazil) vs Thomas Petersen (United States) - Heavyweight Bout [- / -] | Winner: Thomas Petersen via Decision - Majority R3 5:00\n• Alessandro Costa (Brazil) vs Stewart Nicoll (Australia) - Flyweight Bout [- / -] | Winner: Alessandro Costa via KO/TKO R2 4:56\n• Lando Vannata (United States) vs Darrius Flowers (United States) - Lightweight Bout [- / -] | Winner: Darrius Flowers via KO/TKO R2 0:52\n• Alice Pereira (Brazil) vs Hailey Cowan (United States) - Women's Bantamweight Bout [- / -] | Winner: Alice Pereira via KO/TKO R2 4:24\n• Azamat Bekoev (Russia) vs Tresean Gore (United States) - Middleweight Bout [- / -] | Winner: Tresean Gore via Submission R3 3:27\n• Dione Barbosa (Brazil) vs Melissa Gatto (Brazil) - Women's Flyweight Bout [- / -] | Winner: Dione Barbosa via Decision - Majority R3 5:00\n• Kai Kamaka III (United States) vs Dakota Hope (United States) - Lightweight Bout [- / -] | Winner: Kai Kamaka III via Decision - Split R3 5:00\n\nMore info: https://www.ufc.com/event/ufc-fight-night-april-04-2026
+URL:https://www.ufc.com/event/ufc-fight-night-april-04-2026
 END:VEVENT
 END:VCALENDAR
