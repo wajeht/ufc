@@ -186,14 +186,31 @@ func (s *Scraper) parseFight(sel *goquery.Selection) *Fight {
 		fight.Country2 = cleanText(countries.Eq(1).Text())
 	}
 
+	fight.Fighter1Image = absoluteURL(sel.Find(".c-listing-fight__corner-image--red img").First().AttrOr("src", ""))
+	fight.Fighter2Image = absoluteURL(sel.Find(".c-listing-fight__corner-image--blue img").First().AttrOr("src", ""))
+
 	// Extract athlete URLs from corner name links
 	fighterLinks := sel.Find(".c-listing-fight__corner-name a[href*='athlete']")
 	if fighterLinks.Length() >= 2 {
-		fight.Fighter1URL, _ = fighterLinks.Eq(0).Attr("href")
-		fight.Fighter2URL, _ = fighterLinks.Eq(1).Attr("href")
+		fight.Fighter1URL = absoluteURL(fighterLinks.Eq(0).AttrOr("href", ""))
+		fight.Fighter2URL = absoluteURL(fighterLinks.Eq(1).AttrOr("href", ""))
 	}
 
 	return fight
+}
+
+func absoluteURL(s string) string {
+	s = strings.TrimSpace(s)
+	if s == "" {
+		return ""
+	}
+	if strings.HasPrefix(s, "//") {
+		return "https:" + s
+	}
+	if strings.HasPrefix(s, "/") {
+		return BaseURL + s
+	}
+	return s
 }
 
 func cleanText(s string) string {
@@ -210,7 +227,7 @@ func parseEventNameFromURL(url string) string {
 	if strings.HasPrefix(slug, "ufc-fight-night") {
 		return "UFC Fight Night"
 	}
-	if after, ok :=strings.CutPrefix(slug, "ufc-"); ok  {
+	if after, ok := strings.CutPrefix(slug, "ufc-"); ok {
 		num := after
 		if _, err := fmt.Sscanf(num, "%d", new(int)); err == nil {
 			return "UFC " + strings.ToUpper(num)
