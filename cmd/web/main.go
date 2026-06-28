@@ -4,6 +4,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
+	"html"
 	"log"
 	"net/http"
 	"os"
@@ -14,6 +15,8 @@ import (
 	"github.com/wajeht/ufc/assets"
 	"github.com/wajeht/ufc/internal/ufc"
 )
+
+const anonymousFighterImage = "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_RED.png?itok=CFBkG7gS"
 
 func main() {
 	port := flag.String("port", "80", "port to listen on")
@@ -162,6 +165,15 @@ Disallow: /
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <script defer src="https://umami.jaw.dev/script.js" data-website-id="5293b200-13c5-4151-a833-b57313867e89"></script>
+    <style>
+        td { vertical-align: top; }
+        .event-cell, .fighter-cell { display: flex; align-items: center; gap: 8px; }
+        .event-cell { min-width: 230px; }
+        .event-preview { display: flex; gap: 4px; flex: 0 0 auto; }
+        .event-photo, .fighter-photo { width: 46px; height: 46px; object-fit: cover; object-position: top center; background: #f2f2f2; border: 1px solid #ddd; border-radius: 4px; flex: 0 0 auto; }
+        .event-photo { width: 52px; height: 52px; }
+        .fighter-cell { min-width: 165px; }
+    </style>
 </head>
 <body>
     <h1>UFC Calendar</h1>
@@ -184,7 +196,7 @@ Disallow: /
 
 		for _, e := range events {
 			fmt.Fprintf(w, `<tr>`)
-			fmt.Fprintf(w, `<td><a href="https://www.ufc.com%s"><strong>%s</strong><br>%s</a></td>`, e.URL, e.Name, e.Headline)
+			fmt.Fprintf(w, `<td>%s</td>`, renderEvent(e))
 			fmt.Fprintf(w, `<td>%s</td>`, e.Date)
 			fmt.Fprintf(w, `<td>%s</td>`, e.Venue)
 			fmt.Fprintf(w, `<td>%s</td>`, e.Location)
@@ -197,26 +209,8 @@ Disallow: /
 				fmt.Fprintf(w, `<thead><tr><th>Weight Class</th><th>Fighter 1</th><th>Odds</th><th></th><th>Fighter 2</th><th>Odds</th><th>Method</th><th>R</th><th>Time</th></tr></thead>`)
 				fmt.Fprintf(w, `<tbody>`)
 				for _, f := range e.Fights {
-					// Fighter names with links and winner indicator
-					f1 := f.Fighter1
-					f2 := f.Fighter2
-					if f.Fighter1URL != "" {
-						f1 = fmt.Sprintf(`<a href="%s">%s</a>`, f.Fighter1URL, f.Fighter1)
-					}
-					if f.Fighter2URL != "" {
-						f2 = fmt.Sprintf(`<a href="%s">%s</a>`, f.Fighter2URL, f.Fighter2)
-					}
-					if f.Country1 != "" {
-						f1 += "<br><small>" + f.Country1 + "</small>"
-					}
-					if f.Country2 != "" {
-						f2 += "<br><small>" + f.Country2 + "</small>"
-					}
-					if f.Winner == 1 {
-						f1 = "<strong>" + f1 + "</strong>"
-					} else if f.Winner == 2 {
-						f2 = "<strong>" + f2 + "</strong>"
-					}
+					f1 := renderFighter(f.Fighter1, f.Fighter1URL, f.Fighter1Image, f.Country1, f.Winner == 1)
+					f2 := renderFighter(f.Fighter2, f.Fighter2URL, f.Fighter2Image, f.Country2, f.Winner == 2)
 
 					// Odds - show dash if empty or just "-"
 					odds1 := f.Odds1
@@ -289,4 +283,60 @@ Disallow: /
 		log.Fatal(err)
 	}
 	fmt.Println("Server stopped")
+}
+
+func renderEvent(e *ufc.EventDetails) string {
+	eventURL := ufc.BaseURL + e.URL
+	label := fmt.Sprintf(
+		`<a href="%s"><strong>%s</strong><br>%s</a>`,
+		html.EscapeString(eventURL),
+		html.EscapeString(e.Name),
+		html.EscapeString(e.Headline),
+	)
+	if len(e.Fights) == 0 {
+		preview := renderEventPhoto(anonymousFighterImage, "TBD fighter") + renderEventPhoto(anonymousFighterImage, "TBD fighter")
+		return fmt.Sprintf(`<div class="event-cell"><div class="event-preview">%s</div><div>%s</div></div>`, preview, label)
+	}
+
+	fight := e.Fights[0]
+	preview := renderEventPhoto(firstNonEmpty(fight.Fighter1Image, anonymousFighterImage), firstNonEmpty(fight.Fighter1, "TBD fighter"))
+	preview += renderEventPhoto(firstNonEmpty(fight.Fighter2Image, anonymousFighterImage), firstNonEmpty(fight.Fighter2, "TBD fighter"))
+
+	return fmt.Sprintf(`<div class="event-cell"><div class="event-preview">%s</div><div>%s</div></div>`, preview, label)
+}
+
+func renderEventPhoto(image, alt string) string {
+	return fmt.Sprintf(`<img class="event-photo" src="%s" alt="%s" loading="lazy">`, html.EscapeString(image), html.EscapeString(alt))
+}
+
+func renderFighter(name, url, image, country string, winner bool) string {
+	label := html.EscapeString(name)
+	if url != "" {
+		label = fmt.Sprintf(`<a href="%s">%s</a>`, html.EscapeString(url), label)
+	}
+	if country != "" {
+		label += "<br><small>" + html.EscapeString(country) + "</small>"
+	}
+	if winner {
+		label = "<strong>" + label + "</strong>"
+	}
+	if image == "" {
+		return label
+	}
+
+	return fmt.Sprintf(
+		`<div class="fighter-cell"><img class="fighter-photo" src="%s" alt="%s" loading="lazy"><div>%s</div></div>`,
+		html.EscapeString(image),
+		html.EscapeString(name),
+		label,
+	)
+}
+
+func firstNonEmpty(values ...string) string {
+	for _, value := range values {
+		if value != "" {
+			return value
+		}
+	}
+	return ""
 }
