@@ -256,7 +256,15 @@ Disallow: /
 `)
 		}
 
-		fmt.Fprintf(w, `</tbody></table></body></html>`)
+		fmt.Fprintf(w, `</tbody></table>
+    <footer>
+        <p>
+            Copyright © 2025. Made with ❤️ by <a href="https://github.com/wajeht">@wajeht</a>
+            |
+            <a href="https://github.com/wajeht/ufc" target="_blank" rel="noopener noreferrer">Github</a>
+        </p>
+    </footer>
+</body></html>`)
 	})
 
 	srv := &http.Server{
