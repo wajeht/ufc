@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:UFC Events
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-july-18-2026@ufc.com
-DTSTAMP:20260719T004315Z
+DTSTAMP:20260719T032828Z
 DTSTART:20260719T000000Z
 DTEND:20260719T040000Z
 SUMMARY:UFC Fight Night: Du Plessis vs Usman
@@ -16,7 +16,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-july-18-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-july-25-2026@ufc.com
-DTSTAMP:20260719T004315Z
+DTSTAMP:20260719T032828Z
 DTSTART:20260725T160000Z
 DTEND:20260725T200000Z
 SUMMARY:UFC Fight Night: Ankalaev vs Guskov
@@ -26,7 +26,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-july-25-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-august-01-2026@ufc.com
-DTSTAMP:20260719T004315Z
+DTSTAMP:20260719T032828Z
 DTSTART:20260801T170000Z
 DTEND:20260801T210000Z
 SUMMARY:UFC Fight Night: Medic vs Rodriguez
@@ -36,7 +36,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-august-01-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-august-08-2026@ufc.com
-DTSTAMP:20260719T004315Z
+DTSTAMP:20260719T032828Z
 DTSTART:20260808T210000Z
 DTEND:20260809T010000Z
 SUMMARY:UFC Fight Night: Gamrot vs Salkilld
@@ -46,7 +46,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-august-08-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-330@ufc.com
-DTSTAMP:20260719T004315Z
+DTSTAMP:20260719T032828Z
 DTSTART:20260816T010000Z
 DTEND:20260816T050000Z
 SUMMARY:UFC 330: Makhachev vs Machado Garry
@@ -56,7 +56,7 @@ URL:https://www.ufc.com/event/ufc-330
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-august-22-2026@ufc.com
-DTSTAMP:20260719T004315Z
+DTSTAMP:20260719T032828Z
 DTSTART:20260823T000000Z
 DTEND:20260823T040000Z
 SUMMARY:UFC Fight Night: Hernandez vs Rodrigues
@@ -66,7 +66,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-august-22-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-august-29-2026@ufc.com
-DTSTAMP:20260719T004315Z
+DTSTAMP:20260719T032828Z
 DTSTART:20260829T100000Z
 DTEND:20260829T140000Z
 SUMMARY:UFC Fight Night: Nurmagomedov vs Song
@@ -76,32 +76,12 @@ URL:https://www.ufc.com/event/ufc-fight-night-august-29-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-september-05-2026@ufc.com
-DTSTAMP:20260719T004315Z
+DTSTAMP:20260719T032828Z
 DTSTART:20260905T190000Z
 DTEND:20260905T230000Z
 SUMMARY:UFC Fight Night: TBD vs TBD
 LOCATION:Accor Arena\, Paris France
 DESCRIPTION:Main Card:\n• Michael Venom Page vs Nursulton Ruziboev (Uzbekistan) - Middleweight Bout [- / -]\n• Kurtis Campbell (England) vs Trevor Peek (United States) - Featherweight Bout [- / -]\n• Mario Pinto (Portugal) vs Ryan Spann (United States) - Heavyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-september-05-2026
 URL:https://www.ufc.com/event/ufc-fight-night-september-05-2026
-END:VEVENT
-BEGIN:VEVENT
-UID:-event-ufc-328@ufc.com
-DTSTAMP:20260719T004315Z
-DTSTART:20270510T010000Z
-DTEND:20270510T050000Z
-SUMMARY:UFC 328: Chimaev vs Strickland
-LOCATION:Prudential Center\, Newark\, NJ United States
-DESCRIPTION:Main Card:\n• Khamzat Chimaev (United Arab Emirates) vs Sean Strickland (United States) - Middleweight Title Bout [-500 / +350] | Winner: Sean Strickland via Decision - Split R5 5:00\n• Joshua Van (Myanmar) vs Tatsuro Taira (Japan) - Flyweight Title Bout [+130 / -165] | Winner: Joshua Van via KO/TKO R5 1:32\n• Alexander Volkov (Russia) vs Waldo Cortes Acosta (Dominican Republic) - Heavyweight Bout [-145 / +115] | Winner: Alexander Volkov via Decision - Unanimous R3 5:00\n• Sean Brady (United States) vs Joaquin Buckley (United States) - Welterweight Bout [+175 / -230] | Winner: Sean Brady via Decision - Unanimous R3 5:00\n• King Green (United States) vs Jeremy Stephens (United States) - Lightweight Bout [-450 / +350] | Winner: King Green via Submission R1 4:20\n• Ateba Gautier (Cameroon) vs Ozzy Diaz (United States) - Middleweight Bout [-1300 / +675] | Winner: Ateba Gautier via KO/TKO R2 1:10\n• Joel Álvarez (Spain) vs Yaroslav Amosov (Ukraine) - Welterweight Bout [+150 / -180] | Winner: Yaroslav Amosov via Submission R2 1:13\n• Grant Dawson (United States) vs Mateusz Rębecki (Poland) - Lightweight Bout [-148 / +124] | Winner: Grant Dawson via Submission R3 4:42\n• Jim Miller (United States) vs Jared Gordon (United States) - Lightweight Bout [+225 / -300] | Winner: Jim Miller via Submission R1 3:29\n• Roman Kopylov (Russia) vs Marco Tulio (Brazil) - Middleweight Bout [+150 / -190] | Winner: Roman Kopylov via Decision - Unanimous R3 5:00\n• Pat Sabatini (United States) vs William Gomis (France) - Featherweight Bout [-170 / +142] | Winner: Pat Sabatini via Decision - Unanimous R3 5:00\n• Baisangur Susurkaev (Russia) vs Djorden Santos (Brazil) - Middleweight Bout [-750 / +475] | Winner: Baisangur Susurkaev via Submission R3 4:12\n• Clayton Carpenter (United States) vs Jose Ochoa (Peru) - Flyweight Bout [+150 / -180] | Winner: Jose Ochoa via Decision - Unanimous R3 5:00\n\nMore info: https://www.ufc.com/event/ufc-328
-URL:https://www.ufc.com/event/ufc-328
-END:VEVENT
-BEGIN:VEVENT
-UID:-event-ufc-fight-night-may-16-2026@ufc.com
-DTSTAMP:20260719T004315Z
-DTSTART:20270517T000000Z
-DTEND:20270517T040000Z
-SUMMARY:UFC Fight Night: Allen vs Costa
-LOCATION:Meta APEX\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Arnold Allen (England) vs Melquizael Costa (Brazil) - Featherweight Bout [-125 / +105] | Winner: Arnold Allen via Decision - Unanimous R5 5:00\n• Dooho Choi (South Korea) vs Daniel Santos (Brazil) - Featherweight Bout [+135 / -170] | Winner: Dooho Choi via KO/TKO R2 4:29\n• Malcolm Wellmaker (United States) vs Juan Diaz (Peru) - Bantamweight Bout [-275 / +205] | Winner: Juan Diaz via Submission R2 4:08\n• Modestas Bukauskas (Lithuania) vs Christian Edwards (United States) - Catchweight Bout [-325 / +260] | Winner: Modestas Bukauskas via Decision - Split R3 5:00\n• Timmy Cuamba (United States) vs Benardo Sopaj (Albania) - Bantamweight Bout [+102 / -130] | Winner: Benardo Sopaj via Submission R2 2:25\n• Nikolay Veretennikov (Kazakhstan) vs Khaos Williams (United States) - Welterweight Bout [+100 / -125] | Winner: Khaos Williams via KO/TKO R1 3:31\n• Tuco Tokkos (England) vs Ivan Erslan (Croatia) - Light Heavyweight Bout [+135 / -170] | Winner: Ivan Erslan via Decision - Unanimous R3 5:00\n• Tommy Gantt (United States) vs Artur Minev (Ukraine) - Lightweight Bout [-185 / +145] | Winner: Tommy Gantt via KO/TKO R2 2:51\n• Ketlen Vieira (Brazil) vs Jacqueline Cavalcanti (Portugal) - Women's Bantamweight Bout [+125 / -160] | Winner: Ketlen Vieira via Decision - Unanimous R3 5:00\n• Cody Brundage (United States) vs Andre Petroski (United States) - Middleweight Bout [+130 / -155] | Winner: Cody Brundage via KO/TKO R2 0:44\n• Alice Ardelean (Romania) vs Polyana Viana (Brazil) - Women's Strawweight Bout [-200 / +155] | Winner: Alice Ardelean via Submission R2 4:36\n• Daniel Barez (Spain) vs Luis Gurule (United States) - Flyweight Bout [+130 / -165] | Winner: Luis Gurule via Decision - Unanimous R3 5:00\n• Shauna Bannon (Ireland) vs Nicolle Caliari (Brazil) - Women's Strawweight Bout [+230 / -310] | Winner: Nicolle Caliari via Submission R3 3:08\n\nMore info: https://www.ufc.com/event/ufc-fight-night-may-16-2026
-URL:https://www.ufc.com/event/ufc-fight-night-may-16-2026
 END:VEVENT
 END:VCALENDAR
