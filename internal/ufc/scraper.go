@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"regexp"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 
@@ -71,11 +72,17 @@ func (s *Scraper) GetEvents() ([]Event, error) {
 		}
 	})
 
+	return filterUpcoming(events, time.Now()), nil
+}
+
+// filterUpcoming returns events on or after the start of the given day, sorted
+// chronologically. Events with a zero ParsedDate sort first and are dropped.
+func filterUpcoming(events []Event, now time.Time) []Event {
 	sort.Slice(events, func(i, j int) bool {
 		return events[i].ParsedDate.Before(events[j].ParsedDate)
 	})
 
-	today := time.Now().Truncate(24 * time.Hour)
+	today := now.Truncate(24 * time.Hour)
 	var upcoming []Event
 	for _, e := range events {
 		if !e.ParsedDate.Before(today) {
@@ -83,15 +90,17 @@ func (s *Scraper) GetEvents() ([]Event, error) {
 		}
 	}
 
-	return upcoming, nil
+	return upcoming
 }
 
 func (s *Scraper) parseEventCard(sel *goquery.Selection) Event {
+	dateSel := sel.Find(".c-card-event--result__date")
+
 	event := Event{
 		URL:      sel.Find("a").First().AttrOr("href", ""),
 		Name:     cleanText(sel.Find(".c-card-event--result__logo img").AttrOr("alt", "")),
 		Headline: cleanText(sel.Find(".c-card-event--result__headline").Text()),
-		Date:     cleanText(sel.Find(".c-card-event--result__date").Text()),
+		Date:     cleanText(dateSel.Text()),
 		Venue:    cleanText(sel.Find(".field--name-taxonomy-term-title").Text()),
 		Location: cleanText(sel.Find(".address").Text()),
 	}
@@ -100,7 +109,10 @@ func (s *Scraper) parseEventCard(sel *goquery.Selection) Event {
 		event.Name = parseEventNameFromURL(event.URL)
 	}
 
-	event.ParsedDate = parseEventDate(event.Date)
+	// UFC embeds the authoritative event time as a Unix timestamp on the date
+	// element. Use it directly rather than reconstructing a year from the
+	// year-less display text.
+	event.ParsedDate = parseTimestamp(dateSel.AttrOr("data-main-card-timestamp", ""))
 	return event
 }
 
@@ -237,60 +249,14 @@ func parseEventNameFromURL(url string) string {
 	return ""
 }
 
-func parseEventDate(dateStr string) time.Time {
-	parts := strings.Split(dateStr, "/")
-	if len(parts) < 2 {
+// parseTimestamp converts UFC's Unix epoch (seconds) into a UTC time. The
+// value carries the full, timezone-correct date, so no year inference is
+// needed. Returns the zero time when the attribute is missing or malformed,
+// which callers treat as "past" and filter out.
+func parseTimestamp(ts string) time.Time {
+	secs, err := strconv.ParseInt(strings.TrimSpace(ts), 10, 64)
+	if err != nil || secs == 0 {
 		return time.Time{}
 	}
-
-	datePart := strings.TrimSpace(parts[0])
-	timePart := strings.TrimSpace(parts[1])
-
-	if idx := strings.Index(datePart, ","); idx != -1 {
-		datePart = strings.TrimSpace(datePart[idx+1:])
-	}
-
-	loc := extractTimezone(timePart)
-	timePart = stripTimezone(timePart)
-
-	combined := fmt.Sprintf("%s %s", datePart, timePart)
-
-	t, err := time.ParseInLocation("Jan 2 3:04 PM", combined, loc)
-	if err != nil {
-		return time.Time{}
-	}
-
-	return adjustYear(t, loc)
-}
-
-func extractTimezone(s string) *time.Location {
-	zones := map[string]int{
-		"EST": -5, "EDT": -4,
-		"CST": -6, "CDT": -5,
-		"PST": -8, "PDT": -7,
-	}
-
-	for tz, offset := range zones {
-		if strings.HasSuffix(s, tz) {
-			return time.FixedZone(tz, offset*3600)
-		}
-	}
-	return time.UTC
-}
-
-func stripTimezone(s string) string {
-	for _, tz := range []string{"EST", "EDT", "CST", "CDT", "PST", "PDT"} {
-		s = strings.TrimSuffix(s, tz)
-	}
-	return strings.TrimSpace(s)
-}
-
-func adjustYear(t time.Time, loc *time.Location) time.Time {
-	now := time.Now()
-	t = time.Date(now.Year(), t.Month(), t.Day(), t.Hour(), t.Minute(), 0, 0, loc)
-
-	if t.Before(now.AddDate(0, -2, 0)) {
-		t = t.AddDate(1, 0, 0)
-	}
-	return t
+	return time.Unix(secs, 0).UTC()
 }
