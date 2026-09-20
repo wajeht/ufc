@@ -6,17 +6,17 @@ METHOD:PUBLISH
 X-WR-CALNAME:UFC Events
 BEGIN:VEVENT
 UID:-event-cryptocom-ufc-331@ufc.com
-DTSTAMP:20260913T035313Z
+DTSTAMP:20260920T040157Z
 DTSTART:20260920T010000Z
 DTEND:20260920T050000Z
 SUMMARY:Van vs Pantoja 2
 LOCATION:Crypto.com Arena\, Los Angeles\, CA United States
-DESCRIPTION:Main Card:\n• Joshua Van (Myanmar) vs Alexandre Pantoja (Brazil) - Flyweight Title Bout [-125 / +100]\n• Arman Tsarukyan (Armenia) vs Mauricio Ruffy (Brazil) - Lightweight Bout [-380 / +300]\n• Patricio Pitbull (Brazil) vs Dooho Choi (South Korea) - Featherweight Bout [+200 / -250]\n• Renato Moicano (Brazil) vs Brian Ortega (United States) - Lightweight Bout [-200 / +165]\n• Alonzo Menifield (United States) vs Iwo Baraniewski (Poland) - Light Heavyweight Bout [+190 / -230]\n• Gable Steveson (United States) vs Sean Sharaf (United States) - Heavyweight Bout [-1100 / +700]\n• Marlon Vera (Ecuador) vs Charles Jourdain (Canada) - Bantamweight Bout [+200 / -245]\n• Tai Tuivasa (Australia) vs Robelis Despaigne (Cuba) - Heavyweight Bout [+500 / -700]\n• Michael Aswell Jr. (United States) vs JooSang Yoo (South Korea) - Featherweight Bout [- / -]\n• Ryan Gandra (Brazil) vs Ozzy Diaz (United States) - Middleweight Bout [- / -]\n• Edmen Shahbazyan (United States) vs Brunno Ferreira (Brazil) - Middleweight Bout [- / -]\n• Casey O'Neill (Australia) vs Eduarda Moura (Brazil) - Women's Flyweight Bout [-180 / +150]\n• Giga Chikadze (Georgia) vs Joanderson Brito (Brazil) - Featherweight Bout [+270 / -340]\n\nMore info: https://www.ufc.com/event/cryptocom-ufc-331
+DESCRIPTION:Main Card:\n• Joshua Van (Myanmar) vs Alexandre Pantoja (Brazil) - Flyweight Title Bout [-130 / +110]\n• Arman Tsarukyan (Armenia) vs Mauricio Ruffy (Brazil) - Lightweight Bout [-305 / +240]\n• Patricio Pitbull (Brazil) vs Dooho Choi (South Korea) - Featherweight Bout [+220 / -270]\n• Gable Steveson (United States) vs Sean Sharaf (United States) - Heavyweight Bout [-1600 / +900]\n• Alonzo Menifield (United States) vs Iwo Baraniewski (Poland) - Light Heavyweight Bout [+200 / -245]\n• Marlon Vera (Ecuador) vs Charles Jourdain (Canada) - Bantamweight Bout [+185 / -225]\n• Tai Tuivasa (Australia) vs Robelis Despaigne (Cuba) - Heavyweight Bout [+500 / -700]\n• Michael Aswell Jr. (United States) vs JooSang Yoo (South Korea) - Featherweight Bout [- / -]\n• Ryan Gandra (Brazil) vs Ozzy Diaz (United States) - Middleweight Bout [-525 / +390]\n• Edmen Shahbazyan (United States) vs Brunno Ferreira (Brazil) - Middleweight Bout [- / -]\n• Casey O'Neill (Australia) vs Eduarda Moura (Brazil) - Women's Flyweight Bout [-200 / +165]\n• Giga Chikadze (Georgia) vs Joanderson Brito (Brazil) - Featherweight Bout [+300 / -390]\n\nMore info: https://www.ufc.com/event/cryptocom-ufc-331
 URL:https://www.ufc.com/event/cryptocom-ufc-331
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-september-26-2026@ufc.com
-DTSTAMP:20260913T035313Z
+DTSTAMP:20260920T040157Z
 DTSTART:20260927T000000Z
 DTEND:20260927T040000Z
 SUMMARY:UFC Fight Night: Rosas Jr. vs Barcelos
@@ -26,17 +26,17 @@ URL:https://www.ufc.com/event/ufc-fight-night-september-26-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-332@ufc.com
-DTSTAMP:20260913T035313Z
+DTSTAMP:20260920T040157Z
 DTSTART:20261004T000000Z
 DTEND:20261004T040000Z
 SUMMARY:UFC 332: Silva vs Wang
 LOCATION:Delta Center\, Salt Lake City\, UT United States
-DESCRIPTION:Main Card:\n• Natalia Silva (Brazil) vs Wang Cong (China) - Women's Flyweight Title Bout [-230 / +190]\n• Deiveson Figueiredo (Brazil) vs Payton Talbott (United States) - Bantamweight Bout [+410 / -550]\n• King Green (United States) vs Esteban Ribovics (Argentina) - Lightweight Bout [- / -]\n• Roberto Soldic (Croatia) vs Khaos Williams (United States) - Welterweight Bout [- / -]\n• Ateba Gautier (Cameroon) vs Roman Kopylov (Russia) - Middleweight Bout [- / -]\n• Imanol Rodriguez (Mexico) vs Alden Coria (United States) - Flyweight Bout [- / -]\n• Damian Pinas (Aruba) vs Andrey Pulyaev (Russia) - Middleweight Bout [- / -]\n• Marcus McGhee (United States) vs Benardo Sopaj (Albania) - Bantamweight Bout [- / -]\n• Johnny Walker (Brazil) vs Mick Parkin (England) - Heavyweight Bout [- / -]\n• Rafael Dos Anjos (Brazil) vs Alexander Hernandez (United States) - Lightweight Bout [- / -]\n• Marvin Vettori (Italy) vs Ismail Naurdiev (Morocco) - Middleweight Bout [- / -]\n• Court McGee (United States) vs Eric Nolan (United States) - Welterweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-332
+DESCRIPTION:Main Card:\n• Natalia Silva (Brazil) vs Wang Cong (China) - Women's Flyweight Title Bout [-220 / +180]\n• Deiveson Figueiredo (Brazil) vs Payton Talbott (United States) - Bantamweight Bout [+490 / -675]\n• King Green (United States) vs Esteban Ribovics (Argentina) - Lightweight Bout [- / -]\n• Roberto Soldic (Croatia) vs Khaos Williams (United States) - Welterweight Bout [- / -]\n• Ateba Gautier (Cameroon) vs Roman Kopylov (Russia) - Middleweight Bout [- / -]\n• Imanol Rodriguez (Mexico) vs Alden Coria (United States) - Flyweight Bout [- / -]\n• Damian Pinas (Aruba) vs Andrey Pulyaev (Russia) - Middleweight Bout [- / -]\n• Marcus McGhee (United States) vs Benardo Sopaj (Albania) - Bantamweight Bout [- / -]\n• Anthony Wint (United States) vs Lucas Armand - Heavyweight Bout [- / -]\n• Johnny Walker (Brazil) vs Mick Parkin (England) - Heavyweight Bout [- / -]\n• Rafael Dos Anjos (Brazil) vs Alexander Hernandez (United States) - Lightweight Bout [- / -]\n• Marvin Vettori (Italy) vs Ismail Naurdiev (Morocco) - Middleweight Bout [- / -]\n• Court McGee (United States) vs Eric Nolan (United States) - Welterweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-332
 URL:https://www.ufc.com/event/ufc-332
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-october-10-2026@ufc.com
-DTSTAMP:20260913T035313Z
+DTSTAMP:20260920T040157Z
 DTSTART:20261011T000000Z
 DTEND:20261011T040000Z
 SUMMARY:UFC Fight Night: Allen vs Duncan
@@ -46,7 +46,7 @@ URL:https://www.ufc.com/event/ufc-fight-night-october-10-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-october-17-2026@ufc.com
-DTSTAMP:20260913T035313Z
+DTSTAMP:20260920T040157Z
 DTSTART:20261018T000000Z
 DTEND:20261018T040000Z
 SUMMARY:UFC Fight Night: Buckley vs Malott
@@ -56,22 +56,32 @@ URL:https://www.ufc.com/event/ufc-fight-night-october-17-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-333@ufc.com
-DTSTAMP:20260913T035313Z
+DTSTAMP:20260920T040157Z
 DTSTART:20261024T180000Z
 DTEND:20261024T220000Z
 SUMMARY:UFC 333: Volkanovski vs Evloev
 LOCATION:Etihad Arena\, Abu Dhabi United Arab Emirates
-DESCRIPTION:Main Card:\n• Alexander Volkanovski (Australia) vs Movsar Evloev (Russia) - Featherweight Title Bout [-115 / -105]\n• Petr Yan (Russia) vs Merab Dvalishvili (Georgia) - Bantamweight Title Bout [- / -]\n• Arnold Allen (England) vs Aaron Pico (United States) - Featherweight Bout [- / -]\n• Azamat Murzakanov (Russia) vs Dominick Reyes (United States) - Light Heavyweight Bout [- / -]\n• Lone’er Kavanagh (England) vs Ramazan Temirov (Uzbekistan) - Flyweight Bout [- / -]\n• Nikita Krylov (Russia) vs Abdul Rakhman Yakhyaev (Türkiye) - Light Heavyweight Bout [- / -]\n• Alexander Volkov (Russia) vs Rizvan Kuniev (Russia) - Heavyweight Bout [- / -]\n• Abus Magomedov (Germany) vs Cam Rowston (Australia) - Middleweight Bout [- / -]\n• Grant Dawson (United States) vs Nurullo Aliev (Tajikistan) - Lightweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-333
+DESCRIPTION:Main Card:\n• Alexander Volkanovski (Australia) vs Movsar Evloev (Russia) - Featherweight Title Bout [-110 / -110]\n• Petr Yan (Russia) vs Merab Dvalishvili (Georgia) - Bantamweight Title Bout [- / -]\n• Arnold Allen (England) vs Aaron Pico (United States) - Featherweight Bout [- / -]\n• Azamat Murzakanov (Russia) vs Dominick Reyes (United States) - Light Heavyweight Bout [- / -]\n• Lone’er Kavanagh (England) vs Ramazan Temirov (Uzbekistan) - Flyweight Bout [- / -]\n• Nikita Krylov (Russia) vs Abdul Rakhman Yakhyaev (Türkiye) - Light Heavyweight Bout [- / -]\n• Alexander Volkov (Russia) vs Rizvan Kuniev (Russia) - Heavyweight Bout [- / -]\n• Abus Magomedov (Germany) vs Cam Rowston (Australia) - Middleweight Bout [- / -]\n• Grant Dawson (United States) vs Nurullo Aliev (Tajikistan) - Lightweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-333
 URL:https://www.ufc.com/event/ufc-333
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-october-31-2026@ufc.com
-DTSTAMP:20260913T035313Z
+DTSTAMP:20260920T040157Z
 DTSTART:20261101T000000Z
 DTEND:20261101T040000Z
-SUMMARY:UFC Fight Night: TBD vs TBD
+SUMMARY:UFC Fight Night: Moicano vs Nolan
 LOCATION:Meta APEX\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Lucia Szabova (Slovakia) vs Tainara Lisboa (Brazil) - Women's Flyweight Bout [- / -]\n• Nick Klein (United States) vs Joseph Kropschot (United States) - Middleweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-october-31-2026
+DESCRIPTION:Main Card:\n• Renato Moicano (Brazil) vs Tom Nolan (Australia) - Lightweight Bout [- / -]\n• Lucia Szabova (Slovakia) vs Tainara Lisboa (Brazil) - Women's Flyweight Bout [- / -]\n• Nick Klein (United States) vs Joseph Kropschot (United States) - Middleweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-october-31-2026
 URL:https://www.ufc.com/event/ufc-fight-night-october-31-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:-event-ufc-fight-night-november-07-2026@ufc.com
+DTSTAMP:20260920T040157Z
+DTSTART:20261107T220000Z
+DTEND:20261108T020000Z
+SUMMARY:UFC Fight Night: Bonfim vs Brady
+LOCATION:Meta APEX\, Las Vegas\, NV United States
+DESCRIPTION:Main Card:\n• Gabriel Bonfim (Brazil) vs Sean Brady (United States) - Welterweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-november-07-2026
+URL:https://www.ufc.com/event/ufc-fight-night-november-07-2026
 END:VEVENT
 END:VCALENDAR
