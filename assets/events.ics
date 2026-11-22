@@ -5,73 +5,73 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:UFC Events
 BEGIN:VEVENT
-UID:-event-ufc-334@ufc.com
-DTSTAMP:20261115T052924Z
-DTSTART:20261115T020000Z
-DTEND:20261115T060000Z
-SUMMARY:UFC 334: Gane vs Hokit
-LOCATION:Madison Square Garden\, New York\, NY United States
-DESCRIPTION:Main Card:\n• Ciryl Gane (France) vs Josh Hokit (United States) - Heavyweight Title Bout [-200 / +165]\n• Kayla Harrison (United States) vs Amanda Nunes (Brazil) - Women's Bantamweight Title Bout [-175 / +145]\n• Caio Borralho (Brazil) vs Yousri Belgaroui (Netherlands) - Middleweight Bout [-160 / +135]\n• Uroš Medić (Serbia) vs Kevin Holland (United States) - Welterweight Bout [-155 / +130]\n• Stephen Thompson (United States) vs Charles Radtke (United States) - Welterweight Bout [-150 / +125]\n• Drew Dober (United States) vs Chris Duncan (Scotland) - Lightweight Bout [+155 / -185]\n• Jim Miller (United States) vs Terrance McKinney (United States) - Lightweight Bout [+170 / -205]\n• Donte Johnson (United States) vs Cesar Almeida (Brazil) - Catchweight Bout [-175 / +145]\n• Jared Gordon (United States) vs Melquizael Costa (Brazil) - Lightweight Bout [+310 / -400]\n• Macy Chiasson (United States) vs Bia Mesquita (Brazil) - Women's Bantamweight Bout [+210 / -260]\n• Alatengheili (China) vs Juan Diaz (Peru) - Bantamweight Bout [+310 / -400]\n• Evan Elder (United States) vs Samuel Sanches (Brazil) - Lightweight Bout [-105 / -115]\n\nMore info: https://www.ufc.com/event/ufc-334
-URL:https://www.ufc.com/event/ufc-334
-END:VEVENT
-BEGIN:VEVENT
-UID:-event-ufc-fight-night-november-21-2026@ufc.com
-DTSTAMP:20261115T052924Z
-DTSTART:20261121T180000Z
-DTEND:20261121T220000Z
-SUMMARY:UFC Fight Night: Prochazka vs Stirling
-LOCATION:ABHA Arena\, Doha Qatar
-DESCRIPTION:Main Card:\n• Jiří Procházka (Czechia) vs Navajo Stirling (New Zealand) - Light Heavyweight Bout [+115 / -135]\n• Aljamain Sterling (United States) vs Kevin Vallejos (Argentina) - Featherweight Bout [- / -]\n• Dan Hooker (New Zealand) vs Brian Ortega (United States) - Lightweight Bout [- / -]\n• Kyoji Horiguchi (Japan) vs Asu Almabayev (Kazakhstan) - Flyweight Bout [- / -]\n• Jared Cannonier (United States) vs Ikram Aliskerov (Russia) - Middleweight Bout [- / -]\n• Aleksandre Topuria (Georgia) vs Santiago Luna (Mexico) - Bantamweight Bout [- / -]\n• Shamil Gaziev (Bahrain) vs Tallison Teixeira (Brazil) - Heavyweight Bout [- / -]\n• Amir Albazi (Iraq) vs Alessandro Costa (Brazil) - Flyweight Bout [- / -]\n• Jake Matthews (Australia) vs Tahir Abdullayev (Azerbaijan) - Welterweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-november-21-2026
-URL:https://www.ufc.com/event/ufc-fight-night-november-21-2026
-END:VEVENT
-BEGIN:VEVENT
 UID:-event-ufc-fight-night-december-05-2026@ufc.com
-DTSTAMP:20261115T052924Z
+DTSTAMP:20261122T054329Z
 DTSTART:20261205T180000Z
 DTEND:20261205T220000Z
 SUMMARY:UFC Fight Night: Adesanya vs Magomedov
 LOCATION:The Venue\, Riyadh Saudi Arabia
-DESCRIPTION:Main Card:\n• Israel Adesanya (Nigeria) vs Shara Magomedov (Russia) - Middleweight Bout [- / -]\n• Ian Machado Garry (Ireland) vs Yaroslav Amosov (Ukraine) - Welterweight Bout [- / -]\n• Serghei Spivac (Moldova) vs Mario Pinto (Portugal) - Heavyweight Bout [- / -]\n• Levan Chokheli (Georgia) vs Islam Dulatov (Türkiye) - Welterweight Bout [- / -]\n• Mairon Santos (Brazil) vs Akbar Abdullaev (Kyrgyzstan) - Lightweight Bout [- / -]\n• Magomed Tuchalov (Russia) vs Ion Cutelaba (Moldova) - Light Heavyweight Bout [- / -]\n• Bruno Silva (Brazil) vs Jafel Filho (Brazil) - Flyweight Bout [- / -]\n• Uran Satybaldiev (Kyrgyzstan) vs Ivan Gnizditskiy - Light Heavyweight Bout [- / -]\n• Marco Tulio (Brazil) vs JunYong Park (South Korea) - Middleweight Bout [- / -]\n• Pavel Andrusca (Moldova) vs Mahammadali Osmanli (Azerbaijan) - Bantamweight Bout [- / -]\n• Modestino Rodrigues (Brazil) vs Matthieu Duclos (France) - Middleweight Bout [- / -]\n• Abdul Hussein (Finland) vs Hecher Sosa (Spain) - Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-december-05-2026
+DESCRIPTION:Main Card:\n• Israel Adesanya (Nigeria) vs Shara Magomedov (Russia) - Middleweight Bout [-165 / +140]\n• Ian Machado Garry (Ireland) vs Yaroslav Amosov (Ukraine) - Welterweight Bout [-190 / +160]\n• Serghei Spivac (Moldova) vs Mario Pinto (Portugal) - Heavyweight Bout [- / -]\n• Levan Chokheli (Georgia) vs Islam Dulatov (Türkiye) - Welterweight Bout [- / -]\n• Mairon Santos (Brazil) vs Akbar Abdullaev (Kyrgyzstan) - Lightweight Bout [- / -]\n• Magomed Tuchalov (Russia) vs Ion Cutelaba (Moldova) - Light Heavyweight Bout [- / -]\n• Bruno Silva (Brazil) vs Jafel Filho (Brazil) - Flyweight Bout [- / -]\n• Uran Satybaldiev (Kyrgyzstan) vs Ivan Gnizditskiy - Light Heavyweight Bout [- / -]\n• Marco Tulio (Brazil) vs JunYong Park (South Korea) - Middleweight Bout [- / -]\n• Pavel Andrusca (Moldova) vs Mahammadali Osmanli (Azerbaijan) - Bantamweight Bout [- / -]\n• Modestino Rodrigues (Brazil) vs Matthieu Duclos (France) - Middleweight Bout [- / -]\n• Abdul Hussein (Finland) vs Hecher Sosa (Spain) - Bantamweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-december-05-2026
 URL:https://www.ufc.com/event/ufc-fight-night-december-05-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-335@ufc.com
-DTSTAMP:20261115T052924Z
+DTSTAMP:20261122T054329Z
 DTSTART:20261213T020000Z
 DTEND:20261213T060000Z
 SUMMARY:UFC 335: Oliveira vs Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, NV United States
-DESCRIPTION:Main Card:\n• Charles Oliveira (Brazil) vs Diego Lopes (Brazil) - Lightweight Bout [-150 / +125]\n• Alex Pereira (Brazil) vs Sergei Pavlovich (Russia) - Heavyweight Bout [-205 / +170]\n• Brandon Moreno (Mexico) vs Charles Johnson (United States) - Flyweight Bout [- / -]\n• Quentin Pasley (United States) vs Junior Tafa (Australia) - Light Heavyweight Bout [- / -]\n• Joe Pyfer (United States) vs Bo Nickal (United States) - Middleweight Bout [-198 / +164]\n\nMore info: https://www.ufc.com/event/ufc-335
+DESCRIPTION:Main Card:\n• Charles Oliveira (Brazil) vs Diego Lopes (Brazil) - Lightweight Bout [-165 / +140]\n• Alex Pereira (Brazil) vs Sergei Pavlovich (Russia) -  [+175 / -210]\n• Brandon Moreno (Mexico) vs Charles Johnson (United States) -  [- / -]\n• Kyler Phillips (United States) vs Ethyn Ewing (United States) - Bantamweight Bout [- / -]\n• Damian Pinas (Aruba) vs Baisangur Susurkaev (Russia) -  [- / -]\n• Quentin Pasley (United States) vs Junior Tafa (Australia) - Light Heavyweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-335
 URL:https://www.ufc.com/event/ufc-335
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-january-16-2027@ufc.com
-DTSTAMP:20261115T052924Z
+DTSTAMP:20261122T054329Z
 DTSTART:20270117T010000Z
 DTEND:20270117T050000Z
 SUMMARY:UFC Fight Night: Rodriguez vs Garcia
 LOCATION:American Airlines Center\, Dallas\, TX United States
-DESCRIPTION:Main Card:\n• Yair Rodriguez (Mexico) vs Steve Garcia (United States) - Featherweight Bout [- / -]\n• Daniel Rodriguez (United States) vs Roberto Soldić (Croatia) - Welterweight Bout [- / -]\n• Chidi Njokuani (United States) vs Ignacio Bahamondes (Chile) - Welterweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-january-16-2027
+DESCRIPTION:Main Card:\n• Yair Rodriguez (Mexico) vs Steve Garcia (United States) - Featherweight Bout [- / -]\n• Daniel Rodriguez (United States) vs Roberto Soldić (Croatia) - Welterweight Bout [- / -]\n• Geoff Neal (United States) vs Chris Curtis (United States) - Welterweight Bout [- / -]\n• Chidi Njokuani (United States) vs Ignacio Bahamondes (Chile) - Welterweight Bout [- / -]\n• Ryan Spann (United States) vs Louie Sutherland (England) - Heavyweight Bout [- / -]\n• Kennedy Nzechukwu (Nigeria) vs Elisha Ellison (United States) - Heavyweight Bout [- / -]\n• Gilbert Urbina (United States) vs Robert Valentin (Switzerland) - Middleweight Bout [- / -]\n• Alden Coria (United States) vs Michael Aljarouj (France) - Flyweight Bout [- / -]\n• Diego Ferreira (Brazil) vs MarQuel Mederos (United States) - Lightweight Bout [- / -]\n• Magomed Zaynukov (Russia) vs Piero Guaylupo (Peru) - Lightweight Bout [- / -]\n• John Garza (United States) vs Toshiomi Kazama (Japan) - Bantamweight Bout [- / -]\n• Steven Asplund (United States) vs Gokhan Saricam (Türkiye) - Heavyweight Bout [- / -]\n• Sam Hughes (United States) vs Karolina Kowalkiewicz (Poland) - Women's Strawweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-january-16-2027
 URL:https://www.ufc.com/event/ufc-fight-night-january-16-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:-event-ufc-fight-night-january-23-2027@ufc.com
+DTSTAMP:20261122T054329Z
+DTSTART:20270124T010000Z
+DTEND:20270124T050000Z
+SUMMARY:UFC Fight Night: Bonfim vs Brady
+LOCATION:Meta APEX\, Las Vegas\, NV United States
+DESCRIPTION:Main Card:\n• Gabriel Bonfim (Brazil) vs Sean Brady (United States) -  [-130 / +110]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-january-23-2027
+URL:https://www.ufc.com/event/ufc-fight-night-january-23-2027
+END:VEVENT
+BEGIN:VEVENT
 UID:-event-ufc-336@ufc.com
-DTSTAMP:20261115T052924Z
+DTSTAMP:20261122T054329Z
 DTSTART:20270131T020000Z
 DTEND:20270131T060000Z
 SUMMARY:UFC 336: Van vs Kape
 LOCATION:Scotiabank Arena\, Toronto ON Canada
-DESCRIPTION:Main Card:\n• Joshua Van (Myanmar) vs Manel Kape (Portugal) - Flyweight Title Bout [-130 / +110]\n• Carlos Prates (Brazil) vs Michael Morales (Ecuador) - Welterweight Interim Title Bout [-150 / +125]\n\nMore info: https://www.ufc.com/event/ufc-336
+DESCRIPTION:Main Card:\n• Joshua Van (Myanmar) vs Manel Kape (Portugal) -  [-135 / +115]\n• Carlos Prates (Brazil) vs Michael Morales (Ecuador) -  [-155 / +130]\n• Lance Gibson Jr. (Canada) vs Michael Johnson (United States) -  [- / -]\n• Serhiy Sidey (Ukraine) vs Louis Lee Scott (England) -  [- / -]\n• Cam Nelson (Canada) vs Sean Clancy Jr. (Scotland) -  [- / -]\n\nMore info: https://www.ufc.com/event/ufc-336
 URL:https://www.ufc.com/event/ufc-336
 END:VEVENT
 BEGIN:VEVENT
 UID:-event-ufc-fight-night-february-06-2027@ufc.com
-DTSTAMP:20261115T052924Z
+DTSTAMP:20261122T054329Z
 DTSTART:20270206T220000Z
 DTEND:20270207T020000Z
 SUMMARY:UFC Fight Night: Salkilld vs Saint Denis
 LOCATION:Afterpay Arena\, Sydney Olympic Park NSW Australia
-DESCRIPTION:Main Card:\n• Quillan Salkilld (Australia) vs Benoît Saint Denis (France) - Lightweight Bout [- / -]\n• Bogdan Guskov (Uzbekistan) vs Robert Whittaker (Australia) - Light Heavyweight Bout [- / -]\n• Marwan Rahiki (Morocco) vs JooSang Yoo (South Korea) - Featherweight Bout [- / -]\n• Kaan Ofli (Australia) vs Joanderson Brito (Brazil) - Featherweight Bout [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-06-2027
+DESCRIPTION:Main Card:\n• Quillan Salkilld (Australia) vs Benoît Saint Denis (France) -  [-275 / +225]\n• Bogdan Guskov (Uzbekistan) vs Robert Whittaker (Australia) -  [+120 / -142]\n• Jonathan Micallef (Australia) vs Sam Patterson (England) -  [- / -]\n• Marwan Rahiki (Morocco) vs JooSang Yoo (South Korea) -  [- / -]\n• Kaan Ofli (Australia) vs Joanderson Brito (Brazil) -  [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-06-2027
 URL:https://www.ufc.com/event/ufc-fight-night-february-06-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:-event-ufc-fight-night-february-13-2027@ufc.com
+DTSTAMP:20261122T054329Z
+DTSTART:20270213T220000Z
+DTEND:20270214T020000Z
+SUMMARY:UFC Fight Night: Pyfer vs Nickal
+LOCATION:Rocket Arena\, Cleveland\, OH United States
+DESCRIPTION:Main Card:\n• Joe Pyfer (United States) vs Bo Nickal (United States) -  [- / -]\n\nMore info: https://www.ufc.com/event/ufc-fight-night-february-13-2027
+URL:https://www.ufc.com/event/ufc-fight-night-february-13-2027
 END:VEVENT
 END:VCALENDAR
